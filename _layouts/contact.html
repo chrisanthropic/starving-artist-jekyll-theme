@@ -1,16 +1,27 @@
 ---
 layout: default
 ---
-<div class="contact_container row">
+<div class="contact_container">
   <div class="small-12 columns">
+  <h1 class="entry-title medium-offset-1">Contact</h1>
     <form action="https://formspree.io/ctarwater@chrisanthropic.com" method="POST">
-      <input type="text" name="name" placeholder="Your name">
-      <input type="email" name="_replyto" placeholder="Your email">
-      <input type="text" name="message" placeholder="Your message"/>
-      <input type="submit" value="Send">
-      <input type="hidden" name="_subject" value="New contact form submission!" />
-      <input type="hidden" name="_next" value="{{ site.baseurl }}/contact/thanks/" />
-      <input type="text" name="_gotcha" style="display:none" />
+      <div class="small-12 medium-offset-1 medium-4 columns">
+        <input type="text" name="name" placeholder="Your name">
+      </div>
+      <div class="small-12 medium-offset-1 medium-4 columns">
+        <input type="email" name="_replyto" placeholder="Your email">
+      </div>
+      <div class="small-12 medium-offset-1 medium-4 columns">
+        <input type="text" name="_subject" placeholder="Subject" />
+      </div>
+      <div class="small-12 medium-offset-1 medium-10 columns">
+        <input type="text" name="message" placeholder="Your message"/>
+      </div>
+      <div class="small-12 medium-offset-1 medium-4 columns">
+        <input type="submit" value="Send Email" class="button">
+        <input type="hidden" name="_next" value="{{ site.baseurl }}/contact/thanks/" />
+        <input type="text" name="_gotcha" style="display:none" />
+      </div>
     </form>
   </div>
 </div>
