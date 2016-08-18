@@ -4,9 +4,9 @@
         <div class="header-logo">
           <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/{{ page.header_xl }}" srcset="{{ site.baseurl }}/{{ page.header_sm }} 200w, {{ site.baseurl }}/{{ page.header_med }} 641w, {{ site.baseurl }}/{{ page.header_large }} 1025w, {{ site.baseurl }}/{{ page.header_xl }} 1441w" alt="{{ site.name }} banner image" title="{{ site.name }} banner image" class="center"></a>
         </div>
-        <div>
+        <nav class="hide-for-small-only">
           {% include navigation.html %}
-        </div>
+        </nav>
       </div>
   </header>
   
@@ -16,9 +16,9 @@
         <div class="header-logo">
           <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/{{ site.header_xl }}" srcset="{{ site.baseurl }}/{{ site.header_sm }} 200w, {{ site.baseurl }}/{{ site.header_med }} 641w, {{ site.baseurl }}/{{ site.header_large }} 1025w, {{ site.baseurl }}/{{ site.header_xl }} 1441w" alt="{{ site.name }} banner image" title="{{ site.name }} banner image" class="center"></a>
         </div>
-        <div>
+        <nav class="hide-for-small-only">
           {% include navigation.html %}
-        </div>
+        </nav>
       </div>
     </header>
   

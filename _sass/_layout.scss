@@ -23,7 +23,13 @@
 
 // Header
 #header {
+    padding: 0.9375rem 0;
     background-color: $navbar-color;
+}
+
+.site-header {
+    margin-top: 9em;
+    max-width: 32em;
 }
 
 

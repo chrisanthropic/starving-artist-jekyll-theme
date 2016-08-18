@@ -160,3 +160,32 @@ pre {
         }
     }
 }
+
+/**
+ * Menus
+ */
+.menu {
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    display: block;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.menu > li {
+    font-size: 2em !important;
+    text-transform: uppercase;
+}
+
+.menu > li > a {
+    line-height: 1.75;
+    padding: 0.7rem 1rem;
+}
