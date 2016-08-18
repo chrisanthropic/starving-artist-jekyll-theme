@@ -8,8 +8,12 @@
         </nav>
       {% include header.html %}
       <div class="content_container columns">
-        {{ content }}
+          {{ content }}
       </div>
+      {% if page.sidebar != 'false'  %}
+        <aside class="small-12 medium-2 sidebar">
+        </aside>
+      {% endif %}
     </main>
   </body>
 </html>
