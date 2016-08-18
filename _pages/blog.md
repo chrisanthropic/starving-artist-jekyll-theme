@@ -1,8 +1,8 @@
 ---
 layout: page
 title: blog
-permalink: /blog/
----
+permalink: "/blog/"
+--- 
 
 <div>
 
