@@ -4,8 +4,9 @@
   <body>
     <main class="wrap">
       {% include header.html %}
-      {% include navigation.html %}
-      {{ content }}
+      <div class="content_container columns">
+              {{ content }}
+      </div>
     </main>
       {% include footer.html %}
   </body>

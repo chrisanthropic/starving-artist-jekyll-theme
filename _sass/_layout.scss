@@ -1,11 +1,12 @@
 // Wrap
 .wrap {
-  max-width: 1920px;
-  min-height: 100%;
-  display: block;
-  margin-bottom: -$footer-height;
-  margin-left: auto;
-  margin-right: auto;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    backface-visibility: hidden;
+    will-change: overflow;
 }
 
 // Styling for mobile devices
