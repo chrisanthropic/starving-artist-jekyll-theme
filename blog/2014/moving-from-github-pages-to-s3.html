@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  
+  <title>Moving From Github-Pages to S3 | Starving Artist Jekyll Theme</title>
+  
+    <meta name="author" content="Chrisanthropic">
+  
+  
+  <meta name="description" content="Witty description here.
+">
+  
+    <meta name="keywords" content="jekyll, jekyll theme, portfolio theme, artist theme">
+  
+    
+  <link href="/starving-artist-jekyll-theme/css/main.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link rel="canonical" href="/starving-artist-jekyll-theme/blog/2014/moving-from-github-pages-to-s3">
+  <link href="/starving-artist-jekyll-theme/favicon.ico" rel="icon">
+  <link rel="alternate" type="application/atom+xml" title="Starving Artist Jekyll Theme" href="/starving-artist-jekyll-theme/atom.xml"/>
+  
+  <!-- Social media content metadata -->
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="" />
+<meta property="twitter:url" content="/starving-artist-jekyll-theme" />
+<meta property="twitter:title" content="Moving From Github-Pages to S3" />
+<meta property="twitter:description" content="Witty description here.
+" />
+<meta property="twitter:creator" content="" />
+<meta property="twitter:image:src" content="" />
+
+  
+ 
+</head>
+
+  <body>
+    <main class="wrap">
+      
+    <header role="banner" id="header" class="small-12 medium-3 columns">
+      <div class="site-header medium-12 columns">
+        <div class="header-logo">
+          <a href="/starving-artist-jekyll-theme/"><img src="/starving-artist-jekyll-theme/images/logo.png" srcset="/starving-artist-jekyll-theme/images/logo.png 200w, /starving-artist-jekyll-theme/images/logo.png 641w, /starving-artist-jekyll-theme/images/logo.png 1025w, /starving-artist-jekyll-theme/images/logo.png 1441w" alt="Starving Artist Jekyll Theme banner image" title="Starving Artist Jekyll Theme banner image" class="center"></a>
+        </div>
+        <nav class="hide-for-small-only">
+            <ul class="menu">
+	
+		
+		  
+		  <li><a href="/starving-artist-jekyll-theme/illustration/">illustration</a></li>
+		  
+	  
+	
+		
+		  
+		  <li><a href="/starving-artist-jekyll-theme/concept-art/">concept art</a></li>
+		  
+	  
+	
+		
+		  
+		  <li><a href="/starving-artist-jekyll-theme/covers/">covers</a></li>
+		  
+	  
+	
+		
+		  
+		  <li><a href="/starving-artist-jekyll-theme/blog/">blog</a></li>
+		  
+	  
+	
+		
+		  
+		  <li><a href="/starving-artist-jekyll-theme/about/">about</a></li>
+		  
+	  
+	
+		
+		  
+		  <li><a href="/starving-artist-jekyll-theme/contact/">contact</a></li>
+		  
+	  
+	
+  </ul>
+
+        </nav>
+      </div>
+    </header>
+  
+  
+
+      <div class="content_container columns">
+        <article class="row post-content">
+
+    <header class="post-header">
+      <h1 class="post-title">Moving From Github-Pages to S3</h1>
+      <p class="post-meta">Dec 3, 2014</p>
+    </header>
+    <p>I decided to move from free github-pages hosting to dirt cheap AWS S3 hosting. I also decided to move my DNS from namecheap to the free CloudFlare plan. Here’s the steps I took to transfer everything over.</p>
+
+<p>Most of the steps were adapted from here <a href="http://blog.mindthecloud.com/2014/08/31/create-your-static-blog-from-scratch-in-1-hour.html">http://blog.mindthecloud.com/2014/08/31/create-your-static-blog-from-scratch-in-1-hour.html</a></p>
+
+<h2 id="prepare-aws">Prepare AWS</h2>
+
+<ul>
+  <li>Login to AWS S3 and create a bucket called <code class="highlighter-rouge">www.YOURSITE.com</code> (This is important for CNAME/DNS record stuff)
+    <ul>
+      <li>Make sure you select the <code class="highlighter-rouge">US Standard</code> region</li>
+    </ul>
+  </li>
+  <li>Create a new policy for the bucket that gives everyone read-only access so they can view the site</li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="w">
+	</span><span class="nt">"Version"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2008-10-17"</span><span class="p">,</span><span class="w">
+	</span><span class="nt">"Statement"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+		</span><span class="p">{</span><span class="w">
+			</span><span class="nt">"Sid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"AddPerm"</span><span class="p">,</span><span class="w">
+			</span><span class="nt">"Effect"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Allow"</span><span class="p">,</span><span class="w">
+			</span><span class="nt">"Principal"</span><span class="p">:</span><span class="w"> </span><span class="s2">"*"</span><span class="p">,</span><span class="w">
+			</span><span class="nt">"Action"</span><span class="p">:</span><span class="w"> </span><span class="s2">"s3:GetObject"</span><span class="p">,</span><span class="w">
+			</span><span class="nt">"Resource"</span><span class="p">:</span><span class="w"> </span><span class="s2">"arn:aws:s3:::NAME-OF-BUCKET/*"</span><span class="w">
+		</span><span class="p">}</span><span class="w">
+	</span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
+
+<ul>
+  <li>Select the bucket you created and choose <code class="highlighter-rouge">options</code></li>
+  <li>Go to the <code class="highlighter-rouge">Static Website Hosting</code> tab and enable it.</li>
+  <li>Enter <code class="highlighter-rouge">index.html</code> for <code class="highlighter-rouge">index document</code> and <code class="highlighter-rouge">404.html</code> for <code class="highlighter-rouge">error document</code></li>
+  <li>Login to <a href="https://console.aws.amazon.com/iam">AWS IAM console</a></li>
+  <li>Create new user with full access to S3
+    <ul>
+      <li>Create new user</li>
+      <li>Choose <code class="highlighter-rouge">attach user policy</code></li>
+      <li>Choose <code class="highlighter-rouge">custom policy</code> and enter the following code:</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"Statement"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"Action"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="s2">"s3:*"</span><span class="w">
+      </span><span class="p">],</span><span class="w">
+      </span><span class="nt">"Effect"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Allow"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"Resource"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="s2">"arn:aws:s3:::NAME-OF-BUCKET"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"arn:aws:s3:::NAME-OF-BUCKET/*"</span><span class="w">
+      </span><span class="p">]</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
+
+<ul>
+  <li>The above policy gives the user you created full access to the bucket you created to host your site. This is the user that will be used to deploy your site.</li>
+</ul>
+
+<h2 id="setup-octopress-deploy">setup octopress-deploy</h2>
+
+<ul>
+  <li>run <code class="highlighter-rouge">octopress deploy init s3</code> to create default <code class="highlighter-rouge">deploy.yml</code> file</li>
+  <li>Enter the user credentials in the <code class="highlighter-rouge">deploy.yml</code> file</li>
+  <li>Run <code class="highlighter-rouge">octopress deploy</code></li>
+</ul>
+
+<h2 id="check-your-work">Check your work</h2>
+<ul>
+  <li>Go to AWS / S3, open your bucket, and choose <code class="highlighter-rouge">properties</code></li>
+  <li>There should be a link listed as <code class="highlighter-rouge">Endpoint</code>, go to that link and you should see your blog!</li>
+</ul>
+
+<h2 id="edit-namecheap-cname-record">Edit namecheap cname record</h2>
+<ul>
+  <li>All host records
+    <ul>
+      <li>@ points to <code class="highlighter-rouge">www.chrisanthropic.com</code> and is a <code class="highlighter-rouge">URL Redirect</code></li>
+      <li>hostname <code class="highlighter-rouge">www</code> points to bucket Endpoint (rather than github.io) and is a <code class="highlighter-rouge">CNAME (Alias)</code></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="remove-github-site">Remove Github site</h2>
+<p>I deleted the github version so for now only the source lives there<br />
+  * Delete master or gh-pages branch so that only the source remains</p>
+
+<h2 id="use-cloudflare">Use Cloudflare</h2>
+<ul>
+  <li>Login to CloudFlare</li>
+  <li>add your domain
+    <ul>
+      <li>Your CNAME and A records should be listed and ‘active’</li>
+    </ul>
+  </li>
+  <li>Select the free plan, CDN only, and Medium security.</li>
+</ul>
+
+<h2 id="update-your-dns-records">Update your DNS Records</h2>
+<ul>
+  <li>Login to your DNS provider (I use Namecheap)</li>
+  <li>Remove all other DNS providers and add the two that CloudFlare told you to</li>
+</ul>
+
+
+</article>
+
+      </div>
+    </main>
+  </body>
+</html>

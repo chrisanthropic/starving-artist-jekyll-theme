@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  
+  <title>Rakefile: Minimize Assets and Optimize Images | Starving Artist Jekyll Theme</title>
+  
+    <meta name="author" content="Chrisanthropic">
+  
+  
+  <meta name="description" content="Witty description here.
+">
+  
+    <meta name="keywords" content="jekyll, jekyll theme, portfolio theme, artist theme">
+  
+    
+  <link href="/starving-artist-jekyll-theme/css/main.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link rel="canonical" href="/starving-artist-jekyll-theme/blog/2014/rakefile-minimize-assets-and-optimize-images">
+  <link href="/starving-artist-jekyll-theme/favicon.ico" rel="icon">
+  <link rel="alternate" type="application/atom+xml" title="Starving Artist Jekyll Theme" href="/starving-artist-jekyll-theme/atom.xml"/>
+  
+  <!-- Social media content metadata -->
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="" />
+<meta property="twitter:url" content="/starving-artist-jekyll-theme" />
+<meta property="twitter:title" content="Rakefile: Minimize Assets and Optimize Images" />
+<meta property="twitter:description" content="Witty description here.
+" />
+<meta property="twitter:creator" content="" />
+<meta property="twitter:image:src" content="" />
+
+  
+ 
+</head>
+
+  <body>
+    <main class="wrap">
+      
+    <header role="banner" id="header" class="small-12 medium-3 columns">
+      <div class="site-header medium-12 columns">
+        <div class="header-logo">
+          <a href="/starving-artist-jekyll-theme/"><img src="/starving-artist-jekyll-theme/images/logo.png" srcset="/starving-artist-jekyll-theme/images/logo.png 200w, /starving-artist-jekyll-theme/images/logo.png 641w, /starving-artist-jekyll-theme/images/logo.png 1025w, /starving-artist-jekyll-theme/images/logo.png 1441w" alt="Starving Artist Jekyll Theme banner image" title="Starving Artist Jekyll Theme banner image" class="center"></a>
+        </div>
+        <nav class="hide-for-small-only">
+            <ul class="menu">
+	
+		
+		  
+		  <li><a href="/starving-artist-jekyll-theme/illustration/">illustration</a></li>
+		  
+	  
+	
+		
+		  
+		  <li><a href="/starving-artist-jekyll-theme/concept-art/">concept art</a></li>
+		  
+	  
+	
+		
+		  
+		  <li><a href="/starving-artist-jekyll-theme/covers/">covers</a></li>
+		  
+	  
+	
+		
+		  
+		  <li><a href="/starving-artist-jekyll-theme/blog/">blog</a></li>
+		  
+	  
+	
+		
+		  
+		  <li><a href="/starving-artist-jekyll-theme/about/">about</a></li>
+		  
+	  
+	
+		
+		  
+		  <li><a href="/starving-artist-jekyll-theme/contact/">contact</a></li>
+		  
+	  
+	
+  </ul>
+
+        </nav>
+      </div>
+    </header>
+  
+  
+
+      <div class="content_container columns">
+        <article class="row post-content">
+
+    <header class="post-header">
+      <h1 class="post-title">Rakefile: Minimize Assets and Optimize Images</h1>
+      <p class="post-meta">Dec 4, 2014</p>
+    </header>
+    <p>I used Octopress to build my wife’s webcomic site <a href="http://www.shamseecomic.com">ShamseeComic</a> and learning how to optimize everything has been fun.</p>
+
+<p>Now that I’m starting on this site from scratch (with a better understanding of Jekyll) I figured I’d revisit my old method and update it.</p>
+
+<p>Below are the steps I took to add a few optimization tasks to my blank Rakefile. Here’s the tasks:</p>
+
+<ul>
+  <li>Minify all HTML and CSS when the site is built</li>
+  <li>Optimize all images when the site is built</li>
+  <li>Notify Google and Yahoo when the site is deployed
+    <ul>
+      <li>This one took me a bit, but I was trying to reproduce the ‘Ping Service’ that’s included in Wordpress</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="configyml">_config.yml</h3>
+<p>Jekyll 2.0+ has full Sass support so we can use it to minify our CSS when Jekyll builds the site, just by adding a couple of lines to our _config.yml.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># Compress our CSS
+  sass:
+    style: :compressed
+</code></pre>
+</div>
+
+<h3 id="gemfile">Gemfile</h3>
+
+<ul>
+  <li>First I add some gems to my Gemfile since they’re used for the minification and optimization<br />
+<code class="highlighter-rouge">
+gem 'mini_magick'
+gem 'html_compressor'
+</code></li>
+  <li>Then install the new Gems by running <code class="highlighter-rouge">bundle install --binstubs --path=vendor</code></li>
+  <li>Next I create a Rakefile with the following:</li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>require "html_compressor"
+
+##############
+#   Build    #
+##############
+
+# Generate the site
+# Minify, optimize, and compress
+
+desc "build the site"
+task :build do
+  system "bundle exec jekyll build"
+  system "bundle exec rake minify_html"
+  system "bundle exec rake optimizeimages"
+end
+
+##############
+#   Deploy   #
+##############
+
+# Deploy the site
+# Ping / Notify after site is deployed
+
+desc "deploy the site"
+task :deploy do
+  system "bundle exec octopress deploy"
+  system "bundle exec rake notify"
+end
+
+##############
+# Optimizes  #
+##############
+
+# https://github.com/phobetron/image-optimizer 
+# Using this to optimize our images. Dependencies are jpegtran, pngcrush and gifsicle
+
+desc "Optimize GIF, JPG and PNG files"
+task :optimizeimages =&gt; [ 'optimizeimages:find_tools', 'optimizeimages:run' ]
+
+namespace :optimizeimages do
+  desc "Test for presence of image optimization tools in the command path"
+  task :find_tools do
+    RakeFileUtils.verbose(false)
+    tools = %w[jpegtran gifsicle pngcrush]
+    puts "\nOptimizing images using the following tools:"
+    tools.delete_if { |tool| sh('which', tool) rescue false }
+    raise "The following tools must be installed and accessible from the execution path: #{ tools.join(', ') }" if tools.size &gt; 0
+  end
+
+  task :run do
+    RakeFileUtils.verbose(false)
+    start_time = Time.now
+
+    file_list = FileList.new '_site/**/*.{gif,jpeg,jpg,png}'
+
+    last_optimized_path = '_site/.last_optimized'
+    if File.exists? last_optimized_path
+      last_optimized = File.new last_optimized_path
+      file_list.exclude do |f|
+        File.new(f).mtime &lt; last_optimized.mtime
+      end
+    end
+
+    puts "\nOptimizing #{ file_list.size } image files."
+
+    proc_cnt = 0
+    skip_cnt = 0
+    savings = {:old =&gt; Array.new, :new =&gt; Array.new}
+
+    file_list.each_with_index do |f, cnt|
+      puts "Processing: #{cnt+1}/#{file_list.size} #{f.to_s}"
+
+      extension = File.extname(f).delete('.').gsub(/jpeg/,'jpg')
+      ext_check = `file -b #{f} | awk '{print $1}'`.strip.downcase
+      ext_check.gsub!(/jpeg/,'jpg')
+      if ext_check != extension
+        puts "\t#{f.to_s} is a: '#{ext_check}' not: '#{extension}' ..skipping"
+        skip_cnt = skip_cnt + 1
+        next
+      end
+
+      case extension
+      when 'gif'
+        `gifsicle -O2 #{f} &gt; #{f}.n`
+      when 'png'
+        `pngcrush -q -rem alla -reduce -brute  #{f} #{f}.n`
+      when 'jpg'
+        `jpegtran -copy none -optimize -perfect -progressive #{f} &gt; #{f}.p`
+        prog_size = File.size?("#{f}.p")
+
+        `jpegtran -copy none -optimize -perfect #{f} &gt; #{f}.np`
+        nonprog_size = File.size?("#{f}.np")
+
+        if prog_size &lt; nonprog_size
+          File.delete("#{f}.np")
+          File.rename("#{f}.p", "#{f}.n")
+        else
+          File.delete("#{f}.p")
+          File.rename("#{f}.np", "#{f}.n")
+        end
+      else
+        skip_cnt = skip_cnt + 1
+        next
+      end
+
+      old_size = File.size?(f).to_f
+      new_size = File.size?("#{f}.n").to_f
+
+      if new_size &lt; old_size
+        File.delete(f)
+        File.rename("#{f}.n", f)
+      else
+        new_size = old_size
+        File.delete("#{f}.n")
+      end
+
+      savings[:old] &lt;&lt; old_size
+      savings[:new] &lt;&lt; new_size
+
+      reduction = 100.0 - (new_size/old_size*100.0)
+
+      puts "Output: #{sprintf "%0.2f", reduction}% | #{old_size.to_i} -&gt; #{new_size.to_i}"
+      proc_cnt = proc_cnt + 1
+    end
+
+    total_old = savings[:old].inject(0){|sum,item| sum + item}
+    total_new = savings[:new].inject(0){|sum,item| sum + item}
+    total_reduction = total_old &gt; 0 ? (100.0 - (total_new/total_old*100.0)) : 0
+
+    minutes, seconds = (Time.now - start_time).divmod 60
+    puts "\nTotal run time: #{minutes}m #{seconds.round}s"
+
+    puts "Files: #{file_list.size}\tProcessed: #{proc_cnt}\tSkipped: #{skip_cnt}"
+    puts "\nTotal savings:\t#{sprintf "%0.2f", total_reduction}% | #{total_old.to_i} -&gt; #{total_new.to_i} (#{total_old.to_i - total_new.to_i})"
+
+    FileUtils.touch last_optimized_path
+  end
+end
+
+##############
+#   Minify   #
+##############
+
+desc "Minify HTML"
+task :minify_html do
+  puts "## Minifying HTML"
+  compressor = HtmlCompressor::HtmlCompressor.new
+  Dir.glob("_site/**/*.html").each do |name|
+    puts "Minifying #{name}"
+    input = File.read(name)
+    output = File.open("#{name}", "w")
+    output &lt;&lt; compressor.compress(input)
+    output.close
+  end
+end
+
+desc "Minify static assets"
+task :minify =&gt; [:minify_css, :minify_html] do
+end
+
+##############
+#   Notify   #
+##############
+
+# Ping Google and Yahoo to let them know you updated your site
+
+site = "www.chrisanthropic.com"
+
+desc 'Notify Google of the new sitemap'
+task :sitemapgoogle do
+  begin
+    require 'net/http'
+    require 'uri'
+    puts '* Pinging Google about our sitemap'
+    Net::HTTP.get('www.google.com', '/webmasters/tools/ping?sitemap=' + URI.escape('#{site}/sitemap.xml'))
+  rescue LoadError
+    puts '! Could not ping Google about our sitemap, because Net::HTTP or URI could not be found.'
+  end
+end
+
+desc 'Notify Bing of the new sitemap'
+task :sitemapbing do
+  begin
+    require 'net/http'
+    require 'uri'
+    puts '* Pinging Bing about our sitemap'
+    Net::HTTP.get('www.bing.com', '/webmaster/ping.aspx?siteMap=' + URI.escape('#{site}/sitemap.xml'))
+  rescue LoadError
+    puts '! Could not ping Bing about our sitemap, because Net::HTTP or URI could not be found.'
+  end
+end
+
+desc "Notify various services about new content"
+task :notify =&gt; [:sitemapgoogle, :sitemapbing] do
+end
+</code></pre>
+</div>
+<p>Now I build my site with the <code class="highlighter-rouge">bundle exec rake build</code> command and it automatically builds my site, minifies the assets, and optimizes all images.</p>
+
+<p>When I deploy my site with <code class="highlighter-rouge">bundle exec rake deploy</code> it deploys it to S3 and then notifies Google and Bing about my updated sitemap.xml file.</p>
+
+<p>Pretty cool.</p>
+
+
+</article>
+
+      </div>
+    </main>
+  </body>
+</html>

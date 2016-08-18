@@ -1,50 +1,207 @@
----
-layout: null
-sitemap: false
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% capture site_url %}{% if site.url %}{{ site.url | append: site.baseurl }}{% else %}{{ site.github.url }}{% endif %}{% endcapture %}
-  {% for post in site.posts %}{% unless post.sitemap == false %}
+  
+  
   <url>
-    <loc>{{ post.url | prepend: site_url | uri_escape }}</loc>
-    {% if post.last_modified_at %}
-    <lastmod>{{ post.last_modified_at | date_to_xmlschema }}</lastmod>
-    {% else %}
-    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-    {% endif %}
+    <loc>//starving-artist-jekyll-theme/blog/2014/using-_data-to-build-jekyll-navigation</loc>
+    
+    <lastmod>2014-12-09T19:34:33-08:00</lastmod>
+    
   </url>
-  {% endunless %}{% endfor %}
-  {% for page in site.html_pages %}{% unless page.sitemap == false %}
+  
   <url>
-    <loc>{{ page.url | replace:'/index.html','/' | prepend: site_url | uri_escape }}</loc>
-    {% if page.last_modified_at %}
-    <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
-    {% endif %}
+    <loc>//starving-artist-jekyll-theme/blog/2014/integrating-compass-and-jekyll-without-plugins</loc>
+    
+    <lastmod>2014-12-09T15:20:40-08:00</lastmod>
+    
   </url>
-  {% endunless %}{% endfor %}
-  {% for collection in site.collections %}{% unless collection.last.output == false or collection.output == false %}
-  {% for doc in collection.last.docs %}{% unless doc.sitemap == false %}
+  
   <url>
-    <loc>{{ doc.url | replace:'/index.html','/' | prepend: site_url | uri_escape }}</loc>
-    {% if doc.last_modified_at %}
-    <lastmod>{{ doc.last_modified_at | date_to_xmlschema }}</lastmod>
-    {% endif %}
+    <loc>//starving-artist-jekyll-theme/blog/2014/integrating-the-foundation-zurb-grid-with-jekyll</loc>
+    
+    <lastmod>2014-12-08T20:24:51-08:00</lastmod>
+    
   </url>
-  {% endunless %}{% endfor %}
-  {% for doc in collection.docs %}{% unless doc.sitemap == false %}
+  
+  <url>
+    <loc>//starving-artist-jekyll-theme/blog/2014/an-s3-policy-to-block-semalt-referral-traffic</loc>
+    
+    <lastmod>2014-12-05T14:06:15-08:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>//starving-artist-jekyll-theme/blog/2014/deploy-jekyll-to-s3-with-s3_website</loc>
+    
+    <lastmod>2014-12-05T11:01:42-08:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>//starving-artist-jekyll-theme/blog/2014/rakefile-minimize-assets-and-optimize-images</loc>
+    
+    <lastmod>2014-12-04T16:38:13-08:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>//starving-artist-jekyll-theme/blog/2014/mail-forwarding-with-mailgun-and-cloudflare</loc>
+    
+    <lastmod>2014-12-03T20:35:05-08:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>//starving-artist-jekyll-theme/blog/2014/moving-from-github-pages-to-s3</loc>
+    
+    <lastmod>2014-12-03T17:17:18-08:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>//starving-artist-jekyll-theme/blog/2014/add-sitemap-xml-to-jekyll</loc>
+    
+    <lastmod>2014-12-03T10:40:40-08:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>//starving-artist-jekyll-theme/blog/2014/adding-google-analytics-to-octopress-3-0</loc>
+    
+    <lastmod>2014-12-02T19:38:10-08:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>//starving-artist-jekyll-theme/blog/2014/octopress-blog-from-a-subdirectory</loc>
+    
+    <lastmod>2014-11-27T20:46:50-08:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>//starving-artist-jekyll-theme/blog/2014/basic-customization</loc>
+    
+    <lastmod>2014-11-24T16:44:01-08:00</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>//starving-artist-jekyll-theme/blog/2014/installing-octopress-3-0-from-scratch</loc>
+    
+    <lastmod>2014-11-23T16:44:01-08:00</lastmod>
+    
+  </url>
+  
+  
+  <url>
+    <loc>//starving-artist-jekyll-theme/404.html</loc>
+    
+  </url>
+  
+  <url>
+    <loc>//starving-artist-jekyll-theme/about.html</loc>
+    
+  </url>
+  
+  <url>
+    <loc>//starving-artist-jekyll-theme/blog/</loc>
+    
+  </url>
+  
+  <url>
+    <loc>//starving-artist-jekyll-theme/concept-art.html</loc>
+    
+  </url>
+  
+  <url>
+    <loc>//starving-artist-jekyll-theme/contact.html</loc>
+    
+  </url>
+  
+  <url>
+    <loc>//starving-artist-jekyll-theme/covers.html</loc>
+    
+  </url>
+  
+  <url>
+    <loc>//starving-artist-jekyll-theme/illustration.html</loc>
+    
+  </url>
+  
+  <url>
+    <loc>//starving-artist-jekyll-theme/</loc>
+    
+  </url>
+  
+  
+  
+  
     <url>
-      <loc>{{ doc.url | replace:'/index.html','/' | prepend: site_url | uri_escape }}</loc>
-      {% if doc.last_modified_at %}
-      <lastmod>{{ doc.last_modified_at | date_to_xmlschema }}</lastmod>
-      {% endif %}
+      <loc>//starving-artist-jekyll-theme/blog/2014/installing-octopress-3-0-from-scratch</loc>
+      
     </url>
-  {% endunless %}{% endfor %}
-  {% endunless %}{% endfor %}
-  {% for file in site.html_files %}
-  <url>
-    <loc>{{ file.path | prepend: site_url | uri_escape }}</loc>
-    <lastmod>{{ file.modified_time | date_to_xmlschema }}</lastmod>
-  </url>
-  {% endfor %}
+  
+    <url>
+      <loc>//starving-artist-jekyll-theme/blog/2014/basic-customization</loc>
+      
+    </url>
+  
+    <url>
+      <loc>//starving-artist-jekyll-theme/blog/2014/octopress-blog-from-a-subdirectory</loc>
+      
+    </url>
+  
+    <url>
+      <loc>//starving-artist-jekyll-theme/blog/2014/adding-google-analytics-to-octopress-3-0</loc>
+      
+    </url>
+  
+    <url>
+      <loc>//starving-artist-jekyll-theme/blog/2014/add-sitemap-xml-to-jekyll</loc>
+      
+    </url>
+  
+    <url>
+      <loc>//starving-artist-jekyll-theme/blog/2014/moving-from-github-pages-to-s3</loc>
+      
+    </url>
+  
+    <url>
+      <loc>//starving-artist-jekyll-theme/blog/2014/mail-forwarding-with-mailgun-and-cloudflare</loc>
+      
+    </url>
+  
+    <url>
+      <loc>//starving-artist-jekyll-theme/blog/2014/rakefile-minimize-assets-and-optimize-images</loc>
+      
+    </url>
+  
+    <url>
+      <loc>//starving-artist-jekyll-theme/blog/2014/deploy-jekyll-to-s3-with-s3_website</loc>
+      
+    </url>
+  
+    <url>
+      <loc>//starving-artist-jekyll-theme/blog/2014/an-s3-policy-to-block-semalt-referral-traffic</loc>
+      
+    </url>
+  
+    <url>
+      <loc>//starving-artist-jekyll-theme/blog/2014/integrating-the-foundation-zurb-grid-with-jekyll</loc>
+      
+    </url>
+  
+    <url>
+      <loc>//starving-artist-jekyll-theme/blog/2014/integrating-compass-and-jekyll-without-plugins</loc>
+      
+    </url>
+  
+    <url>
+      <loc>//starving-artist-jekyll-theme/blog/2014/using-_data-to-build-jekyll-navigation</loc>
+      
+    </url>
+  
+  
+  
 </urlset>
