@@ -39,6 +39,8 @@ feed:
 #sass:
 #    style: :compressed
 
+include: ['_pages']
+
 permalink: /blog/:year/:title
 
 #### SEO Stuff
