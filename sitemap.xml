@@ -110,27 +110,32 @@
   </url>
   
   <url>
-    <loc>//starving-artist-jekyll-theme/concept-art.html</loc>
+    <loc>//starving-artist-jekyll-theme/concept-art/</loc>
     
   </url>
   
   <url>
-    <loc>//starving-artist-jekyll-theme/contact.html</loc>
+    <loc>//starving-artist-jekyll-theme/contact/</loc>
     
   </url>
   
   <url>
-    <loc>//starving-artist-jekyll-theme/covers.html</loc>
+    <loc>//starving-artist-jekyll-theme/covers/</loc>
     
   </url>
   
   <url>
-    <loc>//starving-artist-jekyll-theme/illustration.html</loc>
+    <loc>//starving-artist-jekyll-theme/illustration/</loc>
     
   </url>
   
   <url>
     <loc>//starving-artist-jekyll-theme/</loc>
+    
+  </url>
+  
+  <url>
+    <loc>//starving-artist-jekyll-theme/contact/thanks/</loc>
     
   </url>
   
