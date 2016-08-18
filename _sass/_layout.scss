@@ -1,5 +1,6 @@
 // Wrap
-.wrap {
+@media screen and (min-width: 40em) {
+  .wrap {
     height: 100vh;
     display: flex;
     overflow: hidden;
@@ -7,31 +8,24 @@
     width: 100%;
     backface-visibility: hidden;
     will-change: overflow;
-}
-
-// Styling for mobile devices
-@media screen and (max-width: 768px) {
-  .wrap {
-    margin-bottom: -$footer-height * 2.8; 
   }
 }
 
-.wrap:after {
-  content: "";
-  display: block;
+@media screen and (min-width: 40em) {
+.site-header {
+    margin-top: 9em;
+    max-width: 32em;
 }
+
+}
+// Styling for mobile devices
+
 
 // Header
 #header {
     padding: 0.9375rem 0;
     background-color: $navbar-color;
 }
-
-.site-header {
-    margin-top: 9em;
-    max-width: 32em;
-}
-
 
 .header-logo:hover {
     opacity:.9;
@@ -47,8 +41,10 @@
     -ms-overflow-style: none;
 }
 
+@media screen and (min-width: 40em) {
 .contact_container {
     margin-top: 10em;
+}
 }
 
 .biopic {

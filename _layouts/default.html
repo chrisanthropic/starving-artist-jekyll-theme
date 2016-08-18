@@ -3,6 +3,9 @@
   {% include head.html %}
   <body>
     <main class="wrap">
+          <nav class="show-for-small-only navbar">
+          {% include mobilenav.html %}
+        </nav>
       {% include header.html %}
       <div class="content_container columns">
         {{ content }}
