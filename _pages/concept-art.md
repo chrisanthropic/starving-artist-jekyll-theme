@@ -1,5 +1,5 @@
 ---
 layout: page
 title: "concept art"
-permalink: "/concept-art.html"
+permalink: "/concept-art/"
 --- 
