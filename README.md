@@ -1,24 +1,24 @@
-slim-pickins-jekyll-theme
+starving-artist-jekyll-theme
 =============
 
-Live Demo [HERE](http://chrisanthropic.github.io/slim-pickins-jekyll-theme/)
+Live Demo [HERE](http://chrisanthropic.github.io/starving-artist-jekyll-theme/)
 
-Slim Pickins is what I consider to be a minimal 'core' theme with everything I need to quickly develop new themes for Jekyll.
+Starving Artist is a simple portfolio theme for visual artists to easily share their work.
 
 ## Basic features include:
 
 * Jekyll 3.0 compatible
 * SASS
 * Minimal Zurb Foundation 6 Integration
-    * Responsive grid
+    * Flexbox grid
     * Visibility classes
-* Responsive navigation
-* Optional full-width banner
-* Sticky footer
+* Responsive / Mobile-friendly
 * **Javascript free**
 * Custom Rakefile with tasks for deploying, minifying, and notifying search engines about updates
 * image_optim plugin to optimize all images
 * Basic SEO
+    * Facebook opengraph integration
+    * Twitter card integration
 
 ### SASS
 Includes the following variables:
@@ -42,7 +42,6 @@ Includes the following variables:
 * $base-line-height
 
 **Navbar Settings**
-* $navbar-height
 * $navbar-color
 * $navbar-text-color
 * $navbar-hover-color
@@ -61,36 +60,18 @@ Includes the following variables:
 * $footer-height
 * $footer-color
 
-### GRID
+### FLEXBOX GRID
 Uses minimal sass from Zurb Foundation:
 
-* [grid](http://foundation.zurb.com/sites/docs/grid.html)
+* [grid](http://foundation.zurb.com/sites/docs/flex-grid.html)
 
 ### NAVIGATION
-A fully responsive navigation bar with the following features:
 
-* 2 navigation areas
-  * Left - Primary navigation 
-  * Right - Social media links
-* Both navigation areas are populated using Jekyll 'data' files, nav.yml and socials.yml respectively
-* Ability to create 'external' links that link offsite while still using socials.yml to do so
+* Populated using Jekyll 'data' nav.yml file
 * Easily customizable text, link, and background colors using the supplied sass variables
 
 ### BANNER
-This theme is configured with a 'wrap' of 1920px so banner images look best at that width.
 
-First it checks a pages yaml frontmatter for the header image, if none is found then it checks for a site-wide default in your config.yml, if none is found then no banner image is displayed.
-
-**Site-Wide**
-You can set a site-wide default banner image by adding the following to your _config.yml:
-  `header_image: "path/to/image.jpg"`
-
-**Per Page**
-You can also override it per page by adding the following code to a pages yaml front matter:
-  `header_image: path/to/image.jpg`
-
-### STICKY FOOTER
-I like my footers to stay on the bottom of the page no matter what. You can easily edit the size and color using the supplied sass variables.
 
 ### JAVASCRIPT FREE
 The only thing in the theme that uses Javascript is the optional use of google analytics.
