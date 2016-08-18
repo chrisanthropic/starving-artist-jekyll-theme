@@ -197,7 +197,14 @@ pre {
 }
 
 .menu > li > a:hover {
-    color: #7a99ab;
+    color: $navbar-hover-color;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.menu .active > a {
+    background: $navbar-active-color;
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);

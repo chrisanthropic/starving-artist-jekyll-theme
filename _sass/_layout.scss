@@ -33,6 +33,36 @@
 }
 
 
+.header-logo:hover {
+    opacity:.9;
+}
+
+// Containers
+.content_container {
+    flex: 1;
+    overflow: auto;
+    height: auto;
+    padding: .5rem;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+}
+
+.contact_container {
+    margin-top: 10em;
+}
+
+.biopic {
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
+    border-radius: 200px;
+}
+
+.bio {
+    padding-top: 2em;
+}
+
 // Pages
 .page-content {
     padding: $spacing-unit;
