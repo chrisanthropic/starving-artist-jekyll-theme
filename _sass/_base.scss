@@ -71,6 +71,12 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
+    outline: none;
+    transition: all .2s ease-in!important;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    transition-delay: initial;
     color: $link-color;
     text-decoration: none;
 
@@ -80,7 +86,6 @@ a {
 
     &:hover {
         color: link-hover-color;
-        text-decoration: underline;
     }
 }
 
@@ -186,6 +191,14 @@ pre {
 }
 
 .menu > li > a {
-    line-height: 1.75;
+    line-height: 1;
     padding: 0.7rem 1rem;
+    display: block;
+}
+
+.menu > li > a:hover {
+    color: #7a99ab;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
