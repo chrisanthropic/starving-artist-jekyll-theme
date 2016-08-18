@@ -1,0 +1,45 @@
+- title: "home"
+  href: "/"
+
+- title: "blog"
+  href: "/blog/"
+
+- title: "documentation"
+  subcategories:
+    - subtitle: "sass"
+      subhref: "/documentation/sass.html"
+    - subtitle: "grid"
+      subhref: "/documentation/grid.html"
+    - subtitle: "navigation"
+      subhref: "/documentation/nav.html"
+    - subtitle: "banner"
+      subhref: "/documentation/banner.html"
+    - subtitle: "sticky footer"
+      subhref: "/documentation/footer.html"
+    - subtitle: "rakefile"
+      subhref: "/documentation/rakefile.html"
+    - subtitle: "image_optim"
+      subhref: "/documentation/image-optim.html"
+    - subtitle: "SEO"
+      subhref: "/documentation/seo.html"
+
+- title: "use"
+  subcategories:
+    - subtitle: "installation"
+      subhref: "/documentation/installation.html"
+    - subtitle: "configuration"
+      subhref: "/documentation/configuration.html"
+    - subtitle: "deployment"
+      subhref: "/documentation/deploy.html"
+    - subtitle: "basic use"
+      subhref: "/documentation/use.html"
+      
+- title: "external"
+  external: "http://www.jekyllrb.com"
+  
+- title: "Misc"
+  external-subcategories:
+    - subtitle: "Jekyll forums"
+      subhref: "https://talk.jekyllrb.com/"
+    - subtitle: "Source Code"
+      subhref: "https://github.com/chrisanthropic/slim-pickins-jekyll-theme"
