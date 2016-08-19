@@ -60,9 +60,13 @@
     padding-top: 2em;
 }
 
+.recent-posts {
+  font-size: 0.8rem;
+}
+
 // Pages
 .page-content {
-    padding: $spacing-unit;
+    padding: 0 1.2rem 1.2rem 1.2rem;
 }
 
 .page-heading {
@@ -79,6 +83,17 @@
     padding-top: 4em;
     background-color: #efefef;
 }
+
+.sidebar h2 {
+  text-transform: uppercase;
+}
+
+.sidebar ul li {
+  padding: 0 0 1rem 0;   
+}
+
+
+
 // Posts
 
 .post-header {
@@ -89,11 +104,11 @@
     font-size: 2em;
     letter-spacing: -1px;
     line-height: 1;
+    margin-left: -2rem;
 }
 
 .post-content {
-  margin-bottom: $spacing-unit;
-  padding: 0 $spacing-unit $spacing-unit;
+  margin: 0 30px 30px 30px;
 }
 
 .post-list {
