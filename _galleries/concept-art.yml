@@ -1,34 +1,41 @@
-- image: "images/galleries/kamala_jane_doreen_website.png"
-  title: "title"
-  caption: "caption"
-  alt: "alt_text"
-  description: "description"
-  link: ""
-
-- image: "images/galleries/devils_website.png"
+---
+name: "concept-art"
+artist: "Artist Name"
+arts:
+  
+- image: "images/galleries/Lady-with-Hat-and-Feather-Boa.jpg"
   title: "title"
   caption: "caption"
   alt: "alt_text"
   description: "description"
   link: ""
   
-- image: "images/galleries/lady_website.png"
+- image: "images/galleries/Fulfillment.jpg"
   title: "title"
   caption: "caption"
   alt: "alt_text"
   description: "description"
   link: ""
   
-- image: "images/galleries/maa2_angela_website.png"
+- image: "images/galleries/Gustav_Klimt_046.jpg"
   title: "title"
   caption: "caption"
   alt: "alt_text"
   description: "description"
   link: ""
   
-- image: "images/galleries/maa2_moon_knight_website.png"
+- image: "images/galleries/hygeia-detail-of-medicine-1907.jpg"
   title: "title"
   caption: "caption"
   alt: "alt_text"
   description: "description"
   link: ""
+  
+- image: "images/galleries/klimt.jpg"
+  title: "title"
+  caption: "caption"
+  alt: "alt_text"
+  description: "description"
+  link: ""
+  
+---
