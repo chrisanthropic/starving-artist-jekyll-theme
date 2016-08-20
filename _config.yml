@@ -42,6 +42,9 @@ include: ['_pages']
 
 permalink: /blog/:year/:title
 
+collections:
+  - galleries
+
 ## Thumbnailer taken from https://github.com/chrisanthropic/jekyll-minimagick
 
 # Autogenerate thumbs for comics

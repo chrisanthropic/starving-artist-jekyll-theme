@@ -1,0 +1,13 @@
+---
+layout: default
+sidebar: 'false'
+---
+<div class="masonry-layout">
+    <div>  {% for gallery in site.galleries %} {% if gallery.name == page.title %} {% for art in gallery.arts %}
+        <div class="masonry-layout-panel__content">
+            <a href="{{ art.link }}" data-caption-desc="{{ art.caption }}">
+                <img src="{{ site.baseurl }}/{{ art.image }}" width="400">
+            </a>
+        </div> {% endfor %} {% endif %} {% endfor %}
+    </div>
+</div>
