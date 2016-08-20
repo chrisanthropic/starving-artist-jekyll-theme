@@ -318,8 +318,15 @@ img {
 /**
  * Figures
  */
+figure {
+  margin: 0 !important; }
+
 figure > img {
   display: block; }
+
+figure > img.thumb {
+  float: left;
+  margin: 0 1rem 1rem 2rem; }
 
 figcaption {
   font-size: 0.875em; }
@@ -546,16 +553,38 @@ input[type="submit"] {
   -moz-border-radius: 200px;
   -ms-border-radius: 200px;
   -o-border-radius: 200px;
-  border-radius: 200px; }
+  border-radius: 200px;
+  padding-left: 1em; }
 
 .bio {
   padding-top: 2em; }
 
+.recent-posts {
+  font-size: 0.8rem; }
+
 .page-content {
-  padding: 30px; }
+  padding: 0 1.2rem 1.2rem 1.2rem; }
 
 .page-heading {
   font-size: 20px; }
+
+.blogroll {
+  margin-top: 3em;
+  padding-top: 0; }
+
+.sidebar {
+  order: 2;
+  padding-top: 4em;
+  background-color: #efefef; }
+
+.sidebar h2 {
+  text-transform: uppercase; }
+
+.sidebar ul li {
+  padding: 0 0 1rem 0; }
+
+.roll {
+  margin-bottom: 2.5rem; }
 
 .post-header {
   margin: 30px; }
@@ -563,11 +592,11 @@ input[type="submit"] {
 .post-title {
   font-size: 2em;
   letter-spacing: -1px;
-  line-height: 1; }
+  line-height: 1;
+  margin-left: -2rem; }
 
 .post-content {
-  margin-bottom: 30px;
-  padding: 0 30px 30px; }
+  margin: 0 30px 30px 30px; }
 
 .post-list {
   margin-left: 0;

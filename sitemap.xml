@@ -3,6 +3,13 @@
   
   
   <url>
+    <loc>//starving-artist-jekyll-theme/blog/2016/sample-post-with-thumbnail</loc>
+    
+    <lastmod>2016-08-14T20:34:33-07:00</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>//starving-artist-jekyll-theme/blog/2014/using-_data-to-build-jekyll-navigation</loc>
     
     <lastmod>2014-12-09T19:34:33-08:00</lastmod>
@@ -204,6 +211,11 @@
   
     <url>
       <loc>//starving-artist-jekyll-theme/blog/2014/using-_data-to-build-jekyll-navigation</loc>
+      
+    </url>
+  
+    <url>
+      <loc>//starving-artist-jekyll-theme/blog/2016/sample-post-with-thumbnail</loc>
       
     </url>
   
