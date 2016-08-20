@@ -1,7 +1,7 @@
 require 'mini_magick'
 
 module Jekyll
-  module JekyllMinimagick
+  module JekyllRetinamagick
 
     class GeneratedImageFile < Jekyll::StaticFile
       # Initialize a new GeneratedImage.
@@ -12,14 +12,23 @@ module Jekyll
       #   +preset+ is the Preset hash from the config.
       #
       # Returns <GeneratedImageFile>
-      def initialize(site, base, dir, name, preset)
+      def initialize(site, base, dir, name, preset, retina)
         @site = site
         @base = base
         @dir  = dir
         @name = name
         @dst_dir = preset.delete('destination')
-        @src_dir = preset.delete('source')
+        @src = File.join(@base, preset.delete('source'), name)
         @commands = preset
+        if retina
+          filepath, extension = name.match(/(.+)(\.[a-zA-Z]{3,4})/i).captures
+          @name = "#{filepath}@2x#{extension}"
+          if @commands.has_key?("resize")
+            size = @commands["resize"]
+            width, height = size.match(/([0-9]+)x([0-9]+)/i).captures
+            @commands["resize"] = "#{Integer(width) * 2}x#{Integer(height) * 2}"
+          end
+        end
       end
 
       # Obtains source file path by substituting the preset's source directory
@@ -27,7 +36,7 @@ module Jekyll
       #
       # Returns source file path.
       def path
-        File.join(@base, @dir.sub(@dst_dir, @src_dir), @name)
+        @src
       end
 
       # Use MiniMagick to create a derivative image at the destination
@@ -36,21 +45,28 @@ module Jekyll
       #
       # Returns false if the file was not modified since last time (no-op).
       def write(dest)
-        dest_path = File.join(@base, @dst_dir, @name)
+        dest_path = destination(dest)
 
-        return false if File.exist? dest_path and !modified?
+        return false if File.exist? dest_path
 
         @@mtimes[path] = mtime
 
-        FileUtils.mkdir_p(File.dirname(dest_path))
-        image = ::MiniMagick::Image.open(path)
-        image.combine_options do |c|
-          @commands.each_pair do |command, arg|
-            c.send command, arg
-          end
-        end
-        image.write dest_path
+        cache_path = File.join(@base, ".minimagick-cache", @dst_dir, @name)
 
+        FileUtils.mkdir_p(File.dirname(cache_path))
+        FileUtils.mkdir_p(File.dirname(dest_path))
+
+        # If the file isn't cached, generate it
+        if not (File.size? cache_path and File.stat(cache_path).mtime.to_i > mtime)
+          image = ::MiniMagick::Image.open(path)
+          @commands.each_pair do |command, arg|
+            image.send command, arg
+          end
+          image.write cache_path
+        end
+
+        FileUtils.cp(cache_path, dest_path)
+        
         true
       end
 
@@ -63,15 +79,17 @@ module Jekyll
       # in the site config.  Add a GeneratedImageFile to the static_files stack
       # for later processing.
       def generate(site)
-        return unless site.config['mini_magick']
+        return unless site.config['retinamagick']
 
-         site.config['mini_magick'].each_pair do |name, preset|
+        site.config['retinamagick'].each_pair do |name, preset|
           Dir.glob(File.join(site.source, preset['source'], "*.{png,jpg,jpeg,gif}")) do |source|
-            site.static_files << GeneratedImageFile.new(site, site.source, preset['destination'], File.basename(source), preset.clone)
+            site.static_files << GeneratedImageFile.new(site, site.source, preset['destination'], File.basename(source), preset.clone, false)
+            if preset.has_key?("resize")
+              site.static_files << GeneratedImageFile.new(site, site.source, preset['destination'], File.basename(source), preset.clone, true)
+            end
           end
         end
       end
     end
-
   end
 end

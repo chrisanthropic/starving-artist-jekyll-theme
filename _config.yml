@@ -52,6 +52,8 @@ mini_magick:
       source: images/posts/
       destination: /images/posts/thumbs
       resize: "150x150^"
+      gravity: "center"
+      extent: "150x150"
 
 #Autogenerate smaller size for small screens       
     small:

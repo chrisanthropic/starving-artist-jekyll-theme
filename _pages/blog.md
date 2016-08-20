@@ -4,20 +4,23 @@ title: blog
 permalink: "/blog/"
 --- 
 
-<div>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p>subscribe <a href="{{ site.baseurl }}/atom.xml">via RSS</a></p>
-
-</div> 
+{% for post in site.posts %}
+<div class="roll">
+        <header>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <h2>
+                    <a class="post-link" href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
+                </h2>
+        </header>
+  {% if post.thumbnail %}
+        <article>
+            <a href="{{ site.url }}{{ post.url }}">
+                <figure>
+                    <img src="{{ site.baseurl }}/{{ post.thumbnail }}" class="thumb" />
+                </figure>
+            </a>
+  {% endif %}
+                <p>{{ post.excerpt }}  <a href="{{ site.baseurl }}/{{ post.url }}">Read More</a></p>
+        </article>
+</div>
+{% endfor %}
