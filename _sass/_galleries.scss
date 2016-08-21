@@ -26,10 +26,10 @@
 
 .masonry-layout-panel__content {
   border-radius: 10px;
-  overflow: hidden;
   padding: 10px;
   width: 100%;
 }
+
 .masonry-layout-cluster {
   display: -webkit-box;
   display: -webkit-flex;
@@ -114,4 +114,22 @@
   background-color: #1e8bc3;
 }
 
+/////////////////////////////////////////
 
+.zoom {
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}
+
+.zoom:hover {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  overflow: auto;
+}

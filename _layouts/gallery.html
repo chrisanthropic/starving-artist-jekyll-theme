@@ -6,7 +6,7 @@ sidebar: 'false'
     <div>  {% for gallery in site.galleries %} {% if gallery.name == page.title %} {% for art in gallery.arts %}
         <div class="masonry-layout-panel__content">
             <a href="#{{ forloop.index0 }}" data-caption-desc="{{ art.caption }}">
-                <img src="{{ site.baseurl }}/{{ art.image }}" width="400">
+                <img src="{{ site.baseurl }}/{{ art.image }}" class="zoom">
             </a>
         </div>{% endfor %} {% endif %} {% endfor %}
     </div>
@@ -18,6 +18,7 @@ sidebar: 'false'
             <div class="masonry-layout-panel__content">
                             <p class="desc">{{ art.description }}</p>
                 <a href="#{{ forloop.index0 | plus: 1 }}"><img src="{{ site.baseurl }}/{{ art.image }}" width="400"></a>
+                <figcaption>{{ art.title }}</figcaption>
             </div>
             <a class="close" href="#close"></a>
             <a class="prev" href="#{{ forloop.index0 | minus: 1 }}">Previous</a>
