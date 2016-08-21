@@ -21,7 +21,7 @@ sidebar: 'false'
                 <figcaption>{{ art.title }}</figcaption>
             </div>
             <a class="close" href="#close"></a>
-            <a class="prev" href="#{{ forloop.index0 | minus: 1 }}">Previous</a>
-            <a class="next" href="#{{ forloop.index0 | plus: 1 }}">Next</a>
+            <a class="fbx-prev" href="#{{ forloop.index0 | minus: 1 }}">&#171;</a>
+            <a class="fbx-next" href="#{{ forloop.index0 | plus: 1 }}">&#187;</a>
         </div>
 </aside>{% endfor %} {% endif %} {% endfor %}
