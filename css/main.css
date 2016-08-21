@@ -87,11 +87,7 @@ a#login_pop:hover, a#join_pop:hover {
   -moz-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
   -ms-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
   -o-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
-  box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
-  transition: all 0.35s;
-  -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  -o-transition: all 0.35s; }
+  box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset; }
   @media screen and (max-width: 768px) {
     .popup {
       width: 80%; } }
@@ -106,7 +102,7 @@ a#login_pop:hover, a#join_pop:hover {
   height: 30px;
   line-height: 30px;
   position: absolute;
-  right: 0;
+  right: -15px;
   text-align: center;
   text-decoration: none;
   top: -15px;
@@ -148,20 +144,10 @@ a#login_pop:hover, a#join_pop:hover {
 .popup input[type="text"]:hover, .popup input[type="password"]:hover {
   border-color: #555 #888 #888; }
 
-.prev {
-  float: left;
-  font-size: 1.5em;
-  margin: 0 0 1rem 1rem; }
-
-.next {
-  float: right;
-  font-size: 1.5em;
-  margin: 0 1rem 1rem 0; }
-
 .desc {
   width: 100%;
   z-index: 99;
-  bottom: 84px;
+  bottom: 55px;
   left: 0;
   position: absolute;
   padding: 10px;
@@ -175,6 +161,35 @@ a#login_pop:hover, a#join_pop:hover {
 
 .masonry-layout-panel__content:hover .desc {
   opacity: 1; }
+
+.fbx-prev {
+  position: absolute;
+  top: 50%;
+  margin-top: -150px;
+  width: 40px;
+  height: 300px;
+  line-height: 300px;
+  border: 3px solid transparent;
+  left: -50px;
+  background-color: #fff; }
+
+.fbx-next {
+  position: absolute;
+  top: 50%;
+  margin-top: -150px;
+  width: 40px;
+  height: 300px;
+  line-height: 300px;
+  border: 3px solid transparent;
+  right: -50px;
+  background-color: #fff; }
+
+a.fbx-prev, a.fbx-next {
+  font-size: 26px;
+  font-weight: 400;
+  text-align: center;
+  outline: 0;
+  -webkit-font-smoothing: antialiased; }
 
 #nav, #nav ul {
   list-style: none;
@@ -628,7 +643,8 @@ figure > img.thumb {
   margin: 0 1rem 1rem 2rem; }
 
 figcaption {
-  font-size: 0.875em; }
+  font-size: 0.875em;
+  margin-top: 1rem; }
 
 /**
  * Lists
