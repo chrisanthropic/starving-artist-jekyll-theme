@@ -5,9 +5,22 @@ sidebar: 'false'
 <div class="masonry-layout">
     <div>  {% for gallery in site.galleries %} {% if gallery.name == page.title %} {% for art in gallery.arts %}
         <div class="masonry-layout-panel__content">
-            <a href="{{ art.link }}" data-caption-desc="{{ art.caption }}">
+            <a href="#{{ forloop.index0 }}" data-caption-desc="{{ art.caption }}">
                 <img src="{{ site.baseurl }}/{{ art.image }}" width="400">
             </a>
-        </div> {% endfor %} {% endif %} {% endfor %}
+        </div>{% endfor %} {% endif %} {% endfor %}
     </div>
 </div>
+
+<aside class="trap"> {% for gallery in site.galleries %} {% if gallery.name == page.title %} {% for art in gallery.arts %}
+    <a href="#x" class="overlay" id="{{ forloop.index0 }}"></a>
+        <div class="popup center-text">
+            <div class="masonry-layout-panel__content">
+                            <p class="desc">{{ art.description }}</p>
+                <a href="#{{ forloop.index0 | plus: 1 }}"><img src="{{ site.baseurl }}/{{ art.image }}" width="400"></a>
+            </div>
+            <a class="close" href="#close"></a>
+            <a class="prev" href="#{{ forloop.index0 | minus: 1 }}">Previous</a>
+            <a class="next" href="#{{ forloop.index0 | plus: 1 }}">Next</a>
+        </div>
+</aside>{% endfor %} {% endif %} {% endfor %}
