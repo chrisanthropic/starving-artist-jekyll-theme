@@ -257,6 +257,11 @@ input {
     -moz-appearance: none;
 }
 
+
+textarea {
+    min-height: 250px!important;
+}
+
 input[name=message] {
     min-height: 250px!important;
     max-width: 100%;
