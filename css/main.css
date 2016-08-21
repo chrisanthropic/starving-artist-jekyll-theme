@@ -692,14 +692,10 @@ input[type="submit"] {
 .roll {
   margin-bottom: 2.5rem; }
 
-.post-header {
-  margin: 30px; }
-
 .post-title {
   font-size: 2em;
   letter-spacing: -1px;
-  line-height: 1;
-  margin-left: -2rem; }
+  line-height: 1; }
 
 .post-content {
   margin: 0 30px 30px 30px; }
@@ -712,7 +708,8 @@ input[type="submit"] {
 
 .post-meta {
   font-size: 0.875em;
-  color: #a6a6a6; }
+  color: #a6a6a6;
+  margin-bottom: -1rem; }
 
 .post-link {
   display: block;
