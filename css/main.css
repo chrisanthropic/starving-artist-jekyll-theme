@@ -67,7 +67,7 @@ a#login_pop:hover, a#join_pop:hover {
   display: inline-block;
   left: 45%;
   opacity: 0;
-  padding: 15px;
+  padding: 0;
   position: fixed;
   text-align: justify;
   top: 40%;
@@ -88,11 +88,10 @@ a#login_pop:hover, a#join_pop:hover {
   -ms-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
   -o-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
   box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
-  -webkit-transition: opacity .5s, top .5s;
-  -moz-transition: opacity .5s, top .5s;
-  -ms-transition: opacity .5s, top .5s;
-  -o-transition: opacity .5s, top .5s;
-  transition: opacity .5s, top .5s; }
+  transition: all 0.35s;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  -o-transition: all 0.35s; }
   @media screen and (max-width: 768px) {
     .popup {
       width: 80%; } }
@@ -151,16 +150,18 @@ a#login_pop:hover, a#join_pop:hover {
 
 .prev {
   float: left;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  margin: 0 0 1rem 1rem; }
 
 .next {
   float: right;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  margin: 0 1rem 1rem 0; }
 
 .desc {
   width: 100%;
   z-index: 99;
-  bottom: 60px;
+  bottom: 84px;
   left: 0;
   position: absolute;
   padding: 10px;
@@ -418,7 +419,6 @@ a#login_pop:hover, a#join_pop:hover {
 
 .masonry-layout-panel__content {
   border-radius: 10px;
-  overflow: hidden;
   padding: 10px;
   width: 100%; }
 
@@ -499,6 +499,22 @@ a#login_pop:hover, a#join_pop:hover {
 
 .bg--blue {
   background-color: #1e8bc3; }
+
+.zoom {
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear; }
+
+.zoom:hover {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  overflow: auto; }
 
 @font-face {
   font-family: 'icomoon';
