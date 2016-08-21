@@ -100,15 +100,10 @@
 
 // Posts
 
-.post-header {
-    margin: $spacing-unit;
-}
-
 .post-title {
     font-size: 2em;
     letter-spacing: -1px;
     line-height: 1;
-    margin-left: -2rem;
 }
 
 .post-content {
@@ -126,7 +121,8 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: darken($complimentary-color, 35%)
+    color: darken($complimentary-color, 35%);
+    margin-bottom: -1rem;
 }
 
 .post-link {
