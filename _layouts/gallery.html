@@ -12,7 +12,8 @@ sidebar: 'false'
     </div>
 </div>
 
-<aside class="trap"> {% for gallery in site.galleries %} {% if gallery.name == page.title %} {% for art in gallery.arts %}
+{% for gallery in site.galleries %} {% if gallery.name == page.title %} {% for art in gallery.arts %}
+<aside class="trap">
     <a href="#x" class="overlay" id="{{ forloop.index0 }}"></a>
         <div class="popup center-text">
             <div class="masonry-layout-panel__content">
@@ -24,4 +25,5 @@ sidebar: 'false'
             <a class="fbx-prev" href="#{{ forloop.index0 | minus: 1 }}">&#171;</a>
             <a class="fbx-next" href="#{{ forloop.index0 | plus: 1 }}">&#187;</a>
         </div>
-</aside>{% endfor %} {% endif %} {% endfor %}
+</aside>
+{% endfor %} {% endif %} {% endfor %}

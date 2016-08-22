@@ -5,7 +5,7 @@ permalink: "/blog/"
 --- 
 
 {% for post in site.posts %}
-<div class="roll">
+<div class="roll page-content">
         <header>
                 <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
                 <h2>
