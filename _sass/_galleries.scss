@@ -12,17 +12,6 @@
           column-gap: 0;
   position: relative;
 }
-.masonry-layout * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-.masonry-layout-panel {
-  margin: 0;
-  padding: 5px;
-  -webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
-  break-inside: avoid;
-}
 
 .masonry-layout-panel__content {
   border-radius: 10px;
@@ -30,89 +19,6 @@
   width: 100%;
 }
 
-.masonry-layout-cluster {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0;
-}
-
-.masonry-layout-cluster--vertical {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-}
-
-.masonry-layout-cluster--horizontal {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-.masonry-layout-cluster__segment {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-  overflow: hidden;
-}
-.masonry-layout-cluster__segment--row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row;
-}
-.masonry-layout-cluster__segment--column {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.masonry-layout-cluster__segment--half {
-  -webkit-flex-basis: 50%;
-  -ms-flex-preferred-size: 50%;
-  flex-basis: 50%;
-}
-.masonry-layout-cluster__segment--quarter {
-  -webkit-flex-basis: 25%;
-  -ms-flex-preferred-size: 25%;
-  flex-basis: 25%;
-}
-
-
-/**
-  * Color styles
-*/
-.tx--white {
-  color: #fff;
-}
-.bg--red {
-  background-color: #e74c3c;
-}
-.bg--green {
-  background-color: #26a65b;
-}
-.bg--purple {
-  background-color: #8e44ad;
-}
-.bg--blue {
-  background-color: #1e8bc3;
-}
 
 /////////////////////////////////////////
 
