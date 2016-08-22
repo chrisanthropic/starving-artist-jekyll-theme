@@ -1,7 +1,7 @@
 {% if page.header%}
   <header role="banner" id="header" class="small-12 medium-3 columns">
       <div class="site-header medium-12 columns">
-        <div class="header-logo">
+        <div class="header-logo wraptainer">
           <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/{{ page.header_xl }}" srcset="{{ site.baseurl }}/{{ page.header_sm }} 200w, {{ site.baseurl }}/{{ page.header_med }} 641w, {{ site.baseurl }}/{{ page.header_large }} 1025w, {{ site.baseurl }}/{{ page.header_xl }} 1441w" alt="{{ site.name }} banner image" title="{{ site.name }} banner image" class="center"></a>
         </div>
         <nav class="hide-for-small-only">
@@ -13,7 +13,7 @@
   {% elsif site.header %}
     <header role="banner" id="header" class="small-12 medium-3 columns">
       <div class="site-header medium-12 columns">
-        <div class="header-logo">
+        <div class="header-logo wraptainer">
           <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/{{ site.header_xl }}" srcset="{{ site.baseurl }}/{{ site.header_sm }} 200w, {{ site.baseurl }}/{{ site.header_med }} 641w, {{ site.baseurl }}/{{ site.header_large }} 1025w, {{ site.baseurl }}/{{ site.header_xl }} 1441w" alt="{{ site.name }} banner image" title="{{ site.name }} banner image" class="center"></a>
         </div>
         <nav class="hide-for-small-only">
