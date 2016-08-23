@@ -16,11 +16,11 @@ sidebar: 'false'
 <aside class="small-12 columns">
     <a href="#x" class="lightbox-overlay" id="{{ forloop.index0 }}"></a>
         <div class="lightbox-popup center-text">
-            <div class="masonry-panel">
+            <div class="masonry-panel">{% if art.description %}
                 <a tabindex="0" class="lightbox-close-description">×</a>
-                <p class="lightbox-image-description">{{ art.description }}</p>
-                <a href="#{{ forloop.index0 | plus: 1 }}"><img src="{{ site.baseurl }}/{{ art.image }}" width="400"></a>
-                <figcaption class="lightbox-caption">{{ art.title }}</figcaption>
+                <p class="lightbox-image-description">{{ art.description }}</p>{% endif %}
+                <a href="#{{ forloop.index0 | plus: 1 }}"><img src="{{ site.baseurl }}/{{ art.image }}" alt="{{ art.title }}" width="400"></a>
+                {% if art.title %}<figcaption class="lightbox-caption">{{ art.title }}</figcaption>{% endif %}
 
             
             <a class="lightbox-popup-close" href="#close">&times;</a>

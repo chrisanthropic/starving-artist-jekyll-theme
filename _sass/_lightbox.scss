@@ -85,7 +85,7 @@
 .lightbox-close-description {
     z-index: 999;
     position: absolute;
-    bottom: 80px;
+    top: 0;
     right: 0;
     padding: 3px 3px 10px 10px;
     font-size: 24px;
@@ -99,6 +99,10 @@
 
 
 ////////////////////////////////////////////////////
+
+.lightbox-image-container {
+    height: 100%;   
+}
 
 .lightbox-image-description {
     width: 100%;
