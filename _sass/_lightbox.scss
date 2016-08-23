@@ -58,6 +58,7 @@
     top: 50%;
     opacity: 1;
     visibility: visible;
+    transition: opacity ease-in-out 0.5s;
 }
 .lightbox-popup-close {
     background-color: #fff;
@@ -135,10 +136,15 @@ a:focus ~ .lightbox-image-description {
     border: 3px solid transparent;
     left: -50px;
     background-color: #fff;
+    background-color: #fff;
+    -webkit-border-radius: 15px 0 0 15px;
+    -moz-border-radius: 15px 0 0 15px;
+    -ms-border-radius: 15px 0 0 15px;
+    -o-border-radius: 15px 0 0 15px;
+    border-radius: 15px 0 0 15px;
 }
 
 .lightbox-prev:hover {
-    background-color: rgba(255, 255, 255, 0.8);
     color: black;
 }
 
@@ -152,10 +158,14 @@ a:focus ~ .lightbox-image-description {
     border: 3px solid transparent;
     right: -50px;
     background-color: #fff;
+    -webkit-border-radius: 0 15px 15px 0;
+    -moz-border-radius: 0 15px 15px 0;
+    -ms-border-radius: 0 15px 15px 0;
+    -o-border-radius: 0 15px 15px 0;
+    border-radius: 0 15px 15px 0;
 }
 
 .lightbox-next:hover {
-    background-color: rgba(255, 255, 255, 0.8);
     color: black;
 }
 
