@@ -13,13 +13,16 @@ sidebar: 'false'
 </div>
 
 {% for gallery in site.galleries %} {% if gallery.name == page.title %} {% for art in gallery.arts %}
-<aside class="lightbox-image small-12 columns">
+<aside class="small-12 columns">
     <a href="#x" class="lightbox-overlay" id="{{ forloop.index0 }}"></a>
         <div class="lightbox-popup center-text">
             <div class="masonry-panel">
-                            <p class="lightbox-image-description">{{ art.description }}</p>
+                <a tabindex="0" class="lightbox-close-description">×</a>
+                <p class="lightbox-image-description">{{ art.description }}</p>
                 <a href="#{{ forloop.index0 | plus: 1 }}"><img src="{{ site.baseurl }}/{{ art.image }}" width="400"></a>
-                <figcaption>{{ art.title }}</figcaption>
+                <figcaption class="lightbox-caption">{{ art.title }}</figcaption>
+
+            
             <a class="lightbox-popup-close" href="#close">&times;</a>
             <a class="lightbox-prev" href="#{{ forloop.index0 | minus: 1 }}">&#171;</a>
             <a class="lightbox-next" href="#{{ forloop.index0 | plus: 1 }}">&#187;</a>

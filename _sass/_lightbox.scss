@@ -1,4 +1,3 @@
-  
 // code taken from: http://www.script-tutorials.com/css3-modal-popups/
 
 .lightbox-overlay {
@@ -81,18 +80,24 @@
 .lightbox-popup-close:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
+.lightbox-close-description {
+    z-index: 999;
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    padding: 3px 3px 10px 10px;
+    font-size: 24px;
+    text-decoration: none;
+    line-height: 20px;
+}
+
 .lightbox-popup p, .lightbox-popup div {
     margin-bottom: 10px;
 }
 
 
 ////////////////////////////////////////////////////
-
-.lightbox-image {
-  background: url(../images/nami.png) repeat #000 fixed !important;
-  margin-bottom: 15px;
-  padding-top: $navbar-height;
-}
 
 .lightbox-image-description {
     width: 100%;
@@ -105,13 +110,19 @@
     background: rgba(0, 0, 0, 0.8);
     color: #fff;
     font-size: 17px;
-    opacity: 0;
+    opacity: 1;
     text-align: center;
     transition: opacity ease-in-out 0.5s;
 }
 
-.masonry-panel:hover .lightbox-image-description {
-    opacity: 1;
+a:focus {
+	opacity: 0;
+    visibility: invisible;
+}
+
+a:focus ~ .lightbox-image-description {
+	opacity: 0;
+    visibility: invisible;
 }
 
 .lightbox-prev {
@@ -173,3 +184,4 @@ a.lightbox-prev, a.lightbox-next {
   -o-transition: all 0.2s linear;
   overflow: auto;
 }
+
