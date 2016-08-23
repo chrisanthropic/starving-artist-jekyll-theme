@@ -1,54 +1,7 @@
   
-.trap {
-  background: url(../images/nami.png) repeat #000 fixed !important;
-  margin-bottom: 15px;
-  padding-top: $navbar-height;
-}
-
-.upsale {
-  padding: 30px 0;
-  color: #3a3a3a;
-  
-  @media screen and (max-width: 768px) {
-   padding: 0 0 10px 0;
-   font-size: 1.2em;
-  }
-}
-
-/// New stuff for facebook page pop-up
 // code taken from: http://www.script-tutorials.com/css3-modal-popups/
 
-.main {
-    background: #aaa url(../images/bg.jpg) no-repeat;
-    width: 700px;
-    height: 800px;
-    margin: 50px auto;
-}
-.panel {
-    background-color: #444;
-    height: 34px;
-    padding: 10px;
-}
-.panel a#login_pop, .panel a#join_pop {
-    border: 2px solid #aaa;
-    color: #fff;
-    display: block;
-    float: right;
-    margin-right: 10px;
-    padding: 5px 10px;
-    text-decoration: none;
-    text-shadow: 1px 1px #000;
-
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    border-radius: 10px;
-}
-a#login_pop:hover, a#join_pop:hover {
-    border-color: #eee;
-}
-.overlay {
+.lightbox-overlay {
     background-color: rgba(0, 0, 0, 0.6);
     bottom: 0;
     cursor: default;
@@ -66,15 +19,15 @@ a#login_pop:hover, a#join_pop:hover {
     -o-transition: opacity .5s;
     transition: opacity .5s;
 }
-.overlay:target {
+.lightbox-overlay:target {
     visibility: visible;
     opacity: 1;
 }
-.popup {
+.lightbox-popup {
     background-color: #fff;
     border: 3px solid #fff;
     display: inline-block;
-    left: 45%;
+    left: 50%;
     opacity: 0;
     padding: 0;
     position: fixed;
@@ -100,18 +53,15 @@ a#login_pop:hover, a#join_pop:hover {
     -ms-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
     -o-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
     box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
-    
-      @media screen and (max-width: 768px) {
-    width: 80%; 
-  }
+
 }
-.overlay:target+.popup {
-    top: 60%;
+.lightbox-overlay:target+.lightbox-popup {
+    top: 50%;
     opacity: 1;
     visibility: visible;
 }
-.close {
-    background-color: rgba(0, 0, 0, 0.8);
+.lightbox-popup-close {
+    background-color: #fff;
     height: 30px;
     line-height: 30px;
     position: absolute;
@@ -127,43 +77,24 @@ a#login_pop:hover, a#join_pop:hover {
     -o-border-radius: 15px;
     border-radius: 15px;
 }
-.close:before {
-    color: rgba(255, 255, 255, 0.9);
-    content: "X";
-    font-size: 24px;
-    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
-}
-.close:hover {
-    background-color: rgba(64, 128, 128, 0.8);
-}
-.popup p, .popup div {
-    margin-bottom: 10px;
-}
-.popup label {
-    display: inline-block;
-    text-align: left;
-    width: 120px;
-}
-.popup input[type="text"], .popup input[type="password"] {
-    border: 1px solid;
-    border-color: #999 #ccc #ccc;
-    margin: 0;
-    padding: 2px;
 
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
-    border-radius: 2px;
+.lightbox-popup-close:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
-.popup input[type="text"]:hover, .popup input[type="password"]:hover {
-    border-color: #555 #888 #888;
+.lightbox-popup p, .lightbox-popup div {
+    margin-bottom: 10px;
 }
 
 
 ////////////////////////////////////////////////////
 
-.desc {
+.lightbox-image {
+  background: url(../images/nami.png) repeat #000 fixed !important;
+  margin-bottom: 15px;
+  padding-top: $navbar-height;
+}
+
+.lightbox-image-description {
     width: 100%;
     z-index: 99;
     bottom: 55px;
@@ -179,11 +110,11 @@ a#login_pop:hover, a#join_pop:hover {
     transition: opacity ease-in-out 0.5s;
 }
 
-.masonry-layout-panel__content:hover .desc {
+.masonry-panel:hover .lightbox-image-description {
     opacity: 1;
 }
 
-.fbx-prev {
+.lightbox-prev {
     position: absolute;
     top: 50%;
     margin-top: -150px;
@@ -195,7 +126,12 @@ a#login_pop:hover, a#join_pop:hover {
     background-color: #fff;
 }
 
-.fbx-next {
+.lightbox-prev:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+.lightbox-next {
     position: absolute;
     top: 50%;
     margin-top: -150px;
@@ -207,10 +143,33 @@ a#login_pop:hover, a#join_pop:hover {
     background-color: #fff;
 }
 
-a.fbx-prev, a.fbx-next {
+.lightbox-next:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+a.lightbox-prev, a.lightbox-next {
     font-size: 26px;
     font-weight: 400;
     text-align: center;
     outline: 0;
     -webkit-font-smoothing: antialiased;
+}
+
+.zoom {
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}
+
+.zoom:hover {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  overflow: auto;
 }

@@ -289,17 +289,12 @@ input[type="submit"] {
     padding: 0.85em 1em;
     margin: 1rem 0;
     font-size: 0.9rem;
-    background-color: #2199e8;
-    color: #fefefe;
+    background-color: $button-color;
+    color: $button-text-color;
 }
 
 .button:hover, .button:focus, button:hover, button:focus {
-    background-color: #007095;
-    color: #ffffff;
+    background-color: $button-hover;
+    color: $button-text-color;
     text-decoration: none;
 }
-
-[data-whatinput='mouse'] .button {
-    outline: 0;
-}
-

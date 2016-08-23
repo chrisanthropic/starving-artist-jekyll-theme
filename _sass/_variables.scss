@@ -33,9 +33,11 @@ $socials-font-size: 1.5em;
 // Utility
 $spacing-unit: 30px;
 
-// Footer
-$footer-height: 54px;
-$footer-color: lighten($primary-color, 25%);
-
 // Layout Settings
 $header-margin: 6rem;
+
+
+// Buttons
+$button-color: $link-color;
+$button-hover: $link-hover-color;
+$button-text-color: #fff;

@@ -1,0 +1,130 @@
+//////////////////////////////////////
+// Styling for mobile devices
+/////////////////////////////////////
+@media screen and (max-width: 768px) {
+
+.wrap {
+    display: block;
+    overflow: scroll;
+}
+    
+.wraptainer {
+    margin-top: 0;   
+}
+
+.page-content {
+    padding: 0;
+}
+
+figure > img.thumb {
+    width: 100px;
+    margin: 0 .7rem .7rem 0;
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+
+.masonry {
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+}
+
+.masonry-panel {
+  margin: 5px;
+  border-radius: 10px;
+  padding: 0px;
+  width: 100%;
+}
+
+.lightbox-popup {
+    width: 80%;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0;
+    -moz-box-shadow: 0;
+    -ms-box-shadow: 0;
+    -o-box-shadow: 0;
+    box-shadow: 0;
+}
+
+.lightbox-popup .masonry-panel {
+   margin: 5px 0 10px 0;   
+}
+
+.lightbox-overlay:target+.lightbox-popup {
+    top: 50%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.lightbox-popup-close {
+    background-color: #fff;
+    left: 66%;
+    right: 0;
+    position: fixed;
+    border: none;
+    opacity: 1;
+    margin: 0;
+    top: 0px;
+    bottom: auto;
+    width: auto;
+    height: 40px;
+    border-radius: 0;
+    line-height: 40px;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    outline: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.lightbox-prev {
+    left: 0;
+    right: 66%;
+    position: fixed;
+    border: none;
+    opacity: 1;
+    margin: 0;
+    top: 0px;
+    bottom: auto;
+    width: auto;
+    height: 40px;
+    border-radius: 0;
+    line-height: 40px;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    outline: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.lightbox-next {
+    left: 33%;
+    right: 33%;
+    position: fixed;
+    border: none;
+    opacity: 1;
+    margin: 0;
+    top: 0px;
+    bottom: auto;
+    width: auto;
+    height: 40px;
+    border-radius: 0;
+    line-height: 40px;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    outline: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.lightbox-popup div {
+    margin-top: 40px;
+}
+
+} //End of Mobile Styles 

@@ -1,7 +1,7 @@
 // Thanks to https://medium.com/@_jh3y/how-to-pure-css-masonry-layouts-a8ede07ba31a#.ay9vxfru7 for the code
 // https://jsbin.com/tuxoqusaxu/2/edit?css,output
 
-.masonry-layout {
+.masonry {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-column-count: 4;
@@ -13,29 +13,8 @@
   position: relative;
 }
 
-.masonry-layout-panel__content {
+.masonry-panel {
   border-radius: 10px;
   padding: 10px;
   width: 100%;
-}
-
-
-/////////////////////////////////////////
-
-.zoom {
-  transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-}
-
-.zoom:hover {
-  -moz-transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
-  transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  overflow: auto;
 }

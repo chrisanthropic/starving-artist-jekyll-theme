@@ -2,9 +2,9 @@
 layout: default
 sidebar: 'false'
 ---
-<div class="masonry-layout">
+<div class="masonry">
     <div>  {% for gallery in site.galleries %} {% if gallery.name == page.title %} {% for art in gallery.arts %}
-        <div class="masonry-layout-panel__content">
+        <div class="masonry-panel">
             <a href="#{{ forloop.index0 }}" data-caption-desc="{{ art.caption }}">
                 <img src="{{ site.baseurl }}/{{ art.image }}" class="zoom">
             </a>
@@ -13,17 +13,17 @@ sidebar: 'false'
 </div>
 
 {% for gallery in site.galleries %} {% if gallery.name == page.title %} {% for art in gallery.arts %}
-<aside class="trap">
-    <a href="#x" class="overlay" id="{{ forloop.index0 }}"></a>
-        <div class="popup center-text">
-            <div class="masonry-layout-panel__content">
-                            <p class="desc">{{ art.description }}</p>
+<aside class="lightbox-image small-12 columns">
+    <a href="#x" class="lightbox-overlay" id="{{ forloop.index0 }}"></a>
+        <div class="lightbox-popup center-text">
+            <div class="masonry-panel">
+                            <p class="lightbox-image-description">{{ art.description }}</p>
                 <a href="#{{ forloop.index0 | plus: 1 }}"><img src="{{ site.baseurl }}/{{ art.image }}" width="400"></a>
                 <figcaption>{{ art.title }}</figcaption>
+            <a class="lightbox-popup-close" href="#close">&times;</a>
+            <a class="lightbox-prev" href="#{{ forloop.index0 | minus: 1 }}">&#171;</a>
+            <a class="lightbox-next" href="#{{ forloop.index0 | plus: 1 }}">&#187;</a>
             </div>
-            <a class="close" href="#close"></a>
-            <a class="fbx-prev" href="#{{ forloop.index0 | minus: 1 }}">&#171;</a>
-            <a class="fbx-next" href="#{{ forloop.index0 | plus: 1 }}">&#187;</a>
         </div>
 </aside>
 {% endfor %} {% endif %} {% endfor %}
