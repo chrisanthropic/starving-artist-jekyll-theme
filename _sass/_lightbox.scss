@@ -120,14 +120,16 @@
     transition: opacity ease-in-out 0.5s;
 }
 
-a:focus {
+p:focus {
 	opacity: 0;
     visibility: invisible;
+    outline: 0;
 }
 
-a:focus ~ .lightbox-image-description {
+p:focus ~ .lightbox-image-description {
 	opacity: 0;
     visibility: invisible;
+    outline: 0;
 }
 
 .lightbox-prev {
