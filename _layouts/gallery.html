@@ -14,12 +14,12 @@ sidebar: 'false'
 
 {% for gallery in site.galleries %} {% if gallery.name == page.title %} {% for art in gallery.arts %}
 <aside class="small-12 columns">
-    <a href="#x" class="lightbox-overlay" id="{{ forloop.index0 }}"></a>
+    <a href="#x" class="small-12 columns lightbox-overlay" id="{{ forloop.index0 }}"></a>
         <div class="lightbox-popup center-text">
             <div class="masonry-panel">{% if art.description %}
                 
                 <p tabindex="0" class="lightbox-image-description">{{ art.description }}<a class="lightbox-close-description">×</a></p>{% endif %}
-                <a href="#{{ forloop.index0 | plus: 1 }}"><img src="{{ site.baseurl }}/{{ art.image }}" alt="{{ art.title }}"></a>
+                <a href="#{{ forloop.index0 | plus: 1 }}"><img class="lightbox-image" src="{{ site.baseurl }}/{{ art.image }}" alt="{{ art.title }}"></a>
                 {% if art.title %}<figcaption class="lightbox-caption">{{ art.title }}</figcaption>{% endif %}
 
             
