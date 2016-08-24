@@ -50,7 +50,9 @@
 .lightbox-overlay:target + .lightbox-popup {
   top: 50%;
   opacity: 1;
-  visibility: visible; }
+  visibility: visible;
+  transition: opacity ease-in-out 0.5s;
+  margin: 1em; }
 
 .lightbox-popup-close {
   background-color: #fff;
@@ -71,13 +73,21 @@
 .lightbox-popup-close:hover {
   background-color: rgba(0, 0, 0, 0.8); }
 
+.lightbox-close-description {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 3px 3px 10px 10px;
+  font-size: 24px;
+  text-decoration: none;
+  line-height: 20px; }
+
 .lightbox-popup p, .lightbox-popup div {
   margin-bottom: 10px; }
 
-.lightbox-image {
-  background: url(../images/nami.png) repeat #000 fixed !important;
-  margin-bottom: 15px;
-  padding-top: 0px; }
+.lightbox-image-container {
+  height: 100%; }
 
 .lightbox-image-description {
   width: 100%;
@@ -90,12 +100,19 @@
   background: rgba(0, 0, 0, 0.8);
   color: #fff;
   font-size: 17px;
-  opacity: 0;
+  opacity: 1;
   text-align: center;
   transition: opacity ease-in-out 0.5s; }
 
-.masonry-panel:hover .lightbox-image-description {
-  opacity: 1; }
+p:focus {
+  opacity: 0;
+  visibility: invisible;
+  outline: 0; }
+
+p:focus ~ .lightbox-image-description {
+  opacity: 0;
+  visibility: invisible;
+  outline: 0; }
 
 .lightbox-prev {
   position: absolute;
@@ -106,10 +123,15 @@
   line-height: 300px;
   border: 3px solid transparent;
   left: -50px;
-  background-color: #fff; }
+  background-color: #fff;
+  background-color: #fff;
+  -webkit-border-radius: 15px 0 0 15px;
+  -moz-border-radius: 15px 0 0 15px;
+  -ms-border-radius: 15px 0 0 15px;
+  -o-border-radius: 15px 0 0 15px;
+  border-radius: 15px 0 0 15px; }
 
 .lightbox-prev:hover {
-  background-color: rgba(255, 255, 255, 0.8);
   color: black; }
 
 .lightbox-next {
@@ -121,10 +143,14 @@
   line-height: 300px;
   border: 3px solid transparent;
   right: -50px;
-  background-color: #fff; }
+  background-color: #fff;
+  -webkit-border-radius: 0 15px 15px 0;
+  -moz-border-radius: 0 15px 15px 0;
+  -ms-border-radius: 0 15px 15px 0;
+  -o-border-radius: 0 15px 15px 0;
+  border-radius: 0 15px 15px 0; }
 
 .lightbox-next:hover {
-  background-color: rgba(255, 255, 255, 0.8);
   color: black; }
 
 a.lightbox-prev, a.lightbox-next {
@@ -1959,7 +1985,9 @@ button {
     width: 100%; }
 
   .lightbox-popup {
-    width: 80%;
+    width: 90%;
+    max-width: 90%;
+    height: auto;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     -ms-border-radius: 0px;
@@ -1972,12 +2000,13 @@ button {
     box-shadow: 0; }
 
   .lightbox-popup .masonry-panel {
-    margin: 5px 0 10px 0; }
+    margin: 40px 0 10px 0; }
 
   .lightbox-overlay:target + .lightbox-popup {
     top: 50%;
     opacity: 1;
-    visibility: visible; }
+    visibility: visible;
+    margin: 0; }
 
   .lightbox-popup-close {
     background-color: #fff;
@@ -2038,4 +2067,7 @@ button {
     -webkit-font-smoothing: antialiased; }
 
   .lightbox-popup div {
-    margin-top: 40px; } }
+    margin-top: 40px; }
+
+  .biopic {
+    padding-left: .2em; } }

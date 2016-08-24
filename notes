@@ -3,13 +3,11 @@ Documentation
 
 Variables/Settings
 
-Mobile
 
 Attribution
     - lightbox
     - gallery grid
-    
-    
+
     
 Clean up layout.scss
 Clean up navigation.scss
