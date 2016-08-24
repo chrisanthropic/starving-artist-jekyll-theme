@@ -39,7 +39,9 @@ figure > img.thumb {
 }
 
 .lightbox-popup {
-    width: 80%;
+    width: 90%;
+    max-width: 90%;
+    height: auto;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     -ms-border-radius: 0px;
@@ -60,6 +62,7 @@ figure > img.thumb {
     top: 50%;
     opacity: 1;
     visibility: visible;
+    margin: 0;
 }
 
 .lightbox-popup-close {

@@ -19,7 +19,7 @@ sidebar: 'false'
             <div class="masonry-panel">{% if art.description %}
                 
                 <p tabindex="0" class="lightbox-image-description">{{ art.description }}<a class="lightbox-close-description">×</a></p>{% endif %}
-                <a href="#{{ forloop.index0 | plus: 1 }}"><img src="{{ site.baseurl }}/{{ art.image }}" alt="{{ art.title }}" width="400"></a>
+                <a href="#{{ forloop.index0 | plus: 1 }}"><img src="{{ site.baseurl }}/{{ art.image }}" alt="{{ art.title }}"></a>
                 {% if art.title %}<figcaption class="lightbox-caption">{{ art.title }}</figcaption>{% endif %}
 
             
