@@ -87,8 +87,7 @@
   margin-bottom: 10px; }
 
 .lightbox-image {
-  max-width: 100%;
-  height: auto; }
+  max-height: 90%; }
 
 .lightbox-image-container {
   height: 100%; }
@@ -1987,6 +1986,9 @@ button {
     border-radius: 10px;
     padding: 0px;
     width: 100%; }
+
+  .lightbox-image {
+    max-width: 90%; }
 
   .lightbox-popup {
     width: 90%;
