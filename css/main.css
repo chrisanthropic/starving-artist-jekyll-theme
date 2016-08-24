@@ -87,7 +87,8 @@
   margin-bottom: 10px; }
 
 .lightbox-image {
-  max-width: 90%; }
+  max-width: 100%;
+  height: auto; }
 
 .lightbox-image-container {
   height: 100%; }
