@@ -1988,7 +1988,7 @@ button {
     width: 100%; }
 
   .lightbox-image {
-    max-height: 550px; }
+    width: 400px; }
 
   .lightbox-popup {
     width: 90%;
