@@ -86,6 +86,9 @@
 .lightbox-popup p, .lightbox-popup div {
   margin-bottom: 10px; }
 
+.lightbox-image {
+  max-width: 90%; }
+
 .lightbox-image-container {
   height: 100%; }
 
