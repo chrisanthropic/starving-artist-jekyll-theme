@@ -4,7 +4,7 @@
 		  <li class="active"><a href="{{ site.baseurl }}{{ nav.href }}">{{ nav.title }}</a></li>
 		{% else %}
 		  {% if nav.href %}
-		  <li><a href="{{ site.baseurl }}{{ nav.href }}">{{ nav.title }}</a></li>
+		  <li class="header-nav"><a href="{{ site.baseurl }}{{ nav.href }}">{{ nav.title }}</a></li>
 		  {% endif %}
 	  {% endif %}
 	{% endfor %}

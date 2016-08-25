@@ -23,6 +23,23 @@
     opacity:.9;
 }
 
+ul > .header-nav > a {
+    color: $header-link-color;
+}
+
+ul > .header-nav > a:hover {
+    color: $header-link-hover-color 
+}
+
+ul > .header-nav > a:visited {
+    color: $header-link-color;
+}
+
+.site-header .menu .active > a {
+    background-color: $header-active-link-color;
+    color: $header-link-color;
+}
+
 // Containers
 .content_container {
     flex: 1;

@@ -1,5 +1,5 @@
 ---
 layout: gallery
-title: "concept-art"
+title: "concept art"
 permalink: "/concept-art/"
 --- 

@@ -104,6 +104,7 @@
 }
 
 .lightbox-close-description {
+    color: $lightbox-navigation-color;
     position: fixed;
     right: 25px;
     z-index: 999;
@@ -154,11 +155,14 @@ p:focus ~ .lightbox-image-description {
     right: -50px;
 }
 
-.lightbox-prev:hover, .lightbox-next:hover, .lightbox-popup-close:hover {
-    color: $lightbox-navigation-hover-color;
+a.lightbox-prev, a.lightbox-next, a.lightbox-popup-close {
+    color: $lightbox-navigation-color;
+    font-size: 5em;
+    -webkit-font-smoothing: antialiased;
 }
 
-a.lightbox-prev, a.lightbox-next, a.lightbox-popup-close {
+a.lightbox-prev:visited, a.lightbox-next:visited, a.lightbox-popup-close:visited {
+    color: $lightbox-navigation-color;
     font-size: 5em;
     -webkit-font-smoothing: antialiased;
 }

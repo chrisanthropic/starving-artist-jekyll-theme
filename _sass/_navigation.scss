@@ -47,7 +47,7 @@
 	font-family: $navbar-font-family;
 	font-size: $navbar-font-size;
 	font-weight: 700;
-	color: $secondary-color;
+	color: $hamburger-icon-color;
 	text-transform: uppercase;
 	text-decoration: none;
 	
@@ -234,7 +234,7 @@
 	}
 
 	#nav #hideMenu>a {
-		color: $secondary-color;
+		color: $hamburger-icon-color;
 	}
 
 	#toggleMenu>a::after, #hideMenu>a::after {
@@ -244,8 +244,8 @@
 		top: 21px;
 		height: 9px;
 		width: 20px;
-		border-top: 2px solid $secondary-color;
-		border-bottom: 2px solid $secondary-color;
+		border-top: 2px solid $hamburger-icon-color;
+		border-bottom: 2px solid $hamburger-icon-color;
 		z-index: 1;
 	}
 
@@ -256,12 +256,12 @@
 		top: 13px;
 		height: 3px;
 		width: 20px;
-		border-bottom: 2px solid $secondary-color;
+		border-bottom: 2px solid $hamburger-icon-color;
 		z-index: 1;
 	}
 
 	#hideMenu>a::after, #hideMenu>a::before {
-		border-color: $secondary-color;
+		border-color: $hamburger-icon-color;
 	}
 	
 	.navbar {
