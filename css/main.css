@@ -1981,7 +1981,7 @@ button {
 
   .lightbox-popup .masonry-panel {
     padding: 0px;
-    margin: 0px; }
+    margin: 10px 0 0 0; }
 
   .lightbox-nav-wrap {
     position: fixed;
