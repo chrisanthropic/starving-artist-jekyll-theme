@@ -87,7 +87,7 @@ figure > img.thumb {
 }
 
 .lightbox-overlay {
-    background-color: black;
+    background-color: $lightbox-background-color;
 }
 /*  */
 .lightbox-overlay:target+.lightbox-popup {

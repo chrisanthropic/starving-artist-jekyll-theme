@@ -16,8 +16,13 @@ $base-font-size: 1.0em;
 $small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-
 // Header Settings
+$header-color: $primary-color;
+
+// Sidebar Settings
+$sidebar-color: lighten($primary-color, 75%);
+
+// Mobile Navbar Settings
 $navbar-height: 0px;
 $navbar-color: $primary-color;
 $navbar-text-color: $secondary-color;
@@ -30,12 +35,19 @@ $navbar-font-family: "Open Sans", Helvetica, Arial, sans-serif;
 $socials-font-color: $secondary-color;
 $socials-font-size: 1.5em;
 
+// Gallery Lightbox Pop-Up
+$lightbox-background-color: rgba(0, 0, 0, 0.95);
+$lightbox-border-color: $complimentary-color;
+$lightbox-description-background-color: rgba(254, 254, 254, 0.8);
+$lightbox-description-text-color: black;
+$lightbox-caption-text-color: #fefefe;
+$lightbox-navigation-hover-color: #fefefe;
+
 // Utility
 $spacing-unit: 30px;
 
 // Layout Settings
 $header-margin: 6rem;
-
 
 // Buttons
 $button-color: $link-color;

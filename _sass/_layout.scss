@@ -16,7 +16,7 @@
 // Header
 #header {
     padding: 0.9375rem 0;
-    background-color: $navbar-color;
+    background-color: $header-color;
 }
 
 .header-logo:hover {
@@ -47,7 +47,7 @@
 }
 
 .recent-posts {
-  font-size: 0.8rem;
+    font-size: 0.8rem;
 }
 
 // Pages
@@ -61,20 +61,20 @@
 
 .sidebar {
     order: 2;
-    background-color: #efefef;
+    background-color: $sidebar-color;
 }
 
 .sidebar h2 {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .sidebar ul li {
-  padding: 0 0 1rem 0;   
+    padding: 0 0 1rem 0;   
 }
 
 
 .roll {
-  margin-bottom: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 

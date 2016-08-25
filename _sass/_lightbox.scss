@@ -1,7 +1,7 @@
 // code taken from: http://www.script-tutorials.com/css3-modal-popups/
 
 .lightbox-overlay {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
     bottom: 0;
     cursor: default;
     left: 0;
@@ -29,8 +29,7 @@
 }
 
 .lightbox-popup {
-    background-color: #fff;
-    border: 3px solid #fff;
+    border: 3px solid $lightbox-border-color;
     left: 50%;
     opacity: 0;
     padding: 0;
@@ -67,7 +66,7 @@
 }
 
 .lightbox-overlay:target+.lightbox-popup {
-    background: rgba(0, 0, 0, 0.95);
+    background: $lightbox-background-color;
     top: 50%;
     opacity: 1;
     visibility: visible;
@@ -92,8 +91,8 @@
     width: 100%;
     z-index: 99;
     padding: 10px;
-    background: rgba(254, 254, 254, 0.8);
-    color: black;
+    background: $lightbox-description-background-color;
+    color: $lightbox-description-text-color;
     font-size: 1em;
     opacity: 1;
     text-align: center;
@@ -127,7 +126,7 @@ p:focus ~ .lightbox-image-description {
 }
 
 .lightbox-caption {
-    color: #fefefe;
+    color: $lightbox-caption-text-color;
 }
 
 ////////////////////////////////////////////////////
@@ -156,7 +155,7 @@ p:focus ~ .lightbox-image-description {
 }
 
 .lightbox-prev:hover, .lightbox-next:hover, .lightbox-popup-close:hover {
-    color: #fefefe;
+    color: $lightbox-navigation-hover-color;
 }
 
 a.lightbox-prev, a.lightbox-next, a.lightbox-popup-close {
