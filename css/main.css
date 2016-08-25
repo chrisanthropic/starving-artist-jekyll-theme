@@ -605,7 +605,7 @@ pre {
   flex-wrap: nowrap; }
 
 .menu > li {
-  font-size: 2em !important;
+  font-size: 1.5em !important;
   text-transform: uppercase; }
 
 .menu > li > a {
@@ -702,7 +702,7 @@ input[type="submit"] {
   will-change: overflow; }
 
 .wraptainer {
-  margin-top: 6rem; }
+  margin-top: 2rem; }
 
 #header {
   padding: 0.9375rem 0;
