@@ -32,53 +32,88 @@ figure > img.thumb {
 }
 
 .masonry-panel {
-  margin: 5px;
-  border-radius: 10px;
-  padding: 0px;
-  width: 100%;
-}
-
-.lightbox-image {
-    width: 400px;
+    border-radius: 0px;
 }
 
 .lightbox-popup {
-    width: 90%;
-    max-width: 90%;
-    height: auto;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -ms-border-radius: 0px;
-    -o-border-radius: 0px;
-    border-radius: 0px;
-    -webkit-box-shadow: 0;
-    -moz-box-shadow: 0;
-    -ms-box-shadow: 0;
-    -o-box-shadow: 0;
-    box-shadow: 0;
+    width: 300px;
+    max-height: 100%;
+    border-radius: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-box-orient: horizontal; 
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    flex-direction: row;
+
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    justify-content: center;
+
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;  
+    align-items: center;
 }
 
 .lightbox-popup .masonry-panel {
-   margin: 40px 0 10px 0;   
+    padding: 0px;
+    margin: 0px;
 }
 
+.lightbox-nav-wrap {
+    position: fixed;
+    top: 0;
+}
+
+.lightbox-image {
+	margin: auto;
+    width: 100%;
+    max-width: 300px;
+    max-height:100%;
+    height: auto;
+}
+
+.lightbox-image-description {
+    margin: 0 30px 4px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.lightbox-overlay {
+    background-color: black;
+}
+/*  */
 .lightbox-overlay:target+.lightbox-popup {
-    top: 50%;
+    right: 0;
     opacity: 1;
+    position: absolute;
     visibility: visible;
+    height: 100%;
+    box-shadow: 0 3px 7px rgba(0,0,0,.25);
+    box-sizing: border-box;
     margin: 0;
+
+}
+
+.lightbox-nav {
+    float: left;
+    width: 33%;
 }
 
 .lightbox-popup-close {
-    background-color: #fff;
-    left: 66%;
-    right: 0;
+    top: 0px;
     position: fixed;
+    right: 30px;
     border: none;
     opacity: 1;
     margin: 0;
-    top: 0px;
-    bottom: auto;
     width: auto;
     height: 40px;
     border-radius: 0;
@@ -91,13 +126,12 @@ figure > img.thumb {
 }
 
 .lightbox-prev {
-    left: 0;
-    right: 66%;
     position: fixed;
+    left: 30px;
     border: none;
     opacity: 1;
     margin: 0;
-    top: 0px;
+    top: -8px;
     bottom: auto;
     width: auto;
     height: 40px;
@@ -111,15 +145,13 @@ figure > img.thumb {
 }
 
 .lightbox-next {
-    left: 33%;
-    right: 33%;
     position: fixed;
+    left: 130px;
     border: none;
     opacity: 1;
     margin: 0;
-    top: 0px;
+    top: -8px;
     bottom: auto;
-    width: auto;
     height: 40px;
     border-radius: 0;
     line-height: 40px;
@@ -130,8 +162,14 @@ figure > img.thumb {
     -webkit-font-smoothing: antialiased;
 }
 
+a.lightbox-prev, a.lightbox-next, a.lightbox-popup-close {
+    font-size: 4em;
+}
+
 .lightbox-popup div {
-    margin-top: 40px;
+    margin: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .biopic {
