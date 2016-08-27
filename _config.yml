@@ -16,6 +16,9 @@ header_med: images/logo.png
 header_large: images/logo.png
 header_xl: images/logo.png
 
+# Formspree contact Form
+contact_form: "https://formspree.io/ctarwater@chrisanthropic.com"
+
 
 # Exclude our ruby stuff
 exclude: [.bundle, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml, .last_optimized]
