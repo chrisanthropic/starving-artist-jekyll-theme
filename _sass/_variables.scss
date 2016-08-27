@@ -1,13 +1,13 @@
 // Base Colors
-$primary-color: #486779;
+$primary-color: #494d7a;
 $secondary-color: #aaa;
 $complimentary-color: #fefefe;
 $body-bg: #f3f3f2;
 $body-font-color: #333;
 
 // Links
-$link-color: #2199e8;
-$link-hover-color: darken($link-color, 25%);
+$link-color: $primary-color;
+$link-hover-color: lighten($link-color, 15%);
 $link-visited-color: lighten($link-color, 25%);
 
 // Text
@@ -21,7 +21,7 @@ $header-color: $primary-color;
 $header-link-color: $complimentary-color;
 $header-link-hover-color: $link-color;
 $header-link-visted-color: $link-color;
-$header-active-link-color: #7a99ab;
+$header-active-link-color: #6f77c2;
 
 // Sidebar Settings
 $sidebar-color: lighten($primary-color, 55%);
@@ -57,6 +57,6 @@ $spacing-unit: 30px;
 $header-margin: 2rem;
 
 // Buttons
-$button-color: $link-hover-color;
-$button-hover: $link-color;
+$button-color: #6f77c2;
+$button-hover: #494d7a;
 $button-text-color: #fff;
