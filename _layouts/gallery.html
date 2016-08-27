@@ -5,8 +5,8 @@ sidebar: 'false'
 <div class="masonry">
     <div>  {% for gallery in site.galleries %} {% if gallery.name == page.title %} {% for art in gallery.arts %}
         <div class="masonry-panel">
-            <a href="#{{ forloop.index0 }}" data-caption-desc="{{ art.caption }}">
-                <img src="{{ site.baseurl }}/{{ art.image }}" class="zoom">
+            <a href="#{{ art.order }}" data-caption-desc="{{ art.description }}">
+                <img src="{{ site.baseurl }}/{{ art.image }}" alt="{{ art.title }}"class="zoom">
             </a>
         </div>{% endfor %} {% endif %} {% endfor %}
     </div>
@@ -14,14 +14,14 @@ sidebar: 'false'
 
 {% for gallery in site.galleries %} {% if gallery.name == page.title %} {% for art in gallery.arts %}
 <aside class="small-12 columns">
-    <a href="#x" class="small-12 columns lightbox-overlay" id="{{ forloop.index0 }}"></a>
+    <a href="#x" class="small-12 columns lightbox-overlay" id="{{ art.order }}"></a>
         <div class="lightbox-popup center-text">
         <div class="small-12 columns lightbox-nav-wrap">
                     <div class="small-4 lightbox-nav">
-                        <a class="lightbox-prev" href="#{{ forloop.index0 | minus: 1 }}">&#171;</a>
+                        <a class="lightbox-prev" href="#{{ art.order | minus: 1 }}">&#171;</a>
                     </div>
                     <div class="small-4 lightbox-nav">
-                        <a class="lightbox-next" href="#{{ forloop.index0 | plus: 1 }}">&#187;</a>
+                        <a class="lightbox-next" href="#{{ art.order | plus: 1 }}">&#187;</a>
                     </div>
                     <div class="small-4 lightbox-nav">
                         <a class="lightbox-popup-close" href="#close">&times;</a>
@@ -31,8 +31,8 @@ sidebar: 'false'
             <div class="masonry-panel">
                 <div class="small-12 columns">
                     <div class="columns">
-                        <a href="#{{ forloop.index0 | plus: 1 }}"><img class="lightbox-image" src="{{ site.baseurl }}/{{ art.image }}" alt="{{ art.title }}"></a>{% if art.description %}<p tabindex="0" class="lightbox-image-description">{{ art.description }}<a class="lightbox-close-description">×</a></p>{% endif %}
-                        {% if art.title %}<figcaption class="lightbox-caption">{{ art.title }}</figcaption>{% endif %}
+                        <a href="#{{ art.order | plus: 1 }}"><img class="lightbox-image" src="{{ site.baseurl }}/{{ art.image }}" alt="{{ art.title }}"></a>{% if art.description %}<p tabindex="0" class="lightbox-image-description">{{ art.description }}<a class="lightbox-close-description">×</a></p>{% endif %}
+                        <figcaption class="lightbox-caption">{% if art.title %}{{ art.title }}{% endif %} {% if art.artist %}- By {{ art.artist }}{% endif %}</figcaption>
                     </div>
                 </div>
             </div>

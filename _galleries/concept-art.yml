@@ -1,39 +1,33 @@
 ---
 name: "concept art"
-artist: "Artist Name"
 arts:
   
 - image: "images/galleries/Lady-with-Hat-and-Feather-Boa.jpg"
   title: "title"
-  caption: "caption"
   alt: "alt_text"
   description: "description"
   link: ""
   
 - image: "images/galleries/Fulfillment.jpg"
   title: "title"
-  caption: "caption"
   alt: "alt_text"
   description: "description"
   link: ""
   
 - image: "images/galleries/Gustav_Klimt_046.jpg"
   title: "title"
-  caption: "caption"
   alt: "alt_text"
   description: "description"
   link: ""
   
 - image: "images/galleries/hygeia-detail-of-medicine-1907.jpg"
   title: "title"
-  caption: "caption"
   alt: "alt_text"
   description: "description"
   link: ""
   
 - image: "images/galleries/klimt.jpg"
   title: "title"
-  caption: "caption"
   alt: "alt_text"
   description: "description"
   link: ""
