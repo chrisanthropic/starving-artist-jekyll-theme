@@ -2,34 +2,16 @@
 name: "concept art"
 arts:
   
-- image: "images/galleries/Lady-with-Hat-and-Feather-Boa.jpg"
+- image: "images/galleries/concept_art/Gregory-Rasputin.jpg"
+  order: "1"
   title: "title"
-  alt: "alt_text"
   description: "description"
-  link: ""
+  artist:
   
-- image: "images/galleries/Fulfillment.jpg"
+- image: "images/galleries/concept_art/pubdom2.png"
+  order: "2"
   title: "title"
-  alt: "alt_text"
   description: "description"
-  link: ""
-  
-- image: "images/galleries/Gustav_Klimt_046.jpg"
-  title: "title"
-  alt: "alt_text"
-  description: "description"
-  link: ""
-  
-- image: "images/galleries/hygeia-detail-of-medicine-1907.jpg"
-  title: "title"
-  alt: "alt_text"
-  description: "description"
-  link: ""
-  
-- image: "images/galleries/klimt.jpg"
-  title: "title"
-  alt: "alt_text"
-  description: "description"
-  link: ""
+  artist:
   
 ---
