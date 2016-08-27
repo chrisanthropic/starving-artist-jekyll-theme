@@ -40,6 +40,11 @@ ul > .header-nav > a:visited {
     color: $header-link-color;
 }
 
+.socials {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
 // Containers
 .content_container {
     flex: 1;
