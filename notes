@@ -1,20 +1,13 @@
-- Add socials to sidebar
-- minify_html layout
-- change artwork
-
-- contact/about pages are cut off from main menu on Tristan's computer
-    .wraptainer 2rem?
-
----------------------
+--------------------
 Documentation
     - frontmatter (permalink, sidebar, facebook, twitter, )
     - galleries
     - pages
     - thumbnails
     - lightbox
-    
+    - contact form
 
 Attribution
     - lightbox
     - gallery grid
-
+    - html minify
