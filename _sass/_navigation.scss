@@ -74,6 +74,10 @@
 	padding-right: 28px;
 }
 
+.dropdown a {
+    color: $header-link-color;
+}
+
 // Dropdown menu arrow
 .dropdown>a::after {
 	position: absolute;
@@ -85,6 +89,17 @@
 	border-top-color: inherit;
 	right: 11px;
 	top: ($navbar-height / 2);
+}
+
+.menu>li.dropdown {
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+}
+
+#nav > ul > li > a:hover > ul {
+    left: 0px;
+    opacity: 1;
 }
 
 // Submenus

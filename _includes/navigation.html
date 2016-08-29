@@ -1,11 +1,31 @@
-  <ul class="menu">
+<ul class="menu primary-nav">  
 	{% for nav in site.data.nav %}
-		{% if nav.title == page.title %}
-		  <li class="active"><a href="{{ site.baseurl }}{{ nav.href }}">{{ nav.title }}</a></li>
+	  {% if nav.subcategories != null %}
+	    <li class="dropdown">
+	      <a href="{{ site.baseurl }}{{ nav.url }}">{{ nav.title }}</a>
+		<ul>
+		  {% for subcategory in nav.subcategories %}
+		    <li><a href="{{ site.baseurl }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+		  {% endfor %}
+		</ul>
+	    </li>
+	{% elsif nav.external-subcategories != null %}
+	    <li class="dropdown">
+	      <a href="{{ site.url }}{{ nav.url }}">{{ nav.title }}</a>
+		<ul>
+		  {% for subcategory in nav.external-subcategories %}
+		    <li><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+		  {% endfor %}
+		</ul>
+	    </li>
+		{% elsif nav.title == page.title %}
+		  <li class="active"><a href="{{ nav.href }}">{{ nav.title }}</a></li>
 		{% else %}
 		  {% if nav.href %}
 		  <li class="header-nav"><a href="{{ site.baseurl }}{{ nav.href }}">{{ nav.title }}</a></li>
+		    {% elsif nav.external %}
+		    <li class="header-nav"><a href="{{ nav.external }}">{{ nav.title }}</a></li>
 		  {% endif %}
 	  {% endif %}
 	{% endfor %}
-  </ul>
+</ul>

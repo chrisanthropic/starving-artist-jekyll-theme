@@ -4,6 +4,13 @@
 - title: "covers"
   href: "/covers/"
   
+- title: "documentation"
+  subcategories:
+    - subtitle: "Page 1"
+      subhref: "/"
+    - subtitle: "Page 2"
+      subhref: "/"
+  
 - title: "blog"
   href: "/blog/"
 
