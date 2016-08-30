@@ -10,7 +10,8 @@
 @import "lightbox";
 
 // Navigation Menu
-@import "navigation";
+@import "horizmenu";
+@import "vertmenu";
 
 @import "galleries";
 
@@ -30,3 +31,4 @@
 
 // Misc.
 @import "mobile";
+@import "landscape";

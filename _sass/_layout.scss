@@ -17,6 +17,7 @@
 #header {
     padding: 0.9375rem 0;
     background-color: $header-color;
+    z-index: 999;
 }
 
 .header-logo:hover {

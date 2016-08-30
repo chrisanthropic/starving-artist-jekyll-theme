@@ -6,7 +6,7 @@ layout: compress
   {% include head.html %}
   <body>
     <main class="wrap">
-          <nav class="show-for-small-only navbar">
+        <nav class="hide-for-large navbar">
           {% include mobilenav.html %}
         </nav>
       {% include header.html %}
@@ -14,7 +14,7 @@ layout: compress
           {{ content }}
       </div>
       {% if page.sidebar != 'false'  %}
-        <aside class="small-12 medium-2 columns sidebar page-content recent-posts">
+        <aside class="small-12 large-2 columns sidebar page-content recent-posts">
           {% include asides/recent_posts.html %}
         </aside>
       {% endif %}

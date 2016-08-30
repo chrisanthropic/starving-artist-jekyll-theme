@@ -10,7 +10,7 @@
       subhref: "/"
     - subtitle: "Page 2"
       subhref: "/"
-  
+
 - title: "blog"
   href: "/blog/"
 

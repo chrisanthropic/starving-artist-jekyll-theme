@@ -1,0 +1,123 @@
+/**
+ * Vertical Menu
+ */
+.menu {
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    display: block;
+    text-align: right;
+}
+
+.menu > li {
+    font-size: 1.5em !important;
+    text-transform: uppercase;
+}
+
+.menu > li > a {
+    line-height: 1;
+    padding: 0.7rem 1rem;
+    display: block;
+}
+
+.menu > li > a:hover {
+    color: $navbar-hover-color;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.menu .active > a {
+    background: $navbar-active-color;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+} 
+
+.menu>li.dropdown {
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+}
+
+.menu>.dropdown a {
+    color: $header-link-color;
+}
+
+
+// Submenus
+.menu .dropdown ul {
+	z-index: 2;
+	display: block;
+	position: absolute;
+    margin-left: 100%;
+    margin-top: -20%;
+	opacity: 0;
+	background: $navbar-color;
+	cursor: pointer;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	-webkit-transition: opacity .22s ease-in;
+	-ms-transition: opacity .22s ease-in;
+	-moz-transition: opacity .22s ease-in;
+	-o-transition: opacity .22s ease-in;
+	transition: opacity .22s ease-in;
+}
+
+.menu .dropdown ul li {
+	display: block;
+	position: relative;
+	line-height: 20px;
+	-webkit-transition: height .15s ease-in;
+	-ms-transition: height .15s ease-in;
+	-moz-transition: height .15s ease-in;
+	-o-transition: height .15s ease-in;
+	transition: height .15s ease-in;
+}
+
+// Dropdown menu arrow
+.menu>.dropdown>a::after {
+    padding-left: .5em;
+    content: "\25B8";
+}
+
+// Hide Submenus
+.menu .dropdown .dropdown-child {
+    display: none;
+}
+
+// Show Submenu when its parent is hovered
+.menu>li.dropdown:hover>ul {
+    display: block;
+    opacity: 1;
+}
+
+
+// Submenu links
+.menu .dropdown ul li a {
+	/* Layout */
+	display: block;
+	padding: 7px 12px 7px 22px;
+	width: 200px;
+
+	/* Typography */
+	font-family: $navbar-font-family;
+	font-size: ($navbar-font-size * .92);
+	text-decoration: none;
+	color: #fefefe;
+	font-weight: 400;
+	
+	/* Background & effects */
+	background: $navbar-color;
+	-webkit-transition: color .2s ease-in, border-left-color .2s ease-in;;
+	-ms-transition: color .2s ease-in, border-left-color .2s ease-in;;
+	-moz-transition: color .2s ease-in, border-left-color .2s ease-in;;
+	-o-transition: color .2s ease-in, border-left-color .2s ease-in;;
+	transition: color .2s ease-in, border-left-color .2s ease-in;;
+}
+
+// Change the link color on hover
+.menu .dropdown ul li:hover>a {
+	color: $navbar-hover-color;
+    background: lighten($navbar-color, 10%);
+}
