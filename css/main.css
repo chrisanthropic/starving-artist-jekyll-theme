@@ -359,7 +359,12 @@ a.lightbox-prev:visited, a.lightbox-next:visited, a.lightbox-popup-close:visited
   content: "\25B8"; }
 
 .menu .dropdown .dropdown-child {
-  display: none; }
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 5px;
+  z-index: 520;
+  width: auto; }
 
 .menu > li.dropdown:hover > ul {
   display: block;
@@ -368,8 +373,10 @@ a.lightbox-prev:visited, a.lightbox-next:visited, a.lightbox-popup-close:visited
 .menu .dropdown ul li a {
   /* Layout */
   display: block;
-  padding: 7px 12px 7px 22px;
+  padding: 10px 0px 10px 0px;
   width: 200px;
+  text-align: center;
+  border-bottom: 1px solid #aaaccc;
   /* Typography */
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 11.96px;
