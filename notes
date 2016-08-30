@@ -12,3 +12,22 @@ Attribution
     - lightbox
     - gallery grid
     - html minify
+
+ToDo
+    - default style for 'large'
+        - 768 width at the smallest (based on 12" laptop)
+    - default styles for 'medium'
+        - 600 width at the largest (based on 10" netbook)
+        
+    - default styles for 'small'
+        - 800 width at the largest
+        
+        
+        
+small
+    0-768px width
+    
+    
+large
+small - medium
+small - medium (landscape)
