@@ -84,6 +84,11 @@
 // Hide Submenus
 .menu .dropdown .dropdown-child {
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 5px;
+    z-index: 520;
+    width: auto;
 }
 
 // Show Submenu when its parent is hovered
@@ -97,8 +102,10 @@
 .menu .dropdown ul li a {
 	/* Layout */
 	display: block;
-	padding: 7px 12px 7px 22px;
+	padding: 10px 0px 10px 0px;
 	width: 200px;
+    text-align: center;
+    border-bottom: 1px solid lighten($navbar-color, 10%);
 
 	/* Typography */
 	font-family: $navbar-font-family;
