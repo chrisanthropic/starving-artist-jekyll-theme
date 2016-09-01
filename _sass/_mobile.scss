@@ -36,7 +36,7 @@ figure > img.thumb {
 }
 
 .lightbox-popup {
-    width: 300px;
+    width: 95%;
     max-height: 100%;
     border-radius: 0;
     display: -webkit-box;
@@ -44,6 +44,7 @@ figure > img.thumb {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    left: 50%;
 
     -webkit-box-orient: horizontal; 
     -moz-box-orient: horizontal;
@@ -74,7 +75,7 @@ figure > img.thumb {
 .lightbox-image {
     margin: auto;
     width: 70vw;
-    max-width: 300px;
+    max-width: 80vw;
     max-height: 95vh;
     height: auto;
 }
@@ -95,7 +96,7 @@ figure > img.thumb {
     opacity: 1;
     position: absolute;
     visibility: visible;
-    height: 100%;
+    height: 99%;
     box-shadow: 0 3px 7px rgba(0,0,0,.25);
     box-sizing: border-box;
     margin: 0;
@@ -146,7 +147,7 @@ figure > img.thumb {
 
 .lightbox-next {
     position: fixed;
-    left: 130px;
+    left: 48%;
     border: none;
     opacity: 1;
     margin: 0;
@@ -266,7 +267,9 @@ a.lightbox-prev, a.lightbox-next, a.lightbox-popup-close {
 	}
 
 	#toggleMenu>a::before, #hideMenu>a::before {
-		position: absolute;
+		position: absolute;    .lightbox-next {
+        left: 48%;
+    }
 		content: "";
 		right: 35px;
 		top: 13px;
@@ -291,3 +294,47 @@ a.lightbox-prev, a.lightbox-next, a.lightbox-popup-close {
 	}
 
 } //End of Mobile Styles 
+
+//////////////////////////////////////////
+// Styling for netbooks and small laptops
+/////////////////////////////////////////
+@media screen and (max-width: 1024px) {  
+    [class^="icon-"], [class*=" icon-"] {
+        padding: 0 1px;
+    }
+    
+    .menu > li {
+        font-size: 1.1em !important;
+    }
+    
+    .menu > li > a {
+        line-height: 1;
+        padding: 0.4rem 0;
+        display: block;
+        margin-left: -10px;
+    }
+} // End of Netbook Styles
+
+/////////////////////
+// Styling for iPads
+/////////////////////
+@media (max-width: 768px) and (orientation: portrait) { 
+    .hide-for-ipad {
+        display: none !important;
+    }
+    #header.medium-3 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+} // End of iPad Styles
+
+////////////////////////
+// Styling for tablets
+////////////////////////
+@media (max-width: 800px) and (min-width: 500px) and (orientation: portrait) {
+    .lightbox-popup {
+        width: 95%;
+        max-height: 100%;
+    }
+
+} // End of Tablet Styles

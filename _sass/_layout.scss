@@ -17,7 +17,7 @@
 #header {
     padding: 0.9375rem 0;
     background-color: $header-color;
-    z-index: 999;
+    z-index: 5;
 }
 
 .header-logo:hover {
@@ -42,6 +42,7 @@ ul > .header-nav > a:visited {
 }
 
 .social-container {
+    margin: 0;
     list-style-type: none;
     padding-top: 10px;
 }
