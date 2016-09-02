@@ -3,7 +3,7 @@
   <ul>
     {% for post in site.posts limit:5 site.recent_posts %}
       <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
+        <a href="{{ site.github.url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
       </li>
     {% endfor %}
   </ul>

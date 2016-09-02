@@ -6,9 +6,6 @@ author: Chrisanthropic
 keywords: jekyll, jekyll theme, portfolio theme, artist theme
 description: Witty description here.
 
-baseurl: /starving-artist-jekyll-theme
-url: /
-
 header: yes
 header_sm: images/logo.png
 header_med: images/logo.png

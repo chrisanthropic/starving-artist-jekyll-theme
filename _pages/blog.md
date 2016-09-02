@@ -9,18 +9,18 @@ permalink: "/blog/"
         <header>
                 <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
                 <h2>
-                    <a class="post-link" href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
+                    <a class="post-link" href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a>
                 </h2>
         </header>
   {% if post.thumbnail %}
         <article>
             <a href="{{ site.url }}{{ post.url }}">
                 <figure>
-                    <img src="{{ site.baseurl }}/{{ post.thumbnail }}" class="thumb" />
+                    <img src="{{ site.github.url }}/{{ post.thumbnail }}" class="thumb" />
                 </figure>
             </a>
   {% endif %}
-                <p>{{ post.excerpt }}  <a href="{{ site.baseurl }}/{{ post.url }}">Read More</a></p>
+                <p>{{ post.excerpt }}  <a href="{{ site.github.url }}/{{ post.url }}">Read More</a></p>
         </article>
 </div>
 {% endfor %}

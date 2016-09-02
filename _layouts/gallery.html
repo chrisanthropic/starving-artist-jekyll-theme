@@ -6,7 +6,7 @@ sidebar: 'false'
     <div>  {% for gallery in site.galleries %} {% if gallery.name == page.title %} {% for art in gallery.arts %}
         <div class="masonry-panel">
             <a href="#{{ art.order }}" data-caption-desc="{{ art.description }}">
-                <img src="{{ site.baseurl }}/{{ art.image }}" alt="{{ art.title }}"class="zoom">
+                <img src="{{ site.github.url }}/{{ art.image }}" alt="{{ art.title }}"class="zoom">
             </a>
         </div>{% endfor %} {% endif %} {% endfor %}
     </div>
@@ -31,7 +31,7 @@ sidebar: 'false'
             <div class="masonry-panel">
                 <div class="small-12 columns">
                     <div class="columns">
-                        <a href="#{{ art.order | plus: 1 }}"><img class="lightbox-image" src="{{ site.baseurl }}/{{ art.image }}" alt="{{ art.title }}"></a>{% if art.description %}<p tabindex="0" class="lightbox-image-description">{{ art.description }}<a class="lightbox-close-description">×</a></p>{% endif %}
+                        <a href="#{{ art.order | plus: 1 }}"><img class="lightbox-image" src="{{ site.github.url }}/{{ art.image }}" alt="{{ art.title }}"></a>{% if art.description %}<p tabindex="0" class="lightbox-image-description">{{ art.description }}<a class="lightbox-close-description">×</a></p>{% endif %}
                         <figcaption class="lightbox-caption">{% if art.title %}{{ art.title }}{% endif %} {% if art.artist %}- By {{ art.artist }}{% endif %}</figcaption>
                     </div>
                 </div>
