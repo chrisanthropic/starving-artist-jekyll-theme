@@ -6,6 +6,10 @@ author: Chrisanthropic
 keywords: jekyll, jekyll theme, portfolio theme, artist theme
 description: Witty description here.
 
+# Only use this if you are serving your site via Github Pages
+github:
+  url: "https://chrisanthropic.github.io"
+
 header: yes
 header_sm: images/logo.png
 header_med: images/logo.png
