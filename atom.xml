@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <generator uri="http://jekyllrb.com" version="3.0.1">Jekyll</generator>
-<link href="https://chrisanthropic.github.io/atom.xml" rel="self" type="application/atom+xml" />
-<link href="https://chrisanthropic.github.io/" rel="alternate" type="text/html" />
-<updated>2016-09-02T09:08:43-07:00</updated>
-<id>https://chrisanthropic.github.io/</id>
+<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/atom.xml" rel="self" type="application/atom+xml" />
+<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/" rel="alternate" type="text/html" />
+<updated>2016-09-02T09:17:14-07:00</updated>
+<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/</id>
 <subtitle>Witty description here.</subtitle>
 <author>
 <name>Chrisanthropic</name>
 </author>
 <entry>
 <title>Sample post with thumbnail</title>
-<link href="https://chrisanthropic.github.io/blog/2016/sample-post-with-thumbnail" rel="alternate" type="text/html" title="Sample post with thumbnail" />
+<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2016/sample-post-with-thumbnail" rel="alternate" type="text/html" title="Sample post with thumbnail" />
 <published>2016-08-14T00:00:00-07:00</published>
 <updated>2016-08-14T00:00:00-07:00</updated>
-<id>https://chrisanthropic.github.io/blog/2016/sample-post-with-thumbnail</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/blog/2016/sample-post-with-thumbnail">&lt;p&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.&lt;/p&gt;
+<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2016/sample-post-with-thumbnail</id>
+<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2016/sample-post-with-thumbnail">&lt;p&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.&lt;/p&gt;
 
 &lt;p&gt;Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;
 
@@ -27,11 +27,11 @@
 </entry>
 <entry>
 <title>Using _data to Build Jekyll Navigation</title>
-<link href="https://chrisanthropic.github.io/blog/2014/using-_data-to-build-jekyll-navigation" rel="alternate" type="text/html" title="Using _data to Build Jekyll Navigation" />
+<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/using-_data-to-build-jekyll-navigation" rel="alternate" type="text/html" title="Using _data to Build Jekyll Navigation" />
 <published>2014-12-09T00:00:00-08:00</published>
 <updated>2014-12-09T00:00:00-08:00</updated>
-<id>https://chrisanthropic.github.io/blog/2014/using-_data-to-build-jekyll-navigation</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/blog/2014/using-_data-to-build-jekyll-navigation">&lt;p&gt;I wanted an easy way to create my navigation menus and I found a great post &lt;a href=&quot;http://www.tournemille.com/blog/How-to-create-data-driven-navigation-in-Jekyll/&quot;&gt;here&lt;/a&gt; on using the new-ish ‘data’ feature of Jekyll.&lt;/p&gt;
+<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/using-_data-to-build-jekyll-navigation</id>
+<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/using-_data-to-build-jekyll-navigation">&lt;p&gt;I wanted an easy way to create my navigation menus and I found a great post &lt;a href=&quot;http://www.tournemille.com/blog/How-to-create-data-driven-navigation-in-Jekyll/&quot;&gt;here&lt;/a&gt; on using the new-ish ‘data’ feature of Jekyll.&lt;/p&gt;
 
 &lt;p&gt;What this allows us to do is centralize our navigation setup (pages and subpages) so any changes are kept out of our actual layout code.&lt;/p&gt;
 
@@ -98,11 +98,11 @@
 </entry>
 <entry>
 <title>Integrating Compass and Jekyll Without Plugins</title>
-<link href="https://chrisanthropic.github.io/blog/2014/integrating-compass-and-jekyll-without-plugins" rel="alternate" type="text/html" title="Integrating Compass and Jekyll Without Plugins" />
+<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/integrating-compass-and-jekyll-without-plugins" rel="alternate" type="text/html" title="Integrating Compass and Jekyll Without Plugins" />
 <published>2014-12-09T00:00:00-08:00</published>
 <updated>2014-12-09T00:00:00-08:00</updated>
-<id>https://chrisanthropic.github.io/blog/2014/integrating-compass-and-jekyll-without-plugins</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/blog/2014/integrating-compass-and-jekyll-without-plugins">&lt;p&gt;I find myself getting closer to the point where I’m done with the scaffolding and can finally start with the design. The more fun stuff I look at the more I realize that integrating Compass is probably a good idea.&lt;/p&gt;
+<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/integrating-compass-and-jekyll-without-plugins</id>
+<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/integrating-compass-and-jekyll-without-plugins">&lt;p&gt;I find myself getting closer to the point where I’m done with the scaffolding and can finally start with the design. The more fun stuff I look at the more I realize that integrating Compass is probably a good idea.&lt;/p&gt;
 
 &lt;p&gt;I don’t like plugins unless absolutely necessarry so while I’m sure the jekyll-compass plugin is great, I decided to figure out how to add Compass to my Jekyll/Octopress 3 site without any plugins.&lt;/p&gt;
 
@@ -190,11 +190,11 @@ Running &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec rake build&l
 </entry>
 <entry>
 <title>Integrating the Foundation Zurb Grid With Jekyll</title>
-<link href="https://chrisanthropic.github.io/blog/2014/integrating-the-foundation-zurb-grid-with-jekyll" rel="alternate" type="text/html" title="Integrating the Foundation Zurb Grid With Jekyll" />
+<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/integrating-the-foundation-zurb-grid-with-jekyll" rel="alternate" type="text/html" title="Integrating the Foundation Zurb Grid With Jekyll" />
 <published>2014-12-08T00:00:00-08:00</published>
 <updated>2014-12-08T00:00:00-08:00</updated>
-<id>https://chrisanthropic.github.io/blog/2014/integrating-the-foundation-zurb-grid-with-jekyll</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/blog/2014/integrating-the-foundation-zurb-grid-with-jekyll">&lt;p&gt;I was playing with the idea of using Bourbon Neat to create a semantic grid but when it comes down to it I’m familiar with Zurb and I like how it works.&lt;/p&gt;
+<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/integrating-the-foundation-zurb-grid-with-jekyll</id>
+<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/integrating-the-foundation-zurb-grid-with-jekyll">&lt;p&gt;I was playing with the idea of using Bourbon Neat to create a semantic grid but when it comes down to it I’m familiar with Zurb and I like how it works.&lt;/p&gt;
 
 &lt;p&gt;I make a decent amount of sites for friends and non-profits and the benefits of Zurbs rapid prototyping are worth it for me.&lt;/p&gt;
 
@@ -253,11 +253,11 @@ Running &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec rake build&l
 </entry>
 <entry>
 <title>Deploy Jekyll to S3 With S3_website</title>
-<link href="https://chrisanthropic.github.io/blog/2014/deploy-jekyll-to-s3-with-s3_website" rel="alternate" type="text/html" title="Deploy Jekyll to S3 With S3_website" />
+<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/deploy-jekyll-to-s3-with-s3_website" rel="alternate" type="text/html" title="Deploy Jekyll to S3 With S3_website" />
 <published>2014-12-05T00:00:00-08:00</published>
 <updated>2014-12-05T00:00:00-08:00</updated>
-<id>https://chrisanthropic.github.io/blog/2014/deploy-jekyll-to-s3-with-s3_website</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/blog/2014/deploy-jekyll-to-s3-with-s3_website">&lt;p&gt;I’d originally set this up to deploy to S3 using the new-ish Octopress-Deploy gem but after using it a bit I’ve found that it’s still too rough to be my goto.&lt;/p&gt;
+<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/deploy-jekyll-to-s3-with-s3_website</id>
+<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/deploy-jekyll-to-s3-with-s3_website">&lt;p&gt;I’d originally set this up to deploy to S3 using the new-ish Octopress-Deploy gem but after using it a bit I’ve found that it’s still too rough to be my goto.&lt;/p&gt;
 
 &lt;p&gt;The main benefits of switching to S3_website are:&lt;/p&gt;
 
@@ -296,11 +296,11 @@ max_age:
 </entry>
 <entry>
 <title>An S3 Policy to Block Semalt Referral Traffic</title>
-<link href="https://chrisanthropic.github.io/blog/2014/an-s3-policy-to-block-semalt-referral-traffic" rel="alternate" type="text/html" title="An S3 Policy to Block Semalt Referral Traffic" />
+<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/an-s3-policy-to-block-semalt-referral-traffic" rel="alternate" type="text/html" title="An S3 Policy to Block Semalt Referral Traffic" />
 <published>2014-12-05T00:00:00-08:00</published>
 <updated>2014-12-05T00:00:00-08:00</updated>
-<id>https://chrisanthropic.github.io/blog/2014/an-s3-policy-to-block-semalt-referral-traffic</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/blog/2014/an-s3-policy-to-block-semalt-referral-traffic">&lt;p&gt;A lot of people have noticed shit tons of ferferral spam from semalt.com and their various other domains.&lt;/p&gt;
+<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/an-s3-policy-to-block-semalt-referral-traffic</id>
+<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/an-s3-policy-to-block-semalt-referral-traffic">&lt;p&gt;A lot of people have noticed shit tons of ferferral spam from semalt.com and their various other domains.&lt;/p&gt;
 
 &lt;p&gt;It’s fucking annoying.&lt;/p&gt;
 
@@ -361,11 +361,11 @@ max_age:
 </entry>
 <entry>
 <title>Rakefile: Minimize Assets and Optimize Images</title>
-<link href="https://chrisanthropic.github.io/blog/2014/rakefile-minimize-assets-and-optimize-images" rel="alternate" type="text/html" title="Rakefile: Minimize Assets and Optimize Images" />
+<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/rakefile-minimize-assets-and-optimize-images" rel="alternate" type="text/html" title="Rakefile: Minimize Assets and Optimize Images" />
 <published>2014-12-04T00:00:00-08:00</published>
 <updated>2014-12-04T00:00:00-08:00</updated>
-<id>https://chrisanthropic.github.io/blog/2014/rakefile-minimize-assets-and-optimize-images</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/blog/2014/rakefile-minimize-assets-and-optimize-images">&lt;p&gt;I used Octopress to build my wife’s webcomic site &lt;a href=&quot;http://www.shamseecomic.com&quot;&gt;ShamseeComic&lt;/a&gt; and learning how to optimize everything has been fun.&lt;/p&gt;
+<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/rakefile-minimize-assets-and-optimize-images</id>
+<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/rakefile-minimize-assets-and-optimize-images">&lt;p&gt;I used Octopress to build my wife’s webcomic site &lt;a href=&quot;http://www.shamseecomic.com&quot;&gt;ShamseeComic&lt;/a&gt; and learning how to optimize everything has been fun.&lt;/p&gt;
 
 &lt;p&gt;Now that I’m starting on this site from scratch (with a better understanding of Jekyll) I figured I’d revisit my old method and update it.&lt;/p&gt;
 
@@ -609,11 +609,11 @@ end
 </entry>
 <entry>
 <title>Moving From Github-Pages to S3</title>
-<link href="https://chrisanthropic.github.io/blog/2014/moving-from-github-pages-to-s3" rel="alternate" type="text/html" title="Moving From Github-Pages to S3" />
+<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/moving-from-github-pages-to-s3" rel="alternate" type="text/html" title="Moving From Github-Pages to S3" />
 <published>2014-12-03T00:00:00-08:00</published>
 <updated>2014-12-03T00:00:00-08:00</updated>
-<id>https://chrisanthropic.github.io/blog/2014/moving-from-github-pages-to-s3</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/blog/2014/moving-from-github-pages-to-s3">&lt;p&gt;I decided to move from free github-pages hosting to dirt cheap AWS S3 hosting. I also decided to move my DNS from namecheap to the free CloudFlare plan. Here’s the steps I took to transfer everything over.&lt;/p&gt;
+<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/moving-from-github-pages-to-s3</id>
+<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/moving-from-github-pages-to-s3">&lt;p&gt;I decided to move from free github-pages hosting to dirt cheap AWS S3 hosting. I also decided to move my DNS from namecheap to the free CloudFlare plan. Here’s the steps I took to transfer everything over.&lt;/p&gt;
 
 &lt;p&gt;Most of the steps were adapted from here &lt;a href=&quot;http://blog.mindthecloud.com/2014/08/31/create-your-static-blog-from-scratch-in-1-hour.html&quot;&gt;http://blog.mindthecloud.com/2014/08/31/create-your-static-blog-from-scratch-in-1-hour.html&lt;/a&gt;&lt;/p&gt;
 
@@ -727,11 +727,11 @@ end
 </entry>
 <entry>
 <title>Mail Forwarding With Mailgun and CloudFlare</title>
-<link href="https://chrisanthropic.github.io/blog/2014/mail-forwarding-with-mailgun-and-cloudflare" rel="alternate" type="text/html" title="Mail Forwarding With Mailgun and CloudFlare" />
+<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/mail-forwarding-with-mailgun-and-cloudflare" rel="alternate" type="text/html" title="Mail Forwarding With Mailgun and CloudFlare" />
 <published>2014-12-03T00:00:00-08:00</published>
 <updated>2014-12-03T00:00:00-08:00</updated>
-<id>https://chrisanthropic.github.io/blog/2014/mail-forwarding-with-mailgun-and-cloudflare</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/blog/2014/mail-forwarding-with-mailgun-and-cloudflare">&lt;p&gt;After moving my DNS from Namecheap to CloudFlare I lost the ability to use Namecheap as a mail forwarder. For anyone not sure what that is, essentially it allows you to receive email at anyname@your-domain.com and have it automatically forwarded somewhere else (like your personal Gmail account).&lt;/p&gt;
+<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/mail-forwarding-with-mailgun-and-cloudflare</id>
+<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/mail-forwarding-with-mailgun-and-cloudflare">&lt;p&gt;After moving my DNS from Namecheap to CloudFlare I lost the ability to use Namecheap as a mail forwarder. For anyone not sure what that is, essentially it allows you to receive email at anyname@your-domain.com and have it automatically forwarded somewhere else (like your personal Gmail account).&lt;/p&gt;
 
 &lt;p&gt;So, what I did is leverage a free account with &lt;a href=&quot;https://mailgun.com/&quot;&gt;Mailgun&lt;/a&gt; to setup the same thing.&lt;/p&gt;
 
@@ -807,11 +807,11 @@ end
 </entry>
 <entry>
 <title>Add sitemap.xml to Jekyll</title>
-<link href="https://chrisanthropic.github.io/blog/2014/add-sitemap-xml-to-jekyll" rel="alternate" type="text/html" title="Add sitemap.xml to Jekyll" />
+<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/add-sitemap-xml-to-jekyll" rel="alternate" type="text/html" title="Add sitemap.xml to Jekyll" />
 <published>2014-12-03T00:00:00-08:00</published>
 <updated>2014-12-03T00:00:00-08:00</updated>
-<id>https://chrisanthropic.github.io/blog/2014/add-sitemap-xml-to-jekyll</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/blog/2014/add-sitemap-xml-to-jekyll">&lt;p&gt;I don’t like using plugins unless absolutely necessarry so I was happy to find a simple way to create a sitemap without one. The instructions are taken from this site: &lt;a href=&quot;http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/&quot;&gt;http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/&lt;/a&gt;&lt;/p&gt;
+<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/add-sitemap-xml-to-jekyll</id>
+<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/add-sitemap-xml-to-jekyll">&lt;p&gt;I don’t like using plugins unless absolutely necessarry so I was happy to find a simple way to create a sitemap without one. The instructions are taken from this site: &lt;a href=&quot;http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/&quot;&gt;http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Create a &lt;code class=&quot;highlighter-rouge&quot;&gt;sitemap.xml&lt;/code&gt; file with the following content:&lt;/li&gt;
