@@ -8,7 +8,7 @@ description: Witty description here.
 
 # Only use this if you are serving your site via Github Pages
 github:
-  url: "https://chrisanthropic.github.io"
+  url: "https://chrisanthropic.github.io/starving-artist-jekyll-theme"
 
 header: yes
 header_sm: images/logo.png
