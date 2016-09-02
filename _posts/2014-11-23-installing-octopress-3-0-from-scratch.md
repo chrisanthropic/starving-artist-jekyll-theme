@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Installing Octopress 3.0 From Scratch"
-date: 2014-11-23T16:44:01-08:00
 ---
 
 I've been getting excited for the release of Octopress 3.0 and decided to try installing it today. I've never used Jekyll without Octopress so I struggled a little, but it was a relatively painless experience.

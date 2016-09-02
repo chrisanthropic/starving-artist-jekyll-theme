@@ -1,12 +1,6 @@
 ---
 layout: post
 title: "Integrating the Foundation Zurb Grid With Jekyll"
-date: 2014-12-08T20:24:51-08:00
-sitemap:
-  lastmod: 2014-12-08T20:24:51-08:00
-  priority: 0.5
-  changefreq: monthly
-  exclude: 'no'
 ---
 
 I was playing with the idea of using Bourbon Neat to create a semantic grid but when it comes down to it I'm familiar with Zurb and I like how it works.

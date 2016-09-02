@@ -1,12 +1,6 @@
 ---
 layout: post
 title: "Integrating Compass and Jekyll Without Plugins"
-date: 2014-12-09T15:20:40-08:00
-sitemap:
-  lastmod: 2014-12-09T15:20:40-08:00
-  priority: 0.5
-  changefreq: monthly
-  exclude: 'no'
 ---
 
 I find myself getting closer to the point where I'm done with the scaffolding and can finally start with the design. The more fun stuff I look at the more I realize that integrating Compass is probably a good idea.

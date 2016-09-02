@@ -1,9 +1,9 @@
-.bundle
-.sass-cache
 _site
+.sass-cache
+.jekyll-metadata
+
+.bundle
 bin
 vendor/ruby
 Gemfile.lock
-images/image_optim_cache.yml
-.jekyll-metadata
 notes

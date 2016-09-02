@@ -1,12 +1,6 @@
 ---
 layout: post
 title: "Deploy Jekyll to S3 With S3_website"
-date: 2014-12-05T11:01:42-08:00
-sitemap:
-  lastmod: 2014-12-05T11:01:42-08:00
-  priority: 0.5
-  changefreq: monthly
-  exclude: 'no'
 ---
 
 I'd originally set this up to deploy to S3 using the new-ish Octopress-Deploy gem but after using it a bit I've found that it's still too rough to be my goto.

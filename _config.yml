@@ -27,6 +27,8 @@ kramdown:
 
 destination: _site
 
+
+# Plugins
 gems:
   - jekyll-feed
 

@@ -1,12 +1,6 @@
 ---
 layout: post
 title: "Add sitemap.xml to Jekyll"
-date: 2014-12-03T10:40:40-08:00
-sitemap:
-  lastmod: 2014-12-03T10:40:40-08:00
-  priority: 0.5
-  changefreq: monthly
-  exclude: 'no'
 ---
 
 I don't like using plugins unless absolutely necessarry so I was happy to find a simple way to create a sitemap without one. The instructions are taken from this site: [http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/](http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/)

@@ -1,12 +1,6 @@
 ---
 layout: post
 title: "Rakefile: Minimize Assets and Optimize Images"
-date: 2014-12-04T16:38:13-08:00
-sitemap:
-  lastmod: 2014-12-04T16:38:13-08:00
-  priority: 0.5
-  changefreq: monthly
-  exclude: 'no'
 ---
 
 I used Octopress to build my wife's webcomic site [ShamseeComic](http://www.shamseecomic.com) and learning how to optimize everything has been fun.

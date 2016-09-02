@@ -1,12 +1,6 @@
 ---
 layout: post
 title: "Moving From Github-Pages to S3"
-date: 2014-12-03T17:17:18-08:00
-sitemap:
-  lastmod: 2014-12-03T17:17:18-08:00
-  priority: 0.5
-  changefreq: monthly
-  exclude: 'no'
 ---
 
 I decided to move from free github-pages hosting to dirt cheap AWS S3 hosting. I also decided to move my DNS from namecheap to the free CloudFlare plan. Here's the steps I took to transfer everything over.

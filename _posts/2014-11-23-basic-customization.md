@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Octopress 3.0 / Jekyll Basic Customization"
-date: 2014-11-24T16:44:01-08:00
 ---
 
 A few simple configs to change after an initial install

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Adding Google Analytics to Octopress 3.0"
-date: 2014-12-02T19:38:10-08:00
 ---
 
 ### Create the analytics code

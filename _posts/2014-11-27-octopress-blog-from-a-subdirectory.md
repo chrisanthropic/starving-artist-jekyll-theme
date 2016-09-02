@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Octopress Blog From a Subdirectory"
-date: 2014-11-27T20:46:50-08:00
 ---
 
 I'm using Jekyll and Octopress 3.0 to manage my entire site here, but I want the 'blog' page to be located at [chrisanthropic.com/blog] so here's what I did.

@@ -1,12 +1,6 @@
 ---
 layout: post
 title: "Using _data to Build Jekyll Navigation"
-date: 2014-12-09T19:34:33-08:00
-sitemap:
-  lastmod: 2014-12-09T19:34:33-08:00
-  priority: 0.5
-  changefreq: monthly
-  exclude: 'no'
 ---
 
 I wanted an easy way to create my navigation menus and I found a great post [here](http://www.tournemille.com/blog/How-to-create-data-driven-navigation-in-Jekyll/) on using the new-ish 'data' feature of Jekyll.

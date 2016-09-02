@@ -1,12 +1,6 @@
 ---
 layout: post
 title: "Mail Forwarding With Mailgun and CloudFlare"
-date: 2014-12-03T20:35:05-08:00
-sitemap:
-  lastmod: 2014-12-03T20:35:05-08:00
-  priority: 0.5
-  changefreq: monthly
-  exclude: 'no'
 ---
 
 After moving my DNS from Namecheap to CloudFlare I lost the ability to use Namecheap as a mail forwarder. For anyone not sure what that is, essentially it allows you to receive email at anyname@your-domain.com and have it automatically forwarded somewhere else (like your personal Gmail account).
