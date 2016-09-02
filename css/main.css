@@ -8,7 +8,7 @@
   right: 0;
   top: 0;
   visibility: hidden;
-  z-index: 1;
+  z-index: 8;
   height: 100%;
   margin: 0px;
   -webkit-transition: opacity .5s;
@@ -429,7 +429,7 @@ a.lightbox-prev:visited, a.lightbox-next:visited, a.lightbox-popup-close:visited
   font-size: 1.5em;
   line-height: 0px;
   color: #fefefe;
-  padding: 0 10px;
+  padding: 0 7px;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -689,7 +689,7 @@ input[type="submit"] {
 #header {
   padding: 0.9375rem 0;
   background-color: #494d7a;
-  z-index: 999; }
+  z-index: 5; }
 
 .header-logo:hover {
   opacity: .9; }
@@ -708,6 +708,7 @@ ul > .header-nav > a:visited {
   color: #fefefe; }
 
 .social-container {
+  margin: 0;
   list-style-type: none;
   padding-top: 10px; }
 
@@ -1965,7 +1966,7 @@ button {
     border-radius: 0px; }
 
   .lightbox-popup {
-    width: 300px;
+    width: 95%;
     max-height: 100%;
     border-radius: 0;
     display: -webkit-box;
@@ -1973,6 +1974,7 @@ button {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    left: 50%;
     -webkit-box-orient: horizontal;
     -moz-box-orient: horizontal;
     box-orient: horizontal;
@@ -1997,7 +1999,7 @@ button {
   .lightbox-image {
     margin: auto;
     width: 70vw;
-    max-width: 300px;
+    max-width: 80vw;
     max-height: 95vh;
     height: auto; }
 
@@ -2016,7 +2018,7 @@ button {
     opacity: 1;
     position: absolute;
     visibility: visible;
-    height: 100%;
+    height: 99%;
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
     box-sizing: border-box;
     margin: 0; }
@@ -2062,7 +2064,7 @@ button {
 
   .lightbox-next {
     position: fixed;
-    left: 130px;
+    left: 48%;
     border: none;
     opacity: 1;
     margin: 0;
@@ -2168,6 +2170,8 @@ button {
     width: 20px;
     border-bottom: 2px solid #fefefe;
     z-index: 1; }
+    #toggleMenu > a::before .lightbox-next, #hideMenu > a::before .lightbox-next {
+      left: 48%; }
 
   #hideMenu > a::after, #hideMenu > a::before {
     border-color: #fefefe; }
@@ -2179,3 +2183,26 @@ button {
 
   #nav > .right.primary-nav {
     background-color: #aaaccc; } }
+@media screen and (max-width: 1024px) {
+  [class^="icon-"], [class*=" icon-"] {
+    padding: 0 1px; }
+
+  .menu > li {
+    font-size: 1.1em !important; }
+
+  .menu > li > a {
+    line-height: 1;
+    padding: 0.4rem 0;
+    display: block;
+    margin-left: -10px; } }
+@media (max-width: 768px) and (orientation: portrait) {
+  .hide-for-ipad {
+    display: none !important; }
+
+  #header.medium-3 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important; } }
+@media (max-width: 800px) and (min-width: 500px) and (orientation: portrait) {
+  .lightbox-popup {
+    width: 95%;
+    max-height: 100%; } }

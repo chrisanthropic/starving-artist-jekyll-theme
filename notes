@@ -13,21 +13,12 @@ Attribution
     - gallery grid
     - html minify
 
-ToDo
-    - default style for 'large'
-        - 768 width at the smallest (based on 12" laptop)
-    - default styles for 'medium'
-        - 600 width at the largest (based on 10" netbook)
-        
-    - default styles for 'small'
-        - 800 width at the largest
-        
-        
-        
-small
-    0-768px width
+# Jekyll Style Guide
+    http://ben.balter.com/jekyll-style-guide/
     
-    
-large
-small - medium
-small - medium (landscape)
+# Gemify Theme
+    https://jekyllrb.com/docs/themes/
+
+# Jekyll Assets
+    https://github.com/jekyll/jekyll-assets
+    https://philna.sh/blog/2016/06/28/asset-pipelines-with-jekyll-assets/
