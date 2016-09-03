@@ -35,10 +35,17 @@ destination: _site
 # Plugins
 gems:
   - jekyll-feed
+  - jekyll-assets
 
 feed:
   path: atom.xml
+
   
+
+## Jekyll-assets
+assets:
+  digest: true
+
 # Compress our Css
 #sass:
 #    style: :compressed
