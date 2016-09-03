@@ -9,7 +9,7 @@ require "html_compressor"
 
 desc "build the site"
 task :build do
-  system "bundle exec jekyll build --incremental"
+  system "JEKYLL_ENV=production bundle exec jekyll build --incremental"
   system "bundle exec rake minify_html" #Minify our HTML
 end
 
@@ -22,7 +22,7 @@ end
 
 desc "Watch the site and regenerate when it changes"
 task :watch do
-  system "bundle exec jekyll serve --config '_config.yml,_config_localhost.yml' --watch"
+  system "JEKYLL_ENV=development bundle exec jekyll serve --config '_config.yml,_config_localhost.yml' --watch"
 end
 
 ##############

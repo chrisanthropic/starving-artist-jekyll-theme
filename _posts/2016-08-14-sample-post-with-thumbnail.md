@@ -5,10 +5,10 @@ title: "Sample post with thumbnail"
 keywords: Shamsee, Lone Idiot and Cub, Tristan J. Tarwater, Adrian Ricker
 description: Shamsee Lone Idiot and Cub - page 013
 
-thumbnail: images/posts/thumbs/catmen.jpg
+thumbnail: thumbs/catmen.jpg
 
 facebook_type: 
-facebook_image: images/posts/catmen.jpg
+facebook_image: catmen.jpg
 ---
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 

@@ -16,7 +16,7 @@ permalink: "/blog/"
         <article>
             <a href="{{ site.url }}{{ post.url }}">
                 <figure>
-                    <img src="{{ site.github.url }}/{{ post.thumbnail }}" class="thumb" />
+                    <img src="{{ site.github.url }}/{% asset_path '{{ post.thumbnail }}' %}" class="thumb" />
                 </figure>
             </a>
   {% endif %}

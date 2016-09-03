@@ -9,3 +9,4 @@ gem 'sass'
 gem 'image_optim'               #Optimizes our images
 gem 'image_optim_pack'          #Tools that image_optim uses
 gem 'jekyll-assets'
+gem 'autoprefixer-rails'

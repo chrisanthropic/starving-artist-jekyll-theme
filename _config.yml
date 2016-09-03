@@ -10,27 +10,21 @@ description: Witty description here.
 github:
   url: "https://chrisanthropic.github.io/starving-artist-jekyll-theme"
 
-header: yes
-header_sm: images/logo.png
-header_med: images/logo.png
-header_large: images/logo.png
-header_xl: images/logo.png
+header: logo.png
+
 
 # Formspree contact Form
 contact_form: "https://formspree.io/ctarwater@chrisanthropic.com"
 
 
 # Exclude our ruby stuff
-exclude: [.bundle, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml, .last_optimized]
+exclude: [.bundle, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml]
 
 
 # Build settings
 markdown: kramdown
 kramdown:
   input: GFM
-
-destination: _site
-
 
 # Plugins
 gems:
@@ -44,11 +38,17 @@ feed:
 
 ## Jekyll-assets
 assets:
-  digest: true
-
-# Compress our Css
-#sass:
-#    style: :compressed
+  sources:
+    - _assets/css
+    - _assets/images
+    - _assets/images/posts
+    - _assets/fonts
+  cache: .asset-cache
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+    
+## End of Jekyll-Assets
 
 include: ['_pages']
 
@@ -64,21 +64,15 @@ mini_magick:
 
 #Create Thumbs for the Archive Page
     thumbnail:
-      source: images/posts/
-      destination: /images/posts/thumbs
+      source: _site/assets/posts/
+      destination: /_site/assets/thumbs
       resize: "150x150^"
       gravity: "center"
       extent: "150x150"
 
-#Autogenerate smaller size for small screens       
-    small:
-      source: images/posts/
-      destination: /images/posts/small
-      resize: "350"
-
 #### SEO Stuff
 # Google Analytics
-google_universal_analytics: 
+google_universal_analytics:           #enter your Google Analytics ID
 google_universal_analytics_cookiedomain: auto
 
 # Facebook Opengraph
@@ -86,9 +80,9 @@ facebook_user:
 facebook_app_id:                      #enter your App ID
 facebook_locale: en_US
 facebook_page:                        #the URL of your Facebook Page
-facebook_image:                       #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
+facebook_image: author.jpg            #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
 
 # Twitter Cards
 twitter_user: 
 twitter_card: true
-twitter_image:                        #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
+twitter_image: author.jpg             #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.

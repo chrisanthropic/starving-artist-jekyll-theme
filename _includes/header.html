@@ -1,11 +1,11 @@
-{% if page.header%}
+{% if page.header %}
   <header role="banner" id="header" class="small-12 medium-3 columns">
       <div class="site-header medium-12 columns">
         <nav class="hide-for-small-only hide-for-ipad">
           {% include socials.html %}
         </nav>
         <div class="header-logo wraptainer">
-          <a href="{{ site.github.url }}/"><img src="{{ site.github.url }}/{{ page.header_xl }}" srcset="{{ site.github.url }}/{{ page.header_sm }} 200w, {{ site.github.url }}/{{ page.header_med }} 641w, {{ site.github.url }}/{{ page.header_large }} 1025w, {{ site.github.url }}/{{ page.header_xl }} 1441w" alt="{{ site.title }} banner image" title="{{ site.title }} banner image" class="center"></a>
+          <a href="{{ site.github.url }}/"><img src="{{ site.github.url }}/{% asset_path '{{ page.header }}' %}" alt="{{ site.title }} banner image" title="{{ site.title }} banner image" class="center"></a>
         </div>
         <nav class="hide-for-small-only hide-for-ipad">
           {% include navigation.html %}
@@ -20,7 +20,7 @@
           {% include socials.html %}
         </nav>
         <div class="header-logo wraptainer">
-          <a href="{{ site.github.url }}/"><img src="{{ site.github.url }}/{{ site.header_xl }}" srcset="{{ site.github.url }}/{{ site.header_sm }} 200w, {{ site.github.url }}/{{ site.header_med }} 641w, {{ site.github.url }}/{{ site.header_large }} 1025w, {{ site.github.url }}/{{ site.header_xl }} 1441w" alt="{{ site.title }} banner image" title="{{ site.title }} banner image" class="center"></a>
+          <a href="{{ site.github.url }}/"><img src="{{ site.github.url }}/{% asset_path '{{ site.header }}' %}" alt="{{ site.title }} banner image" title="{{ site.title }} banner image" class="center"></a>
         </div>
         <nav class="hide-for-small-only hide-for-ipad">
           {% include navigation.html %}
