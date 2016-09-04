@@ -6,8 +6,8 @@
   
 - title: "documentation"
   subcategories:
-    - subtitle: "Page 1"
-      subhref: "/"
+    - subtitle: "Layouts"
+      subhref: "/documentation/layouts/"
     - subtitle: "Page 2"
       subhref: "/"
 
