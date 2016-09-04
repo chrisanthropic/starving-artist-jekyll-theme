@@ -5,10 +5,16 @@ permalink: "/documentation/layouts/"
 ---  
 # Custom Layouts:
 You can use the following custom layouts with this theme:
+- [Compress](#compress)
 - [About](#about-page)
 - [Blog](#blog-page)
 - [Contact](#contact-page)
 - [Gallery](#gallery-page)
+
+---------
+## Compress
+This layout automatically compresses the html output of all pages.      
+Thanks to [https://github.com/penibelst/jekyll-compress-html](html_minify)
 
 ---------
 ## About Page

@@ -6,10 +6,10 @@
   
 - title: "documentation"
   subcategories:
-    - subtitle: "Layouts"
+    - subtitle: "layouts"
       subhref: "/documentation/layouts/"
-    - subtitle: "Page 2"
-      subhref: "/"
+    - subtitle: "navigation"
+      subhref: "/documentation/navigation/"
 
 - title: "blog"
   href: "/blog/"
