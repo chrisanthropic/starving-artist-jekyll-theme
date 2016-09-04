@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "starving-artist-jekyll-theme"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["chrisanthropic"]
   spec.email         = ["ctarwater@gmail.com"]
 
