@@ -10,27 +10,20 @@ description: Witty description here.
 github:
   url: "https://chrisanthropic.github.io/starving-artist-jekyll-theme"
 
-header: yes
-header_sm: images/logo.png
-header_med: images/logo.png
-header_large: images/logo.png
-header_xl: images/logo.png
+header: logo.png
 
 # Formspree contact Form
 contact_form: "https://formspree.io/ctarwater@chrisanthropic.com"
 
 
 # Exclude our ruby stuff
-exclude: [.bundle, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml, .last_optimized]
+exclude: [.bundle, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml]
 
 
 # Build settings
 markdown: kramdown
 kramdown:
   input: GFM
-
-destination: _site
-
 
 # Plugins
 gems:
@@ -76,12 +69,12 @@ google_universal_analytics_cookiedomain: auto
 
 # Facebook Opengraph
 facebook_user:
-facebook_app_id:                      #enter your App ID
+facebook_app_id:                                #enter your App ID
 facebook_locale: en_US
-facebook_page:                        #the URL of your Facebook Page
-facebook_image:                       #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
+facebook_page:                                  #the URL of your Facebook Page
+facebook_image: images/author.jpg                      #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
 
 # Twitter Cards
 twitter_user: 
 twitter_card: true
-twitter_image:                        #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
+twitter_image: images/author.jpg                       #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
