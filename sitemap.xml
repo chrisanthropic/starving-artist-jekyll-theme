@@ -9,97 +9,6 @@
     
   </url>
   
-  <url>
-    <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/using-_data-to-build-jekyll-navigation</loc>
-    
-    <lastmod>2014-12-09T00:00:00-08:00</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/integrating-compass-and-jekyll-without-plugins</loc>
-    
-    <lastmod>2014-12-09T00:00:00-08:00</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/integrating-the-foundation-zurb-grid-with-jekyll</loc>
-    
-    <lastmod>2014-12-08T00:00:00-08:00</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/deploy-jekyll-to-s3-with-s3_website</loc>
-    
-    <lastmod>2014-12-05T00:00:00-08:00</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/an-s3-policy-to-block-semalt-referral-traffic</loc>
-    
-    <lastmod>2014-12-05T00:00:00-08:00</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/rakefile-minimize-assets-and-optimize-images</loc>
-    
-    <lastmod>2014-12-04T00:00:00-08:00</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/moving-from-github-pages-to-s3</loc>
-    
-    <lastmod>2014-12-03T00:00:00-08:00</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/mail-forwarding-with-mailgun-and-cloudflare</loc>
-    
-    <lastmod>2014-12-03T00:00:00-08:00</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/add-sitemap-xml-to-jekyll</loc>
-    
-    <lastmod>2014-12-03T00:00:00-08:00</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/adding-google-analytics-to-octopress-3-0</loc>
-    
-    <lastmod>2014-12-02T00:00:00-08:00</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/octopress-blog-from-a-subdirectory</loc>
-    
-    <lastmod>2014-11-27T00:00:00-08:00</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/installing-octopress-3-0-from-scratch</loc>
-    
-    <lastmod>2014-11-23T00:00:00-08:00</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/basic-customization</loc>
-    
-    <lastmod>2014-11-23T00:00:00-08:00</lastmod>
-    
-  </url>
-  
   
   <url>
     <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/404.html</loc>
@@ -142,77 +51,17 @@
   </url>
   
   <url>
+    <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/documentation/layouts/</loc>
+    
+  </url>
+  
+  <url>
     <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/contact/thanks/</loc>
     
   </url>
   
   
   
-  
-    <url>
-      <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/basic-customization</loc>
-      
-    </url>
-  
-    <url>
-      <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/installing-octopress-3-0-from-scratch</loc>
-      
-    </url>
-  
-    <url>
-      <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/octopress-blog-from-a-subdirectory</loc>
-      
-    </url>
-  
-    <url>
-      <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/adding-google-analytics-to-octopress-3-0</loc>
-      
-    </url>
-  
-    <url>
-      <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/add-sitemap-xml-to-jekyll</loc>
-      
-    </url>
-  
-    <url>
-      <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/mail-forwarding-with-mailgun-and-cloudflare</loc>
-      
-    </url>
-  
-    <url>
-      <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/moving-from-github-pages-to-s3</loc>
-      
-    </url>
-  
-    <url>
-      <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/rakefile-minimize-assets-and-optimize-images</loc>
-      
-    </url>
-  
-    <url>
-      <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/an-s3-policy-to-block-semalt-referral-traffic</loc>
-      
-    </url>
-  
-    <url>
-      <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/deploy-jekyll-to-s3-with-s3_website</loc>
-      
-    </url>
-  
-    <url>
-      <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/integrating-the-foundation-zurb-grid-with-jekyll</loc>
-      
-    </url>
-  
-    <url>
-      <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/integrating-compass-and-jekyll-without-plugins</loc>
-      
-    </url>
-  
-    <url>
-      <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/using-_data-to-build-jekyll-navigation</loc>
-      
-    </url>
   
     <url>
       <loc>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2016/sample-post-with-thumbnail</loc>
