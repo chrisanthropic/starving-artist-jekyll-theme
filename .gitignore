@@ -4,7 +4,6 @@ _site
 .asset-cache
 .jekyll-metadata
 
-.bundle
 .bin
 .vendor
 bin
