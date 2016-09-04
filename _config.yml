@@ -10,7 +10,7 @@ description: Witty description here.
 github:
   url: "https://chrisanthropic.github.io/starving-artist-jekyll-theme"
 
-header: logo.png
+header: images/logo.png
 
 # Formspree contact Form
 contact_form: "https://formspree.io/ctarwater@chrisanthropic.com"
