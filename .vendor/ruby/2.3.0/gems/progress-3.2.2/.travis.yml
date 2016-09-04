@@ -1,0 +1,24 @@
+sudo: false
+language: ruby
+before_install:
+  - gem update bundler
+rvm:
+  - '1.8'
+  - '1.9'
+  - '2.0'
+  - '2.1'
+  - '2.2'
+  - '2.3.0'
+  - jruby-19mode
+  - ree
+script:
+  if [ -z "$RUBOCOP" ]; then
+    bundle exec rspec
+  ; else
+    bundle exec rubocop
+  ; fi
+matrix:
+  fast_finish: true
+  include:
+    - env: RUBOCOP=true
+      rvm: '2'

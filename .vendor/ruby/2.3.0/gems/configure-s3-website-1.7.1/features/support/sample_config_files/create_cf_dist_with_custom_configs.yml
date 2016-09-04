@@ -1,0 +1,7 @@
+s3_id: foo
+s3_secret: foo
+s3_bucket: website-via-cf
+cloudfront_distribution_config:
+  default_cache_behavior:
+    min_TTL: 600
+  default_root_object: index.json

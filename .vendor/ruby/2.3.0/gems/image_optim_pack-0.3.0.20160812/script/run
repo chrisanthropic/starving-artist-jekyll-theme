@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+
+# Build tools on Mac OS X host and in all vms
+
+set -ex
+
+MAKE_TASK='all -j'
+
+for arg in "$@"; do
+  if [[ "$arg" =~ ^([A-Z_]+)=(.*)$ ]]; then
+    eval "$(printf %q=%q "${BASH_REMATCH[1]}" "${BASH_REMATCH[2]}")"
+  fi
+done
+
+if [ `uname -s` != 'Darwin' ]; then
+  echo 'expected to run on Mac OS X'
+  exit 1
+fi
+
+for arch in i386 x86_64; do
+  make $MAKE_TASK ARCH=$arch
+done
+
+for vm in $(vagrant status --machine-readable | cut -d, -f2 | sort -u); do
+  vagrant up $vm
+
+  # create ssh config
+  ssh_config=.vagrant/ssh_config.$vm
+  vagrant ssh-config $vm > $ssh_config
+
+  # rsync needed files to the box
+  mkdir -p vendor/$vm
+  rsync -e "ssh -F $ssh_config" -aR --del Makefile download vendor/$vm $vm:/vagrant
+
+  # sync time and run make
+  vagrant ssh $vm -c "
+    set -ex
+    sudo ntpdate pool.ntp.org
+
+    cd /vagrant
+    if make -v 2>&1 | grep -q GNU\ Make; then
+      make $MAKE_TASK
+    else
+      gmake $MAKE_TASK
+    fi
+  "
+
+  # rsync files in vendor from the box
+  rsync -e "ssh -F $ssh_config" -aR --del $vm:/vagrant/./vendor/$vm .
+
+  [ -n "$NO_HALT" ] || vagrant halt $vm
+done

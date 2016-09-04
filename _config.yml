@@ -17,7 +17,7 @@ contact_form: "https://formspree.io/ctarwater@chrisanthropic.com"
 
 
 # Exclude our ruby stuff
-exclude: [.bundle, starving-artist.gemspec, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml]
+exclude: [.bundle, .vendor, .bin, starving-artist.gemspec, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml]
 
 
 # Build settings

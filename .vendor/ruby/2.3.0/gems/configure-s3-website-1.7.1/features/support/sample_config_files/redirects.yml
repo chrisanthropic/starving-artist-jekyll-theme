@@ -1,0 +1,10 @@
+s3_id: foo
+s3_secret: xuu
+s3_bucket: website-with-redirects
+routing_rules:
+  - condition:
+      key_prefix_equals: blog/some_path
+    redirect:
+      host_name: blog.example.com
+      replace_key_prefix_with: some_new_path/
+      http_redirect_code: 301
