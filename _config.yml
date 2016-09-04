@@ -17,7 +17,7 @@ contact_form: "https://formspree.io/ctarwater@chrisanthropic.com"
 
 
 # Exclude our ruby stuff
-exclude: [.bundle, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml]
+exclude: [.bundle, .vendor, .bin, starving-artist.gemspec, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml]
 
 
 # Build settings
@@ -25,6 +25,8 @@ markdown: kramdown
 kramdown:
   input: GFM
 
+theme: starving-artist-jekyll-theme
+  
 # Plugins
 gems:
   - jekyll-feed
@@ -42,25 +44,6 @@ permalink: /blog/:year/:title
 
 collections:
   - galleries
-
-## Thumbnailer taken from https://github.com/chrisanthropic/jekyll-minimagick
-
-## Autogenerate thumbs for comics
-#mini_magick:
-
-##Create Thumbs for the Archive Page
-#    thumbnail:
-#      source: images/posts/
-#      destination: /images/posts/thumbs
-#      resize: "150x150^"
-#      gravity: "center"
-#      extent: "150x150"
-
-##Autogenerate smaller size for small screens       
-#    small:
-#      source: images/posts/
-#      destination: /images/posts/small
-#      resize: "350"
 
 #### SEO Stuff
 # Google Analytics

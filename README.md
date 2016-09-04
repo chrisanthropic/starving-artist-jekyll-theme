@@ -1,9 +1,35 @@
-starving-artist-jekyll-theme
-=============
+# starving-artist-jekyll-theme
 
 Live Demo [HERE](http://chrisanthropic.github.io/starving-artist-jekyll-theme/)
 
 Starving Artist is a simple portfolio theme for visual artists to easily share their work.
+
+## Installation
+
+Add this line to your Jekyll site's Gemfile:
+
+```ruby
+gem "starving-artist"
+```
+
+And add this line to your Jekyll site:
+
+```yaml
+theme: starving-artist
+```
+
+And then execute:
+
+    $ bundle
+
+## Usage
+
+Includes the following custom layouts:
+
+- about.html
+- blog.html
+- contact.html
+- gallery.html
 
 ## Basic features include:
 
@@ -14,8 +40,6 @@ Starving Artist is a simple portfolio theme for visual artists to easily share t
     * Visibility classes
 * Responsive / Mobile-friendly
 * **Javascript free**
-* Custom Rakefile with tasks for deploying, minifying, and notifying search engines about updates
-* image_optim plugin to optimize all images
 * Basic SEO
     * Facebook opengraph integration
     * Twitter card integration
@@ -70,28 +94,8 @@ Uses minimal sass from Zurb Foundation:
 * Populated using Jekyll 'data' nav.yml file
 * Easily customizable text, link, and background colors using the supplied sass variables
 
-### BANNER
-
-
 ### JAVASCRIPT FREE
 The only thing in the theme that uses Javascript is the optional use of google analytics.
-
-### RAKEFILE
-Includes the following custom tasks:
-
-* *minify_html* - uses HTML_compressor to minify HTML
-* *notify* - pings google and bing to notify them about changes to the site/sitemap
-
-These tasks have been bundled into custom build and deploy tasks
-
-* *build* - runs `jekyll build` followed by `minify_html`
-* *deploy* - runs `s3_website push` and then `notify`
-
-### IMAGE_OPTIM PLUGIN
-
-* Custom [image_optim](https://github.com/chrisanthropic/image_optim-jekyll-plugin) plugin will optimize all images in the /images folder and any subdirectories
-  * Uses the original [image_optim](https://github.com/toy/image_optim)
-* Cache file is created on the first run so that only updated/new images are optimized
 
 ### BASIC SEO
 
@@ -141,17 +145,3 @@ For now it's best to start fresh or install the them and then transfer over any 
   * edit the `_data/nav.yml` file as needed
 * Update your social links
   * edit the `_data/socials.yml` file as needed
-
-## Deploying
-I use S3 to host my site and the [s3_website](https://github.com/laurilehmijoki/s3_website) plugin to deploy, if you don't do both of these, delete the `s3_website.yml` file and edit the deploy raketask to fit your needs.
-
-If you plan on using S3 make sure you edit the configs:
-
-* FIRST - add the s3_website.yml file to your gitignore so your credentials don't end up on the web.
-* s3_website.yml
-  * add your `s3_id`. `s3_secret`, and `s3_bucket`
-* Update the Rakefile notify task to use your url
-  * replace `site = "www.YOUR-URL.com"` with your actual url.
-
-## MISC.
-The blog posts included are duplicated from my actual blog and are the documentation of how I created this theme. From starting with a fresh Jekyll installation to the final product.
