@@ -1,0 +1,19 @@
+--------------------
+Documentation
+    - frontmatter (permalink, sidebar, facebook, twitter, )
+    - galleries
+    - pages
+    - thumbnails
+    - lightbox
+    - contact form
+    - "active" (names must match between gallery name, etc)
+
+Attribution
+    - lightbox
+    - gallery grid
+    - html minify
+    - style guide
+
+# Jekyll Assets
+    https://github.com/jekyll/jekyll-assets
+    https://philna.sh/blog/2016/06/28/asset-pipelines-with-jekyll-assets/
