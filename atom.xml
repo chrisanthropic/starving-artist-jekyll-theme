@@ -1,37 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-<generator uri="http://jekyllrb.com" version="3.0.1">Jekyll</generator>
-<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/atom.xml" rel="self" type="application/atom+xml" />
-<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/" rel="alternate" type="text/html" />
-<updated>2016-09-02T09:25:53-07:00</updated>
-<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/</id>
-<subtitle>Witty description here.</subtitle>
-<author>
-<name>Chrisanthropic</name>
-</author>
-<entry>
-<title>Sample post with thumbnail</title>
-<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2016/sample-post-with-thumbnail" rel="alternate" type="text/html" title="Sample post with thumbnail" />
-<published>2016-08-14T00:00:00-07:00</published>
-<updated>2016-08-14T00:00:00-07:00</updated>
-<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2016/sample-post-with-thumbnail</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2016/sample-post-with-thumbnail">&lt;p&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-09-04T14:17:09-07:00</updated><id>http://localhost:4000/</id><title>Starving Artist Jekyll Theme</title><subtitle>Witty description here.</subtitle><author><name>Chrisanthropic</name></author><entry><title>Sample post with thumbnail</title><link href="http://localhost:4000/blog/2016/sample-post-with-thumbnail" rel="alternate" type="text/html" title="Sample post with thumbnail" /><published>2016-08-14T00:00:00-07:00</published><updated>2016-08-14T00:00:00-07:00</updated><id>http://localhost:4000/blog/2016/sample-post-with-thumbnail</id><content type="html" xml:base="http://localhost:4000/blog/2016/sample-post-with-thumbnail">&lt;p&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.&lt;/p&gt;
 
 &lt;p&gt;Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;
 
 &lt;p&gt;Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?&lt;/p&gt;
 
-&lt;p&gt;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere&lt;/p&gt;
-</content>
-<summary>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</summary>
-</entry>
-<entry>
-<title>Using _data to Build Jekyll Navigation</title>
-<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/using-_data-to-build-jekyll-navigation" rel="alternate" type="text/html" title="Using _data to Build Jekyll Navigation" />
-<published>2014-12-09T00:00:00-08:00</published>
-<updated>2014-12-09T00:00:00-08:00</updated>
-<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/using-_data-to-build-jekyll-navigation</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/using-_data-to-build-jekyll-navigation">&lt;p&gt;I wanted an easy way to create my navigation menus and I found a great post &lt;a href=&quot;http://www.tournemille.com/blog/How-to-create-data-driven-navigation-in-Jekyll/&quot;&gt;here&lt;/a&gt; on using the new-ish ‘data’ feature of Jekyll.&lt;/p&gt;
+&lt;p&gt;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere&lt;/p&gt;</content><author><name>Chrisanthropic</name></author><summary>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</summary></entry><entry><title>Using _data to Build Jekyll Navigation</title><link href="http://localhost:4000/blog/2014/using-_data-to-build-jekyll-navigation" rel="alternate" type="text/html" title="Using _data to Build Jekyll Navigation" /><published>2014-12-09T00:00:00-08:00</published><updated>2014-12-09T00:00:00-08:00</updated><id>http://localhost:4000/blog/2014/using-_data-to-build-jekyll-navigation</id><content type="html" xml:base="http://localhost:4000/blog/2014/using-_data-to-build-jekyll-navigation">&lt;p&gt;I wanted an easy way to create my navigation menus and I found a great post &lt;a href=&quot;http://www.tournemille.com/blog/How-to-create-data-driven-navigation-in-Jekyll/&quot;&gt;here&lt;/a&gt; on using the new-ish ‘data’ feature of Jekyll.&lt;/p&gt;
 
 &lt;p&gt;What this allows us to do is centralize our navigation setup (pages and subpages) so any changes are kept out of our actual layout code.&lt;/p&gt;
 
@@ -65,44 +38,34 @@
   &lt;li&gt;Edit your &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes/naviation.html&lt;/code&gt; to match the following&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;raw&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;nav&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;animenu&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;	
-  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;input&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;checkbox&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;button&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;label&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;for=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;button&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;onclick&amp;gt;Menu&amp;lt;/label&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;nav&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;site.data.nav&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;nav.subcategories&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-	&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-	  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;a&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;{{ site.url }}{{ nav.url }}&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;nav.title&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;amp;#x&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;BC;&amp;lt;/a&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-	  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-	    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;subcategory&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;nav.subcategories&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-	      &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;{{ site.url }}{{ subcategory.subhref }}&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;subcategory.subtitle&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-	    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;endfor&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-	  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-	&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;elsif&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;nav.title&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;page.title&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-	  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;li&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;active&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;&amp;lt;a&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;{{ nav.url }}&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;nav.title&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-	&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-	&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-	  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;a&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;{{ site.url }}{{ nav.href }}&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;nav.title&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;endif&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;endfor&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;/nav&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;endraw&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&amp;lt;nav class=&quot;animenu&quot;&amp;gt;	
+  &amp;lt;input type=&quot;checkbox&quot; id=&quot;button&quot;&amp;gt;
+  &amp;lt;label for=&quot;button&quot; onclick&amp;gt;Menu&amp;lt;/label&amp;gt; 
+  &amp;lt;ul&amp;gt;
+    {% for nav in site.data.nav %}
+      {% if nav.subcategories != null %}
+	&amp;lt;li&amp;gt;
+	  &amp;lt;a href=&quot;{{ site.url }}{{ nav.url }}&quot;&amp;gt;{{ nav.title }} &amp;amp;#x25BC;&amp;lt;/a&amp;gt;
+	  &amp;lt;ul&amp;gt;
+	    {% for subcategory in nav.subcategories %}
+	      &amp;lt;li&amp;gt;&amp;lt;a href=&quot;{{ site.url }}{{ subcategory.subhref }}&quot;&amp;gt;{{ subcategory.subtitle }}&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+	    {% endfor %}
+	  &amp;lt;/ul&amp;gt;
+	{% elsif nav.title == page.title %}
+	  &amp;lt;li class=&quot;active&quot;&amp;gt;&amp;lt;a href=&quot;{{ nav.url }}&quot;&amp;gt;{{ nav.title }}&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+	{% else %} 
+	&amp;lt;li&amp;gt;
+	  &amp;lt;a href=&quot;{{ site.url }}{{ nav.href }}&quot;&amp;gt;{{ nav.title }}&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+      {% endif %}
+    {% endfor %}
+  &amp;lt;/ul&amp;gt;
+&amp;lt;/nav&amp;gt; 
+
+&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Now any time you want to update your navigation just edit the &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/nav.yml&lt;/code&gt; file and rebuild your site.&lt;/p&gt;
-</content>
-<summary>I wanted an easy way to create my navigation menus and I found a great post here on using the new-ish ‘data’ feature of Jekyll.</summary>
-</entry>
-<entry>
-<title>Integrating Compass and Jekyll Without Plugins</title>
-<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/integrating-compass-and-jekyll-without-plugins" rel="alternate" type="text/html" title="Integrating Compass and Jekyll Without Plugins" />
-<published>2014-12-09T00:00:00-08:00</published>
-<updated>2014-12-09T00:00:00-08:00</updated>
-<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/integrating-compass-and-jekyll-without-plugins</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/integrating-compass-and-jekyll-without-plugins">&lt;p&gt;I find myself getting closer to the point where I’m done with the scaffolding and can finally start with the design. The more fun stuff I look at the more I realize that integrating Compass is probably a good idea.&lt;/p&gt;
+&lt;p&gt;Now any time you want to update your navigation just edit the &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/nav.yml&lt;/code&gt; file and rebuild your site.&lt;/p&gt;</content><author><name>Chrisanthropic</name></author><summary>I wanted an easy way to create my navigation menus and I found a great post here on using the new-ish ‘data’ feature of Jekyll.</summary></entry><entry><title>Integrating Compass and Jekyll Without Plugins</title><link href="http://localhost:4000/blog/2014/integrating-compass-and-jekyll-without-plugins" rel="alternate" type="text/html" title="Integrating Compass and Jekyll Without Plugins" /><published>2014-12-09T00:00:00-08:00</published><updated>2014-12-09T00:00:00-08:00</updated><id>http://localhost:4000/blog/2014/integrating-compass-and-jekyll-without-plugins</id><content type="html" xml:base="http://localhost:4000/blog/2014/integrating-compass-and-jekyll-without-plugins">&lt;p&gt;I find myself getting closer to the point where I’m done with the scaffolding and can finally start with the design. The more fun stuff I look at the more I realize that integrating Compass is probably a good idea.&lt;/p&gt;
 
 &lt;p&gt;I don’t like plugins unless absolutely necessarry so while I’m sure the jekyll-compass plugin is great, I decided to figure out how to add Compass to my Jekyll/Octopress 3 site without any plugins.&lt;/p&gt;
 
@@ -110,9 +73,9 @@
 
 &lt;ul&gt;
   &lt;li&gt;Add compass to your gemfile&lt;/li&gt;
-  &lt;li&gt;Install compass&lt;br /&gt;
+  &lt;li&gt;Install compass
 &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install --binstubs --path=vendor&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Run Compass for the first time so it generates a config file&lt;br /&gt;
+  &lt;li&gt;Run Compass for the first time so it generates a config file
 &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec compass create --bare --sass-dir &quot;_sass&quot; --css-dir &quot;css&quot; --images-dir &quot;images&quot;&lt;/code&gt;
     &lt;ul&gt;
       &lt;li&gt;This command creates a config.rb file wiht compass settings that are compatible with Jekyll&lt;/li&gt;
@@ -139,7 +102,7 @@ end
 &lt;ul&gt;
   &lt;li&gt;Run &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec rake build&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;NOTE - compression settings are no longer set in _config.yml, you’ll need to add the following line to &lt;code class=&quot;highlighter-rouge&quot;&gt;config.rb&lt;/code&gt; in oroder to compress css&lt;br /&gt;
+    &lt;p&gt;NOTE - compression settings are no longer set in _config.yml, you’ll need to add the following line to &lt;code class=&quot;highlighter-rouge&quot;&gt;config.rb&lt;/code&gt; in oroder to compress css
 &lt;code class=&quot;highlighter-rouge&quot;&gt;output_style = :compressed&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;Update rakefile to run compass watch and jekyll serve together&lt;/li&gt;
@@ -173,7 +136,7 @@ end
   &lt;li&gt;Now you can run &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec rake watch&lt;/code&gt; and it runs compass watch &amp;amp; jekyll serve together.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Now you can use Compass mixins and import partials by adding &lt;code class=&quot;highlighter-rouge&quot;&gt;@import compass/blahblahblah&lt;/code&gt; to your _sass/main.scss file.&lt;br /&gt;
+&lt;p&gt;Now you can use Compass mixins and import partials by adding &lt;code class=&quot;highlighter-rouge&quot;&gt;@import compass/blahblahblah&lt;/code&gt; to your _sass/main.scss file.
 Running &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec rake build&lt;/code&gt; will then run &lt;code class=&quot;highlighter-rouge&quot;&gt;compass compile&lt;/code&gt; to create your css/main.scss file, followed by &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll build&lt;/code&gt; which will move that css/main.scss to _site/css/main.css&lt;/p&gt;
 
 &lt;p&gt;In short:&lt;/p&gt;
@@ -184,17 +147,7 @@ Running &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec rake build&l
   &lt;li&gt;any partials imported will be compiled into a single file (css/main.scss) when you run &lt;code class=&quot;highlighter-rouge&quot;&gt;compass compile&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;the css/main.scss file will be built into _site/css/main.css when you run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll build&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;any partials not imported by your _sass/main.scss file will not be used&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-<summary>I find myself getting closer to the point where I’m done with the scaffolding and can finally start with the design. The more fun stuff I look at the more I realize that integrating Compass is probably a good idea.</summary>
-</entry>
-<entry>
-<title>Integrating the Foundation Zurb Grid With Jekyll</title>
-<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/integrating-the-foundation-zurb-grid-with-jekyll" rel="alternate" type="text/html" title="Integrating the Foundation Zurb Grid With Jekyll" />
-<published>2014-12-08T00:00:00-08:00</published>
-<updated>2014-12-08T00:00:00-08:00</updated>
-<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/integrating-the-foundation-zurb-grid-with-jekyll</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/integrating-the-foundation-zurb-grid-with-jekyll">&lt;p&gt;I was playing with the idea of using Bourbon Neat to create a semantic grid but when it comes down to it I’m familiar with Zurb and I like how it works.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Chrisanthropic</name></author><summary>I find myself getting closer to the point where I’m done with the scaffolding and can finally start with the design. The more fun stuff I look at the more I realize that integrating Compass is probably a good idea.</summary></entry><entry><title>Integrating the Foundation Zurb Grid With Jekyll</title><link href="http://localhost:4000/blog/2014/integrating-the-foundation-zurb-grid-with-jekyll" rel="alternate" type="text/html" title="Integrating the Foundation Zurb Grid With Jekyll" /><published>2014-12-08T00:00:00-08:00</published><updated>2014-12-08T00:00:00-08:00</updated><id>http://localhost:4000/blog/2014/integrating-the-foundation-zurb-grid-with-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2014/integrating-the-foundation-zurb-grid-with-jekyll">&lt;p&gt;I was playing with the idea of using Bourbon Neat to create a semantic grid but when it comes down to it I’m familiar with Zurb and I like how it works.&lt;/p&gt;
 
 &lt;p&gt;I make a decent amount of sites for friends and non-profits and the benefits of Zurbs rapid prototyping are worth it for me.&lt;/p&gt;
 
@@ -204,7 +157,7 @@ Running &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec rake build&l
 &lt;p&gt;This is an update to my original post since I’ve started using Compass. If you don’t use Compass you can still follow the instructions in the ‘Without Compass’ section.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;clone the bower-foundation repo into your _sass directory&lt;br /&gt;
+  &lt;li&gt;clone the bower-foundation repo into your _sass directory
 &lt;code class=&quot;highlighter-rouge&quot;&gt;git clone git@github.com:zurb/bower-foundation.git&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;create a new subdirectory in your _sass directory called &lt;code class=&quot;highlighter-rouge&quot;&gt;foundation&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;copy the contents of &lt;code class=&quot;highlighter-rouge&quot;&gt;bower-foundation/scss/foundation&lt;/code&gt; to your new subdirectory
@@ -229,7 +182,7 @@ Running &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec rake build&l
 
 &lt;ul&gt;
   &lt;li&gt;Create a folder in your _sass directory called ‘foundation’&lt;/li&gt;
-  &lt;li&gt;Git clone the ‘bower_foundation’ repo anywhere on your computer&lt;br /&gt;
+  &lt;li&gt;Git clone the ‘bower_foundation’ repo anywhere on your computer
 &lt;code class=&quot;highlighter-rouge&quot;&gt;git clone git@github.com:zurb/bower-foundation.git&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Copy the contents of &lt;code class=&quot;highlighter-rouge&quot;&gt;bower-foundation/scss/foundation/components/&lt;/code&gt; to the &lt;code class=&quot;highlighter-rouge&quot;&gt;_sass/foundation&lt;/code&gt; directory you created in step 1.&lt;/li&gt;
   &lt;li&gt;Copy &lt;code class=&quot;highlighter-rouge&quot;&gt;bower-foundation/scss/foundation/_functions.scss&lt;/code&gt; to the &lt;code class=&quot;highlighter-rouge&quot;&gt;_sass/foundation&lt;/code&gt; directory.&lt;/li&gt;
@@ -247,17 +200,7 @@ Running &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec rake build&l
   &lt;li&gt;Note - grid will automatically @import &lt;code class=&quot;highlighter-rouge&quot;&gt;foundation/global&lt;/code&gt; which @imports &lt;code class=&quot;highlighter-rouge&quot;&gt;foundation/fuctions&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;That’s it. Now you have access to Zurb’s grid without any of the JS or other crap that you don’t need. You can update at any time by replacing the contents of &lt;code class=&quot;highlighter-rouge&quot;&gt;_sass/foundation&lt;/code&gt; with the newest files from the zurb &lt;code class=&quot;highlighter-rouge&quot;&gt;bower-foundation&lt;/code&gt; repo.&lt;/p&gt;
-</content>
-<summary>I was playing with the idea of using Bourbon Neat to create a semantic grid but when it comes down to it I’m familiar with Zurb and I like how it works.</summary>
-</entry>
-<entry>
-<title>Deploy Jekyll to S3 With S3_website</title>
-<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/deploy-jekyll-to-s3-with-s3_website" rel="alternate" type="text/html" title="Deploy Jekyll to S3 With S3_website" />
-<published>2014-12-05T00:00:00-08:00</published>
-<updated>2014-12-05T00:00:00-08:00</updated>
-<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/deploy-jekyll-to-s3-with-s3_website</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/deploy-jekyll-to-s3-with-s3_website">&lt;p&gt;I’d originally set this up to deploy to S3 using the new-ish Octopress-Deploy gem but after using it a bit I’ve found that it’s still too rough to be my goto.&lt;/p&gt;
+&lt;p&gt;That’s it. Now you have access to Zurb’s grid without any of the JS or other crap that you don’t need. You can update at any time by replacing the contents of &lt;code class=&quot;highlighter-rouge&quot;&gt;_sass/foundation&lt;/code&gt; with the newest files from the zurb &lt;code class=&quot;highlighter-rouge&quot;&gt;bower-foundation&lt;/code&gt; repo.&lt;/p&gt;</content><author><name>Chrisanthropic</name></author><summary>I was playing with the idea of using Bourbon Neat to create a semantic grid but when it comes down to it I’m familiar with Zurb and I like how it works.</summary></entry><entry><title>Deploy Jekyll to S3 With S3_website</title><link href="http://localhost:4000/blog/2014/deploy-jekyll-to-s3-with-s3_website" rel="alternate" type="text/html" title="Deploy Jekyll to S3 With S3_website" /><published>2014-12-05T00:00:00-08:00</published><updated>2014-12-05T00:00:00-08:00</updated><id>http://localhost:4000/blog/2014/deploy-jekyll-to-s3-with-s3_website</id><content type="html" xml:base="http://localhost:4000/blog/2014/deploy-jekyll-to-s3-with-s3_website">&lt;p&gt;I’d originally set this up to deploy to S3 using the new-ish Octopress-Deploy gem but after using it a bit I’ve found that it’s still too rough to be my goto.&lt;/p&gt;
 
 &lt;p&gt;The main benefits of switching to S3_website are:&lt;/p&gt;
 
@@ -277,30 +220,21 @@ Running &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec rake build&l
   &lt;li&gt;Create the default config by running &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec s3_website cfg create&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;add your S3 credentials to &lt;code class=&quot;highlighter-rouge&quot;&gt;s3_config.yml&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;GZIP&lt;/strong&gt; add &lt;code class=&quot;highlighter-rouge&quot;&gt;gzip: true&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;s3_website.yml&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;CACHE&lt;/strong&gt; Update max-age in &lt;code class=&quot;highlighter-rouge&quot;&gt;s3_website.yml&lt;/code&gt;&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-max_age:
+  &lt;li&gt;&lt;strong&gt;CACHE&lt;/strong&gt; Update max-age in &lt;code class=&quot;highlighter-rouge&quot;&gt;s3_website.yml&lt;/code&gt;
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;max_age:
 &quot;css/*&quot;: 604800
 &quot;*&quot;: 300
-&lt;/code&gt;&lt;/li&gt;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
   &lt;li&gt;update Rakefile build command to &lt;code class=&quot;highlighter-rouge&quot;&gt;system &quot;bundle exec s3_website push&quot;&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;bundle exec rake build&lt;/li&gt;
-  &lt;li&gt;run the initial push with the –force flag just to make sure it updates cache metadata for all files&lt;br /&gt;
+  &lt;li&gt;run the initial push with the –force flag just to make sure it updates cache metadata for all files
 &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec s3_website push --force&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Login to Cloudflare and purge the cache to make sure your serving up your new gzip/cache files&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;From now on you can run &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec rake deploy&lt;/code&gt; and the S3_website plugin will compress all of your files, add cache headers to them, and push any that have changed to your S3 bucket.&lt;/p&gt;
-</content>
-<summary>I’d originally set this up to deploy to S3 using the new-ish Octopress-Deploy gem but after using it a bit I’ve found that it’s still too rough to be my goto.</summary>
-</entry>
-<entry>
-<title>An S3 Policy to Block Semalt Referral Traffic</title>
-<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/an-s3-policy-to-block-semalt-referral-traffic" rel="alternate" type="text/html" title="An S3 Policy to Block Semalt Referral Traffic" />
-<published>2014-12-05T00:00:00-08:00</published>
-<updated>2014-12-05T00:00:00-08:00</updated>
-<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/an-s3-policy-to-block-semalt-referral-traffic</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/an-s3-policy-to-block-semalt-referral-traffic">&lt;p&gt;A lot of people have noticed shit tons of ferferral spam from semalt.com and their various other domains.&lt;/p&gt;
+&lt;p&gt;From now on you can run &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec rake deploy&lt;/code&gt; and the S3_website plugin will compress all of your files, add cache headers to them, and push any that have changed to your S3 bucket.&lt;/p&gt;</content><author><name>Chrisanthropic</name></author><summary>I’d originally set this up to deploy to S3 using the new-ish Octopress-Deploy gem but after using it a bit I’ve found that it’s still too rough to be my goto.</summary></entry><entry><title>An S3 Policy to Block Semalt Referral Traffic</title><link href="http://localhost:4000/blog/2014/an-s3-policy-to-block-semalt-referral-traffic" rel="alternate" type="text/html" title="An S3 Policy to Block Semalt Referral Traffic" /><published>2014-12-05T00:00:00-08:00</published><updated>2014-12-05T00:00:00-08:00</updated><id>http://localhost:4000/blog/2014/an-s3-policy-to-block-semalt-referral-traffic</id><content type="html" xml:base="http://localhost:4000/blog/2014/an-s3-policy-to-block-semalt-referral-traffic">&lt;p&gt;A lot of people have noticed shit tons of ferferral spam from semalt.com and their various other domains.&lt;/p&gt;
 
 &lt;p&gt;It’s fucking annoying.&lt;/p&gt;
 
@@ -355,17 +289,7 @@ max_age:
   &lt;li&gt;videofrost.com&lt;/li&gt;
   &lt;li&gt;youtubedownload.org&lt;/li&gt;
   &lt;li&gt;zazagames.org&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-<summary>A lot of people have noticed shit tons of ferferral spam from semalt.com and their various other domains.</summary>
-</entry>
-<entry>
-<title>Rakefile: Minimize Assets and Optimize Images</title>
-<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/rakefile-minimize-assets-and-optimize-images" rel="alternate" type="text/html" title="Rakefile: Minimize Assets and Optimize Images" />
-<published>2014-12-04T00:00:00-08:00</published>
-<updated>2014-12-04T00:00:00-08:00</updated>
-<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/rakefile-minimize-assets-and-optimize-images</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/rakefile-minimize-assets-and-optimize-images">&lt;p&gt;I used Octopress to build my wife’s webcomic site &lt;a href=&quot;http://www.shamseecomic.com&quot;&gt;ShamseeComic&lt;/a&gt; and learning how to optimize everything has been fun.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Chrisanthropic</name></author><summary>A lot of people have noticed shit tons of ferferral spam from semalt.com and their various other domains.</summary></entry><entry><title>Rakefile: Minimize Assets and Optimize Images</title><link href="http://localhost:4000/blog/2014/rakefile-minimize-assets-and-optimize-images" rel="alternate" type="text/html" title="Rakefile: Minimize Assets and Optimize Images" /><published>2014-12-04T00:00:00-08:00</published><updated>2014-12-04T00:00:00-08:00</updated><id>http://localhost:4000/blog/2014/rakefile-minimize-assets-and-optimize-images</id><content type="html" xml:base="http://localhost:4000/blog/2014/rakefile-minimize-assets-and-optimize-images">&lt;p&gt;I used Octopress to build my wife’s webcomic site &lt;a href=&quot;http://www.shamseecomic.com&quot;&gt;ShamseeComic&lt;/a&gt; and learning how to optimize everything has been fun.&lt;/p&gt;
 
 &lt;p&gt;Now that I’m starting on this site from scratch (with a better understanding of Jekyll) I figured I’d revisit my old method and update it.&lt;/p&gt;
 
@@ -393,11 +317,12 @@ max_age:
 &lt;h3 id=&quot;gemfile&quot;&gt;Gemfile&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;First I add some gems to my Gemfile since they’re used for the minification and optimization&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-gem &#39;mini_magick&#39;
-gem &#39;html_compressor&#39;
-&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;First I add some gems to my Gemfile since they’re used for the minification and optimization
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem 'mini_magick'
+gem 'html_compressor'
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
   &lt;li&gt;Then install the new Gems by running &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install --binstubs --path=vendor&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Next I create a Rakefile with the following:&lt;/li&gt;
 &lt;/ul&gt;
@@ -439,7 +364,7 @@ end
 # Using this to optimize our images. Dependencies are jpegtran, pngcrush and gifsicle
 
 desc &quot;Optimize GIF, JPG and PNG files&quot;
-task :optimizeimages =&amp;gt; [ &#39;optimizeimages:find_tools&#39;, &#39;optimizeimages:run&#39; ]
+task :optimizeimages =&amp;gt; [ 'optimizeimages:find_tools', 'optimizeimages:run' ]
 
 namespace :optimizeimages do
   desc &quot;Test for presence of image optimization tools in the command path&quot;
@@ -447,17 +372,17 @@ namespace :optimizeimages do
     RakeFileUtils.verbose(false)
     tools = %w[jpegtran gifsicle pngcrush]
     puts &quot;\nOptimizing images using the following tools:&quot;
-    tools.delete_if { |tool| sh(&#39;which&#39;, tool) rescue false }
-    raise &quot;The following tools must be installed and accessible from the execution path: #{ tools.join(&#39;, &#39;) }&quot; if tools.size &amp;gt; 0
+    tools.delete_if { |tool| sh('which', tool) rescue false }
+    raise &quot;The following tools must be installed and accessible from the execution path: #{ tools.join(', ') }&quot; if tools.size &amp;gt; 0
   end
 
   task :run do
     RakeFileUtils.verbose(false)
     start_time = Time.now
 
-    file_list = FileList.new &#39;_site/**/*.{gif,jpeg,jpg,png}&#39;
+    file_list = FileList.new '_site/**/*.{gif,jpeg,jpg,png}'
 
-    last_optimized_path = &#39;_site/.last_optimized&#39;
+    last_optimized_path = '_site/.last_optimized'
     if File.exists? last_optimized_path
       last_optimized = File.new last_optimized_path
       file_list.exclude do |f|
@@ -474,21 +399,21 @@ namespace :optimizeimages do
     file_list.each_with_index do |f, cnt|
       puts &quot;Processing: #{cnt+1}/#{file_list.size} #{f.to_s}&quot;
 
-      extension = File.extname(f).delete(&#39;.&#39;).gsub(/jpeg/,&#39;jpg&#39;)
-      ext_check = `file -b #{f} | awk &#39;{print $1}&#39;`.strip.downcase
-      ext_check.gsub!(/jpeg/,&#39;jpg&#39;)
+      extension = File.extname(f).delete('.').gsub(/jpeg/,'jpg')
+      ext_check = `file -b #{f} | awk '{print $1}'`.strip.downcase
+      ext_check.gsub!(/jpeg/,'jpg')
       if ext_check != extension
-        puts &quot;\t#{f.to_s} is a: &#39;#{ext_check}&#39; not: &#39;#{extension}&#39; ..skipping&quot;
+        puts &quot;\t#{f.to_s} is a: '#{ext_check}' not: '#{extension}' ..skipping&quot;
         skip_cnt = skip_cnt + 1
         next
       end
 
       case extension
-      when &#39;gif&#39;
+      when 'gif'
         `gifsicle -O2 #{f} &amp;gt; #{f}.n`
-      when &#39;png&#39;
+      when 'png'
         `pngcrush -q -rem alla -reduce -brute  #{f} #{f}.n`
-      when &#39;jpg&#39;
+      when 'jpg'
         `jpegtran -copy none -optimize -perfect -progressive #{f} &amp;gt; #{f}.p`
         prog_size = File.size?(&quot;#{f}.p&quot;)
 
@@ -570,27 +495,27 @@ end
 
 site = &quot;www.chrisanthropic.com&quot;
 
-desc &#39;Notify Google of the new sitemap&#39;
+desc 'Notify Google of the new sitemap'
 task :sitemapgoogle do
   begin
-    require &#39;net/http&#39;
-    require &#39;uri&#39;
-    puts &#39;* Pinging Google about our sitemap&#39;
-    Net::HTTP.get(&#39;www.google.com&#39;, &#39;/webmasters/tools/ping?sitemap=&#39; + URI.escape(&#39;#{site}/sitemap.xml&#39;))
+    require 'net/http'
+    require 'uri'
+    puts '* Pinging Google about our sitemap'
+    Net::HTTP.get('www.google.com', '/webmasters/tools/ping?sitemap=' + URI.escape('#{site}/sitemap.xml'))
   rescue LoadError
-    puts &#39;! Could not ping Google about our sitemap, because Net::HTTP or URI could not be found.&#39;
+    puts '! Could not ping Google about our sitemap, because Net::HTTP or URI could not be found.'
   end
 end
 
-desc &#39;Notify Bing of the new sitemap&#39;
+desc 'Notify Bing of the new sitemap'
 task :sitemapbing do
   begin
-    require &#39;net/http&#39;
-    require &#39;uri&#39;
-    puts &#39;* Pinging Bing about our sitemap&#39;
-    Net::HTTP.get(&#39;www.bing.com&#39;, &#39;/webmaster/ping.aspx?siteMap=&#39; + URI.escape(&#39;#{site}/sitemap.xml&#39;))
+    require 'net/http'
+    require 'uri'
+    puts '* Pinging Bing about our sitemap'
+    Net::HTTP.get('www.bing.com', '/webmaster/ping.aspx?siteMap=' + URI.escape('#{site}/sitemap.xml'))
   rescue LoadError
-    puts &#39;! Could not ping Bing about our sitemap, because Net::HTTP or URI could not be found.&#39;
+    puts '! Could not ping Bing about our sitemap, because Net::HTTP or URI could not be found.'
   end
 end
 
@@ -603,17 +528,7 @@ end
 
 &lt;p&gt;When I deploy my site with &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec rake deploy&lt;/code&gt; it deploys it to S3 and then notifies Google and Bing about my updated sitemap.xml file.&lt;/p&gt;
 
-&lt;p&gt;Pretty cool.&lt;/p&gt;
-</content>
-<summary>I used Octopress to build my wife’s webcomic site ShamseeComic and learning how to optimize everything has been fun.</summary>
-</entry>
-<entry>
-<title>Moving From Github-Pages to S3</title>
-<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/moving-from-github-pages-to-s3" rel="alternate" type="text/html" title="Moving From Github-Pages to S3" />
-<published>2014-12-03T00:00:00-08:00</published>
-<updated>2014-12-03T00:00:00-08:00</updated>
-<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/moving-from-github-pages-to-s3</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/moving-from-github-pages-to-s3">&lt;p&gt;I decided to move from free github-pages hosting to dirt cheap AWS S3 hosting. I also decided to move my DNS from namecheap to the free CloudFlare plan. Here’s the steps I took to transfer everything over.&lt;/p&gt;
+&lt;p&gt;Pretty cool.&lt;/p&gt;</content><author><name>Chrisanthropic</name></author><summary>I used Octopress to build my wife’s webcomic site ShamseeComic and learning how to optimize everything has been fun.</summary></entry><entry><title>Moving From Github-Pages to S3</title><link href="http://localhost:4000/blog/2014/moving-from-github-pages-to-s3" rel="alternate" type="text/html" title="Moving From Github-Pages to S3" /><published>2014-12-03T00:00:00-08:00</published><updated>2014-12-03T00:00:00-08:00</updated><id>http://localhost:4000/blog/2014/moving-from-github-pages-to-s3</id><content type="html" xml:base="http://localhost:4000/blog/2014/moving-from-github-pages-to-s3">&lt;p&gt;I decided to move from free github-pages hosting to dirt cheap AWS S3 hosting. I also decided to move my DNS from namecheap to the free CloudFlare plan. Here’s the steps I took to transfer everything over.&lt;/p&gt;
 
 &lt;p&gt;Most of the steps were adapted from here &lt;a href=&quot;http://blog.mindthecloud.com/2014/08/31/create-your-static-blog-from-scratch-in-1-hour.html&quot;&gt;http://blog.mindthecloud.com/2014/08/31/create-your-static-blog-from-scratch-in-1-hour.html&lt;/a&gt;&lt;/p&gt;
 
@@ -703,8 +618,10 @@ end
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;remove-github-site&quot;&gt;Remove Github site&lt;/h2&gt;
-&lt;p&gt;I deleted the github version so for now only the source lives there&lt;br /&gt;
-  * Delete master or gh-pages branch so that only the source remains&lt;/p&gt;
+&lt;p&gt;I deleted the github version so for now only the source lives there&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Delete master or gh-pages branch so that only the source remains&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;use-cloudflare&quot;&gt;Use Cloudflare&lt;/h2&gt;
 &lt;ul&gt;
@@ -721,24 +638,14 @@ end
 &lt;ul&gt;
   &lt;li&gt;Login to your DNS provider (I use Namecheap)&lt;/li&gt;
   &lt;li&gt;Remove all other DNS providers and add the two that CloudFlare told you to&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-<summary>I decided to move from free github-pages hosting to dirt cheap AWS S3 hosting. I also decided to move my DNS from namecheap to the free CloudFlare plan. Here’s the steps I took to transfer everything over.</summary>
-</entry>
-<entry>
-<title>Mail Forwarding With Mailgun and CloudFlare</title>
-<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/mail-forwarding-with-mailgun-and-cloudflare" rel="alternate" type="text/html" title="Mail Forwarding With Mailgun and CloudFlare" />
-<published>2014-12-03T00:00:00-08:00</published>
-<updated>2014-12-03T00:00:00-08:00</updated>
-<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/mail-forwarding-with-mailgun-and-cloudflare</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/mail-forwarding-with-mailgun-and-cloudflare">&lt;p&gt;After moving my DNS from Namecheap to CloudFlare I lost the ability to use Namecheap as a mail forwarder. For anyone not sure what that is, essentially it allows you to receive email at anyname@your-domain.com and have it automatically forwarded somewhere else (like your personal Gmail account).&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Chrisanthropic</name></author><summary>I decided to move from free github-pages hosting to dirt cheap AWS S3 hosting. I also decided to move my DNS from namecheap to the free CloudFlare plan. Here’s the steps I took to transfer everything over.</summary></entry><entry><title>Mail Forwarding With Mailgun and CloudFlare</title><link href="http://localhost:4000/blog/2014/mail-forwarding-with-mailgun-and-cloudflare" rel="alternate" type="text/html" title="Mail Forwarding With Mailgun and CloudFlare" /><published>2014-12-03T00:00:00-08:00</published><updated>2014-12-03T00:00:00-08:00</updated><id>http://localhost:4000/blog/2014/mail-forwarding-with-mailgun-and-cloudflare</id><content type="html" xml:base="http://localhost:4000/blog/2014/mail-forwarding-with-mailgun-and-cloudflare">&lt;p&gt;After moving my DNS from Namecheap to CloudFlare I lost the ability to use Namecheap as a mail forwarder. For anyone not sure what that is, essentially it allows you to receive email at anyname@your-domain.com and have it automatically forwarded somewhere else (like your personal Gmail account).&lt;/p&gt;
 
 &lt;p&gt;So, what I did is leverage a free account with &lt;a href=&quot;https://mailgun.com/&quot;&gt;Mailgun&lt;/a&gt; to setup the same thing.&lt;/p&gt;
 
 &lt;h2 id=&quot;mailgun-setup&quot;&gt;Mailgun Setup&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Create a Mailgun account&lt;/li&gt;
-  &lt;li&gt;Add your domain name (no www)&lt;br /&gt;
+  &lt;li&gt;Add your domain name (no www)
 &lt;code class=&quot;highlighter-rouge&quot;&gt;domain.com&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Keep the page open and open a new tab to CloudFlare&lt;/li&gt;
 &lt;/ul&gt;
@@ -775,9 +682,9 @@ end
   &lt;li&gt;From Mailgun, choose &lt;code class=&quot;highlighter-rouge&quot;&gt;Routes&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Create Your First Route&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Priority&lt;/strong&gt; 10&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Filter Expression&lt;/strong&gt; This is where you list the email address you want to forward to gmail&lt;br /&gt;
+  &lt;li&gt;&lt;strong&gt;Filter Expression&lt;/strong&gt; This is where you list the email address you want to forward to gmail
 &lt;code class=&quot;highlighter-rouge&quot;&gt;match_recipient(&quot;you@domain.com&quot;)&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Actions&lt;/strong&gt; This is the gmail address you want to receive your mail&lt;br /&gt;
+  &lt;li&gt;&lt;strong&gt;Actions&lt;/strong&gt; This is the gmail address you want to receive your mail
 &lt;code class=&quot;highlighter-rouge&quot;&gt;forward(&quot;me@gmail.com&quot;)&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Description&lt;/strong&gt; Name it something so you remember what it’s for&lt;/li&gt;
 &lt;/ul&gt;
@@ -801,81 +708,71 @@ end
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Once it’s verified you should be able to compose emails and list your new email in the &lt;code class=&quot;highlighter-rouge&quot;&gt;from&lt;/code&gt; line so nobody needs to know it’s coming from your personal gmail account.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-<summary>After moving my DNS from Namecheap to CloudFlare I lost the ability to use Namecheap as a mail forwarder. For anyone not sure what that is, essentially it allows you to receive email at anyname@your-domain.com and have it automatically forwarded somewhere else (like your personal Gmail account).</summary>
-</entry>
-<entry>
-<title>Add sitemap.xml to Jekyll</title>
-<link href="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/add-sitemap-xml-to-jekyll" rel="alternate" type="text/html" title="Add sitemap.xml to Jekyll" />
-<published>2014-12-03T00:00:00-08:00</published>
-<updated>2014-12-03T00:00:00-08:00</updated>
-<id>https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/add-sitemap-xml-to-jekyll</id>
-<content type="html" xml:base="https://chrisanthropic.github.io/starving-artist-jekyll-theme/blog/2014/add-sitemap-xml-to-jekyll">&lt;p&gt;I don’t like using plugins unless absolutely necessarry so I was happy to find a simple way to create a sitemap without one. The instructions are taken from this site: &lt;a href=&quot;http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/&quot;&gt;http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Chrisanthropic</name></author><summary>After moving my DNS from Namecheap to CloudFlare I lost the ability to use Namecheap as a mail forwarder. For anyone not sure what that is, essentially it allows you to receive email at anyname@your-domain.com and have it automatically forwarded somewhere else (like your personal Gmail account).</summary></entry><entry><title>Add sitemap.xml to Jekyll</title><link href="http://localhost:4000/blog/2014/add-sitemap-xml-to-jekyll" rel="alternate" type="text/html" title="Add sitemap.xml to Jekyll" /><published>2014-12-03T00:00:00-08:00</published><updated>2014-12-03T00:00:00-08:00</updated><id>http://localhost:4000/blog/2014/add-sitemap-xml-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2014/add-sitemap-xml-to-jekyll">&lt;p&gt;I don’t like using plugins unless absolutely necessarry so I was happy to find a simple way to create a sitemap without one. The instructions are taken from this site: &lt;a href=&quot;http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/&quot;&gt;http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Create a &lt;code class=&quot;highlighter-rouge&quot;&gt;sitemap.xml&lt;/code&gt; file with the following content:&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;raw&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;---&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;layout:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;sitemap:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;exclude:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&#39;yes&#39;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;---&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;?xml&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;version=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;1.0&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;encoding=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;urlset&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;xmlns=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;site.posts&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;unless&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;post.published&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;url&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;loc&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;site.url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;post.url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&amp;lt;/loc&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;post.sitemap.lastmod&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;lastmod&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;post.sitemap.lastmod&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;date:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;%Y-%m-%d&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}}&amp;lt;/lastmod&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;elsif&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;post.date&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;lastmod&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;post.date&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;date_to_xmlschema&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&amp;lt;/lastmod&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;lastmod&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;site.time&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;date_to_xmlschema&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&amp;lt;/lastmod&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;endif&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;post.sitemap.changefreq&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;changefreq&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;post.sitemap.changefreq&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&amp;lt;/changefreq&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;changefreq&amp;gt;monthly&amp;lt;/changefreq&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;endif&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;post.sitemap.priority&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;priority&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;post.sitemap.priority&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&amp;lt;/priority&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;priority&amp;gt;&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;/priority&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;endif&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;/url&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;endunless&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;endfor&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;site.pages&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;unless&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;page.sitemap.exclude&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;yes&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;url&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;loc&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;site.url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;page.url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;remove:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;index.html&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}}&amp;lt;/loc&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;page.sitemap.lastmod&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;lastmod&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;page.sitemap.lastmod&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;date:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;%Y-%m-%d&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}}&amp;lt;/lastmod&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;elsif&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;page.date&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;lastmod&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;page.date&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;date_to_xmlschema&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&amp;lt;/lastmod&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;lastmod&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;site.time&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;date_to_xmlschema&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&amp;lt;/lastmod&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;endif&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;page.sitemap.changefreq&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;changefreq&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;page.sitemap.changefreq&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&amp;lt;/changefreq&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;changefreq&amp;gt;monthly&amp;lt;/changefreq&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;endif&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;page.sitemap.priority&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;priority&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;page.sitemap.priority&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&amp;lt;/priority&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;priority&amp;gt;&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;/priority&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;endif&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;/url&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;endunless&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;endfor&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;/urlset&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;endraw&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+---
+layout: null
+sitemap:
+  exclude: 'yes'
+---
+&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&amp;gt;
+&amp;lt;urlset xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&amp;gt;
+  {% for post in site.posts %}
+    {% unless post.published == false %}
+    &amp;lt;url&amp;gt;
+      &amp;lt;loc&amp;gt;{{ site.url }}{{ post.url }}&amp;lt;/loc&amp;gt;
+      {% if post.sitemap.lastmod %}
+        &amp;lt;lastmod&amp;gt;{{ post.sitemap.lastmod | date: &quot;%Y-%m-%d&quot; }}&amp;lt;/lastmod&amp;gt;
+      {% elsif post.date %}
+        &amp;lt;lastmod&amp;gt;{{ post.date | date_to_xmlschema }}&amp;lt;/lastmod&amp;gt;
+      {% else %}
+        &amp;lt;lastmod&amp;gt;{{ site.time | date_to_xmlschema }}&amp;lt;/lastmod&amp;gt;
+      {% endif %}
+      {% if post.sitemap.changefreq %}
+        &amp;lt;changefreq&amp;gt;{{ post.sitemap.changefreq }}&amp;lt;/changefreq&amp;gt;
+      {% else %}
+        &amp;lt;changefreq&amp;gt;monthly&amp;lt;/changefreq&amp;gt;
+      {% endif %}
+      {% if post.sitemap.priority %}
+        &amp;lt;priority&amp;gt;{{ post.sitemap.priority }}&amp;lt;/priority&amp;gt;
+      {% else %}
+        &amp;lt;priority&amp;gt;0.5&amp;lt;/priority&amp;gt;
+      {% endif %}
+    &amp;lt;/url&amp;gt;
+    {% endunless %}
+  {% endfor %}
+  {% for page in site.pages %}
+    {% unless page.sitemap.exclude == &quot;yes&quot; %}
+    &amp;lt;url&amp;gt;
+      &amp;lt;loc&amp;gt;{{ site.url }}{{ page.url | remove: &quot;index.html&quot; }}&amp;lt;/loc&amp;gt;
+      {% if page.sitemap.lastmod %}
+        &amp;lt;lastmod&amp;gt;{{ page.sitemap.lastmod | date: &quot;%Y-%m-%d&quot; }}&amp;lt;/lastmod&amp;gt;
+      {% elsif page.date %}
+        &amp;lt;lastmod&amp;gt;{{ page.date | date_to_xmlschema }}&amp;lt;/lastmod&amp;gt;
+      {% else %}
+        &amp;lt;lastmod&amp;gt;{{ site.time | date_to_xmlschema }}&amp;lt;/lastmod&amp;gt;
+      {% endif %}
+      {% if page.sitemap.changefreq %}
+        &amp;lt;changefreq&amp;gt;{{ page.sitemap.changefreq }}&amp;lt;/changefreq&amp;gt;
+      {% else %}
+        &amp;lt;changefreq&amp;gt;monthly&amp;lt;/changefreq&amp;gt;
+      {% endif %}
+      {% if page.sitemap.priority %}
+        &amp;lt;priority&amp;gt;{{ page.sitemap.priority }}&amp;lt;/priority&amp;gt;
+      {% else %}
+        &amp;lt;priority&amp;gt;0.3&amp;lt;/priority&amp;gt;
+      {% endif %}
+    &amp;lt;/url&amp;gt;
+    {% endunless %}
+  {% endfor %}
+&amp;lt;/urlset&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 &lt;ul&gt;
@@ -883,10 +780,10 @@ end
 &lt;/ul&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sitemap:
-  lastmod: {{ date }}
+  lastmod: 
   priority: 0.5
   changefreq: monthly
-  exclude: &#39;no&#39;
+  exclude: 'no'
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -900,8 +797,4 @@ end
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Sitemaps.org is very clear that web crawlers use the data as &lt;em&gt;hints&lt;/em&gt; rather than commands so keep that in mind.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-<summary>I don’t like using plugins unless absolutely necessarry so I was happy to find a simple way to create a sitemap without one. The instructions are taken from this site: http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/</summary>
-</entry>
-</feed>
+&lt;/ul&gt;</content><author><name>Chrisanthropic</name></author><summary>I don’t like using plugins unless absolutely necessarry so I was happy to find a simple way to create a sitemap without one. The instructions are taken from this site: http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/</summary></entry></feed>
