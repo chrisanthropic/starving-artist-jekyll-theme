@@ -1,1 +1,10 @@
 starving-artist-jekyll-theme-*.gem
+_site
+.sass-cache
+.asset-cache
+.jekyll-metadata
+
+.bundle
+bin
+vendor/ruby
+Gemfile.lock

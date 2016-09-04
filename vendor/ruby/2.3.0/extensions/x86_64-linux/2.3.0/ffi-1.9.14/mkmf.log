@@ -221,7 +221,7 @@ checked program was:
 /* end */
 
 "gcc -o conftest -I/usr/include/ruby-2.3.0/x86_64-linux -I/usr/include/ruby-2.3.0/ruby/backward -I/usr/include/ruby-2.3.0 -I. -I/usr/lib/libffi-3.2.1/include -D_FORTIFY_SOURCE=2   -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fPIC  conftest.c  -L. -L/usr/lib -L. -Wl,-O1,--sort-common,--as-needed,-z,relro -fstack-protector -rdynamic -Wl,-export-dynamic -L/usr/lib/../lib    -lffi  -lffi -lruby -lffi  -lffi -lpthread -lgmp -ldl -lcrypt -lm   -lc"
-/tmp/ccpN7VLn.o: In function `t':
+/tmp/cce4ebnm.o: In function `t':
 conftest.c:(.text+0x7): undefined reference to `rb_thread_blocking_region'
 collect2: error: ld returned 1 exit status
 checked program was:

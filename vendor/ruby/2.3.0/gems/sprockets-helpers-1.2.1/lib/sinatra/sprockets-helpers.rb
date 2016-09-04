@@ -1,1 +1,0 @@
-require 'sinatra/sprockets/helpers'

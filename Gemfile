@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-gemspec
+#gemspec
 gem 'jekyll'                    #Needed since this is a theme for Jekyll
 gem 'jekyll-feed'
 gem 'rake'                      #Used to simplify building/deploying tasks
