@@ -5,6 +5,8 @@ _site
 .jekyll-metadata
 
 .bundle
+.bin
+.vendor
 bin
 vendor/ruby
 Gemfile.lock

@@ -1,6 +1,0 @@
-# pack-refs with: peeled fully-peeled 
-469e35233f5714fbd236b51e03c2d649477ebc74 refs/heads/assets
-2e2495367770cbc43bca299beeb4777237bef578 refs/heads/gem
-eaadd3d80e5bacf11ebfa8a8adca66929ce5b7ad refs/heads/gh-pages
-ed3654d541576a3bcc9b93b6d6e3c49978496d10 refs/heads/master
-2e2495367770cbc43bca299beeb4777237bef578 refs/tags/v0.1.0
