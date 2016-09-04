@@ -1,0 +1,22 @@
+language: ruby
+rvm:
+  - 1.8.7
+  - 1.9.2
+  - 1.9.3
+  - '2.0'
+  - '2.1'
+  - '2.2'
+  - jruby-18mode
+  - jruby-19mode
+  - ree
+script:
+  if [ -n "$RUBOCOP" ]; then
+    bundle exec rubocop
+  ; else
+    bundle exec rspec
+  ; fi
+matrix:
+  fast_finish: true
+  include:
+    - env: RUBOCOP=true
+      rvm: default

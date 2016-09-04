@@ -1,0 +1,85 @@
+---
+name: "illustration"
+arts:
+# Column 1
+- image: "images/galleries/illustration/AvenueinSchlossKammerPark.jpg"
+  order: "1"
+  title: "Avenue in Schloss Kammer Park"
+  artist: "Gustav Klimt"
+  description: 
+  
+- image: "images/galleries/illustration/Expectation.jpg"
+  order: "2"
+  title: "title"
+  artist: "Gustav Klimt"
+  description: "description"
+
+- image: "images/galleries/illustration/hygeia-detail-of-medicine-1907.jpg"
+  order: "3"
+  title: "title"
+  artist: "Gustav Klimt"
+  description: "description"
+
+# Column 2
+- image: "images/galleries/illustration/Baby.jpg"
+  order: "4"
+  title: "Baby"
+  artist: "Gustav Klimt"
+  description: "Image with a description. This could be more info about the medium, the client, the project itself, etc."
+
+- image: "images/galleries/illustration/Lady-with-Hat-and-Feather-Boa.jpg"
+  order: "5"
+  title: "title"
+  artist: "Gustav Klimt"
+  description: "description"
+
+- image: "images/galleries/illustration/klimt.jpg"
+  order: "6"
+  title: "title"
+  artist: "Gustav Klimt"
+  description: "description"
+ 
+# Column 3
+- image: "images/galleries/illustration/Birch-Trees.jpg"
+  order: "7"
+  title: "Birch Trees"
+  artist: "Gustav Klimt"
+  description: "asfsdfsdf"
+
+- image: "images/galleries/illustration/Country-Garden-With-Sunflowers.jpg"
+  order: "8"
+  title: "Country Garden With Sunflowers"
+  artist: "Gustav Klimt"
+  description: "dfjhtryf"
+  
+- image: "images/galleries/illustration/Fulfillment.jpg"
+  order: "9"
+  title: "title"
+  artist: "Gustav Klimt"
+  description: "description"
+
+# Column 4
+- image: "images/galleries/illustration/Gustav_Klimt_046.jpg"
+  order: "10"
+  title: "title"
+  artist: "Gustav Klimt"
+  description: "description"
+  
+- image: "images/galleries/illustration/The-Tree-Of-Life.jpg"
+  order: "11"
+  title: "title"
+  artist: "Gustav Klimt"
+  description: "description"
+  
+- image: "images/galleries/illustration/music.jpg"
+  order: "12"
+  title: "title"
+  artist: "Gustav Klimt"
+  description: "description"
+  
+- image: "images/galleries/illustration/maxresdefault.jpg"
+  order: "13"
+  title: "title"
+  artist: "Gustav Klimt"
+  description: "description"
+---

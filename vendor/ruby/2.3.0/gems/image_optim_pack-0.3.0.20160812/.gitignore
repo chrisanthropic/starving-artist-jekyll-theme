@@ -1,0 +1,8 @@
+/build/
+/download/
+/.vagrant/
+
+Gemfile.lock
+/*.gem
+/.bundle
+/tmp/

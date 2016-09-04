@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+set -xe
+
+MAKE_COMMAND='make all -j'
+
+for arg in "$@"; do
+  if [[ "$arg" =~ ^([A-Z_]+)=(.*)$ ]]; then
+    eval "$(printf %q=%q "${BASH_REMATCH[1]}" "${BASH_REMATCH[2]}")"
+  fi
+done
+
+if [ "$(uname -s | tr A-Z a-z)" != 'darwin' ]; then
+  echo 'expected to run on Mac OS X'
+  exit 1
+fi
+
+for arch in i386 x86_64; do
+  $MAKE_COMMAND ARCH=$arch
+done
+
+for vm in linux_{i686,x86_64}; do
+  vagrant up $vm
+  vagrant ssh $vm -c "cd /vagrant; $MAKE_COMMAND"
+  [ -n "$NO_HALT" ] || vagrant halt
+done

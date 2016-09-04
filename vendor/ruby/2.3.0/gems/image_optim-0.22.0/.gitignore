@@ -1,0 +1,17 @@
+/pkg/
+/*.gem
+
+/doc/
+/rdoc/
+/.yardoc/
+/coverage/
+
+Gemfile.lock
+Makefile
+*.o
+*.bundle
+/tmp/
+/.vagrant/
+
+/analysis/
+/.analysis_variants.yml

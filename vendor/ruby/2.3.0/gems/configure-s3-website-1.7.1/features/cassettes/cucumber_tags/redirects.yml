@@ -1,0 +1,203 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: https://s3.amazonaws.com/website-with-redirects/?website
+    body:
+      encoding: US-ASCII
+      string: ! "\n        <WebsiteConfiguration xmlns='http://s3.amazonaws.com/doc/2006-03-01/'>\n
+        \         <IndexDocument>\n            <Suffix>index.html</Suffix>\n          </IndexDocument>\n
+        \         <ErrorDocument>\n            <Key>error.html</Key>\n          </ErrorDocument>\n
+        \       </WebsiteConfiguration>\n      "
+    headers:
+      Date:
+      - Sun, 05 May 2013 17:15:13 EEST
+      Content-Type:
+      - ''
+      Content-Length:
+      - '298'
+      Authorization:
+      - AWS
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      X-Amz-Request-Id:
+      - 2DFD9AF9459D6EBA
+      X-Amz-Id-2:
+      - xuu
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Sun, 05 May 2013 14:15:16 GMT
+      Connection:
+      - close
+      Server:
+      - AmazonS3
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist</Message><BucketName>website-with-redirects</BucketName><RequestId>2DFD9AF9459D6EBA</RequestId><HostId>+mKBZUngt5PWBeABkXaUZFengM23XP683j5NXVkvIlDnfkfsYdU6jJuoRMJaQZF/</HostId></Error>'
+    http_version:
+  recorded_at: Sun, 05 May 2013 14:15:14 GMT
+- request:
+    method: put
+    uri: https://s3.amazonaws.com/website-with-redirects
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Date:
+      - Sun, 05 May 2013 17:15:14 EEST
+      Content-Type:
+      - ''
+      Content-Length:
+      - '0'
+      Authorization:
+      - AWS
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - Hn9luS/t3JpOkwnXRnyVOJ+HlYVS1PNZ//XVrAiZjP95xY4Aot5X0X8S+rQ8eDwp
+      X-Amz-Request-Id:
+      - 60B4854F860963D6
+      Date:
+      - Sun, 05 May 2013 14:15:18 GMT
+      Location:
+      - /website-with-redirects
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version:
+  recorded_at: Sun, 05 May 2013 14:15:15 GMT
+- request:
+    method: put
+    uri: https://s3.amazonaws.com/website-with-redirects/?website
+    body:
+      encoding: US-ASCII
+      string: ! "\n        <WebsiteConfiguration xmlns='http://s3.amazonaws.com/doc/2006-03-01/'>\n
+        \         <IndexDocument>\n            <Suffix>index.html</Suffix>\n          </IndexDocument>\n
+        \         <ErrorDocument>\n            <Key>error.html</Key>\n          </ErrorDocument>\n
+        \       </WebsiteConfiguration>\n      "
+    headers:
+      Date:
+      - Sun, 05 May 2013 17:15:15 EEST
+      Content-Type:
+      - ''
+      Content-Length:
+      - '298'
+      Authorization:
+      - AWS
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - bBCMImUYwikvIu5M1aFYsEyouPNM3xQoLsNpKeXjSVbe3ZJJZLUdR0OMF+3zFX+y
+      X-Amz-Request-Id:
+      - 2E4F04F9CB9F14F9
+      Date:
+      - Sun, 05 May 2013 14:15:19 GMT
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version:
+  recorded_at: Sun, 05 May 2013 14:15:16 GMT
+- request:
+    method: put
+    uri: https://s3.amazonaws.com/website-with-redirects/?policy
+    body:
+      encoding: US-ASCII
+      string: ! "{\n        \"Version\":\"2008-10-17\",\n        \"Statement\":[{\n
+        \         \"Sid\":\"PublicReadForGetBucketObjects\",\n          \"Effect\":\"Allow\",\n
+        \         \"Principal\": { \"AWS\": \"*\" },\n          \"Action\":[\"s3:GetObject\"],\n
+        \         \"Resource\":[\"arn:aws:s3:::website-with-redirects/*\"]\n        }]\n
+        \     }"
+    headers:
+      Date:
+      - Sun, 05 May 2013 17:15:16 EEST
+      Content-Type:
+      - ''
+      Content-Length:
+      - '291'
+      Authorization:
+      - AWS
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      X-Amz-Id-2:
+      - ijsq/+jpLhfwLnUJF2xKj5x+1x9YhapYBVk38FDb7BYQ2vRsiFUydmrYD8PIfr0b
+      X-Amz-Request-Id:
+      - EA0FDFDE47845326
+      Date:
+      - Sun, 05 May 2013 14:15:19 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version:
+  recorded_at: Sun, 05 May 2013 14:15:17 GMT
+- request:
+    method: put
+    uri: https://s3.amazonaws.com/website-with-redirects/?website
+    body:
+      encoding: US-ASCII
+      string: ! "\n          <WebsiteConfiguration xmlns='http://s3.amazonaws.com/doc/2006-03-01/'>\n
+        \           <IndexDocument>\n              <Suffix>index.html</Suffix>\n            </IndexDocument>\n
+        \           <ErrorDocument>\n              <Key>error.html</Key>\n            </ErrorDocument>\n
+        \           <RoutingRules>\n        \n              <RoutingRule>\n          \n
+        \             <Condition>\n                <KeyPrefixEquals>blog/some_path</KeyPrefixEquals></Condition>\n
+        \             <Redirect>\n                <HostName>blog.example.com</HostName>\n
+        \               <ReplaceKeyPrefixWith>some_new_path/</ReplaceKeyPrefixWith>\n
+        \               <HttpRedirectCode>301</HttpRedirectCode></Redirect>\n              </RoutingRule>\n
+        \         \n            </RoutingRules>\n          </WebsiteConfiguration>\n
+        \       "
+    headers:
+      Date:
+      - Sun, 05 May 2013 17:15:17 EEST
+      Content-Type:
+      - ''
+      Content-Length:
+      - '786'
+      Authorization:
+      - AWS 
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - aAt1wLoQJwkJHLmF8wHSX8fbfyVVacGEv3PO/Cx6y4kDkEqzp2v33l99ZWBH4dVt
+      X-Amz-Request-Id:
+      - 1C1A5EB5ABB7198A
+      Date:
+      - Sun, 05 May 2013 14:15:20 GMT
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version:
+  recorded_at: Sun, 05 May 2013 14:15:18 GMT
+recorded_with: VCR 2.3.0

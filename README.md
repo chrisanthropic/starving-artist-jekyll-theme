@@ -1,6 +1,8 @@
-# starving-artist
+# starving-artist-jekyll-theme
 
-A mobile-friendly Jekyll theme for visual artists with custom layouts for: contact page, about page, blog, and pinterest-style gallery layout.
+Live Demo [HERE](http://chrisanthropic.github.io/starving-artist-jekyll-theme/)
+
+Starving Artist is a simple portfolio theme for visual artists to easily share their work.
 
 ## Installation
 
@@ -20,10 +22,6 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install starving-artist
-
 ## Usage
 
 Includes the following custom layouts:
@@ -33,19 +31,117 @@ Includes the following custom layouts:
 - contact.html
 - gallery.html
 
-## Contributing
+## Basic features include:
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/chrisanthropic/starving-artist-jekyll-theme/. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+* Jekyll 3.0 compatible
+* SASS
+* Minimal Zurb Foundation 6 Integration
+    * Flexbox grid
+    * Visibility classes
+* Responsive / Mobile-friendly
+* **Javascript free**
+* Basic SEO
+    * Facebook opengraph integration
+    * Twitter card integration
 
-## Development
+### SASS
+Includes the following variables:
 
-To set up your environment to develop this theme, run `bundle install`.
+**Base Colors**
+* $primary-color
+* $secondary-color
+* $complimentary-color
+* $body-bg
+* $body-font-color
 
-You theme is setup just like a normal Jelyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+**Links**
+* link-color
+* link-hover-color
+* link-visited-color
 
-When your theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
+**Text**
+* $base-font-family
+* $base-font-size
+* $small-font-size
+* $base-line-height
 
-## License
+**Navbar Settings**
+* $navbar-color
+* $navbar-text-color
+* $navbar-hover-color
+* $navbar-active-color
+* $navbar-font-size
+* $navbar-font-family
 
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+**Socials Navbar Settings**
+* $socials-font-color
+* $socials-font-size
 
+**Utility**
+* $spacing-unit
+
+**Footer**
+* $footer-height
+* $footer-color
+
+### FLEXBOX GRID
+Uses minimal sass from Zurb Foundation:
+
+* [grid](http://foundation.zurb.com/sites/docs/flex-grid.html)
+
+### NAVIGATION
+
+* Populated using Jekyll 'data' nav.yml file
+* Easily customizable text, link, and background colors using the supplied sass variables
+
+### JAVASCRIPT FREE
+The only thing in the theme that uses Javascript is the optional use of google analytics.
+
+### BASIC SEO
+
+* Google Analytics*
+  * *Uses Javascript
+  * just add your `google_universal_analytics ID` to the _config.yml file.
+* Facebook Open Graph
+  Fill out the following in your config.yml
+
+  ```
+    facebook_app_id:                      #enter your App ID
+    facebook_locale: en_US
+    facebook_page:                        #the URL of your Facebook Page
+    facebook_image:			#enter a default image (at least 200x200px) to use here for posts/pages that don't have one.	
+  ```
+
+* Twitter Cards
+  Fill out the following in your config.yml
+
+  ```
+    twitter_user: 
+    twitter_card: true
+    twitter_image: 			 #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
+  ```
+
+* Sitewide description/keywords
+  * Edit the description in your config.yml and it will be used as the default description in the metadata for every page/post.
+  * Add `Keywords: some, bunch, of random keywords` to your config.yml and it will be used as the default keywords in the metadata for every post/page.
+  * Set specific keywords per page/post (override the sitewide defaults) by adding them to the front matter of any page/post.
+    * Example:
+
+```
+---
+Title: Example Post
+Description: Some Yaml Frontmatter to show what's what.
+Keywords: Example, Zim, this is only a test
+---
+```
+
+## Basic Use
+For now it's best to start fresh or install the them and then transfer over any old files (posts, images, etc) from your old site.
+
+* Git clone this repo, cd into the directory and run `bundle install --binstubs --path=vendor` to install the required dependencies.
+* Edit your config.yml file
+  * Change the title and description at a minimum.
+* Update your navigation 
+  * edit the `_data/nav.yml` file as needed
+* Update your social links
+  * edit the `_data/socials.yml` file as needed

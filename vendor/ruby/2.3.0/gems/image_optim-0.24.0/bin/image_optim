@@ -1,0 +1,28 @@
+#!/usr/bin/env ruby
+# encoding: UTF-8
+
+require 'image_optim/runner'
+require 'image_optim/runner/option_parser'
+
+args = ARGV.dup
+
+options = ImageOptim::Runner::OptionParser.parse!(args)
+
+begin
+  if options[:verbose]
+    $stderr.puts ImageOptim.full_version
+  end
+
+  only_info = options.delete(:only_info)
+  runner = ImageOptim::Runner.new(options)
+  unless only_info
+    abort 'specify paths to optimize' if args.empty?
+    abort unless runner.run!(args)
+  end
+rescue => e
+  if options[:verbose]
+    abort "#{e}\n#{e.backtrace.join("\n")}"
+  else
+    abort e.to_s
+  end
+end

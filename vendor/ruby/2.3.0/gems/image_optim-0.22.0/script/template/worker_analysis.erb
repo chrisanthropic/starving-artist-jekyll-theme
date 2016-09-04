@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>Worker Analysis</title>
+    <style>
+      body {
+        font: 14px "Myriad Pro", "Helvetica", Arial, sans-serif;
+        margin: 20px;
+        padding: 0;
+      }
+
+      .formats {
+        display: block;
+        font-size: 1.5em;
+        margin: 1em 0;
+        font-weight: bold;
+      }
+
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      th, td {
+        border: 1px solid #ccc;
+        padding: 6px 8px 2px;
+      }
+      th {
+        text-align: left;
+        border-color: #999;
+      }
+      th:not([data-sortable="false"]) {
+        cursor: pointer;
+        padding-right: 18px;
+      }
+      th:after {
+        position: absolute;
+        width: 18px;
+        height: 14px;
+        line-height: 14px;
+        font-size: 0.8em;
+        color: #999;
+        visibility: hidden;
+        text-align: center;
+      }
+      th[data-sorted="true"]:after {
+        visibility: visible;
+      }
+      th[data-sorted-direction="descending"]:after {
+        content: "▼";
+      }
+      th[data-sorted-direction="ascending"]:after {
+        content: "▲";
+      }
+      table[data-sortable] tbody tr:hover {
+        background: #ddf;
+      }
+      body:not(.show-unused) tr.unused, tr.filtered-out {
+        display: none;
+      }
+
+      tr.relativeTo { background: #fdd; }
+      table[data-sortable] tbody tr.relativeTo:hover {
+        background: #fdf;
+      }
+
+      input { display: block; width: 30%; }
+      input[type=checkbox] { display: inline; width: auto; }
+
+      .nowrap {
+        white-space: nowrap;
+      }
+
+      .number {
+        text-align: right;
+      }
+
+      .warn-low {
+        background: rgba(255, 0, 0, 0.1);
+      }
+      .warn-medium {
+        background: rgba(255, 0, 0, 0.4);
+      }
+      .warn-high {
+        background: rgba(255, 0, 0, 0.8);
+      }
+
+      .worker-name,
+      .worker-success-count,
+      .worker-avg-time {
+        display: inline-block;
+        border-radius: 8px;
+      }
+      .worker-name {
+        background: #ddd;
+        padding: 2px 5px 0;
+        border: 1px solid #999;
+        margin: -3px 0 1px 0;
+      }
+      .worker-success-count,
+      .worker-avg-time {
+        font-size: 0.9em;
+        line-height: 1em;
+        padding: 1px 2px 0;
+        border: 1px solid #9b9;
+      }
+      .worker-success-count {
+        background: #dfd;
+      }
+      .worker-avg-time {
+        background: #fdd;
+      }
+      .worker-name.unused {
+        text-decoration: line-through;
+      }
+    </style>
+    <script src="<%= template_dir %>/jquery-2.1.3.min.js"></script>
+    <script src="<%= template_dir %>/sortable-0.6.0.min.js"></script>
+    <script>
+      function toggleShowUnused(){
+        var checked = document.getElementById('toggle-show-unused').checked
+        document.body.classList[checked ? 'add' : 'remove']('show-unused')
+      }
+      function filterTable(){
+        var filterText = document.getElementById('filter').value
+        var invert = filterText[0] == '-'
+        var filter = new RegExp(filterText.replace(/^-/, ''))
+        var rows = document.querySelectorAll('tbody.filterable tr')
+        for (var i = 0, _i = rows.length; i < _i; i++) {
+          var row = rows[i]
+          if (!row.hasAttribute('data-filter-text')) {
+            var text = row.textContent.replace(/\s+/g, ' ')
+            row.setAttribute('data-filter-text', text)
+          }
+          var show = filter.test(row.getAttribute('data-filter-text')) != invert
+          row.classList[show ? 'remove' : 'add']('filtered-out')
+        }
+      }
+
+      $(function(){
+        $('table[data-sortable] td[data-rel]').each(function(i, cell){
+          $(cell).attr('data-value', $.trim($(cell).text()))
+        })
+        var relative_to
+        $('table[data-sortable]').on('click', 'tbody tr', function(e){
+          if (relative_to) {
+            $(relative_to).removeClass('relativeTo')
+          }
+
+          if (relative_to === this) {
+            $('table[data-sortable] td[data-rel]').each(function(i, cell){
+              $(cell).text($(cell).attr('data-value'))
+            })
+            relative_to = null
+          } else {
+            $(this).addClass('relativeTo')
+
+            var values = $(this).children('td[data-rel]').map(function(i, cell){
+              return parseFloat($(cell).attr('data-value'))
+            })
+
+            $('table[data-sortable] td[data-rel]').each(function(ii, cell){
+              var i = ii % values.length
+              var value = parseFloat($(cell).attr('data-value')) / values[i]
+              var precision = 1000
+              $(cell).text(Math.round(value * precision * 100) / precision + '%')
+            })
+            relative_to = this
+          }
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <div class='formats'>
+      <% format_links.each do |format, link| %>
+        <% if stats_format == format %>
+          <span><%= format %></span>
+        <% else %>
+          <a href="<%= link %>"><%= format %></a>
+        <% end %>
+      <% end %>
+    </div>
+    <table>
+      <tr>
+        <td class='warn-low'>Max difference >= 0.001</td>
+        <td class='warn-medium'>Max difference >= 0.01</td>
+        <td class='warn-high'>Max difference >= 0.1</td>
+      </tr>
+    </table>
+    <p>
+      <span class='worker-success-count'>10</span> - successful count;
+      <span class='worker-avg-time'>0.123</span> - average time in seconds
+    </p>
+    <p>
+      <label>
+        <input id='toggle-show-unused' onchange='toggleShowUnused()' type='checkbox'>
+        Show chains with workers failed for every image
+      </label>
+    </p>
+    <p>
+      <label for='filter'>
+        Filter chains by regexp (prefix with "-" to filter-out):
+        <input id='filter' onkeyup='filterTable()' type='text'>
+      </label>
+    </p>
+    <p>
+      Images: <%= stats.each_chain.first.entry_count %>,
+      size: <%= stats.each_chain.first.original_size %>
+    </p>
+    <table data-sortable>
+      <thead>
+        <tr>
+          <th>Chain</th>
+          <th data-default-direction='ascending' data-sorted-direction='ascending' data-sorted='true'>Optimized size</th>
+          <th data-default-direction='ascending'>Ratio</th>
+          <th data-default-direction='ascending'>Avg ratio</th>
+          <th data-default-direction='ascending'>Avg time (s)</th>
+          <th data-default-direction='ascending'>Avg difference</th>
+          <th data-default-direction='ascending'>Max difference</th>
+          <th>Speed (B/s)</th>
+        </tr>
+      </thead>
+      <tbody class='filterable'>
+        <% stats.each_chain do |chain| %>
+          <tr class="<%= chain.unused_workers ? 'unused' : '' %>">
+            <td class="nowrap">
+              <% chain.worker_stats.each do |worker_stat| %>
+                <div class='worker-name <%= worker_stat.unused? ? 'unused' : '' %>'>
+                  <%= worker_stat.name %>
+                  <% unless worker_stat.unused? %>
+                    <div class='worker-success-count'>
+                      <%= worker_stat.success_count %>
+                    </div>
+                  <% end %>
+                  <div class='worker-avg-time'>
+                    <%= format '%.3f', worker_stat.avg_time %>
+                  </div>
+                </div>
+              <% end %>
+            </td>
+            <td class='number' data-rel><%= chain.optimized_size %></td>
+            <td class='number' data-rel><%= format '%.5f', chain.ratio %></td>
+            <td class='number' data-rel><%= format '%.5f', chain.avg_ratio %></td>
+            <td class='number' data-rel><%= format '%.4f', chain.avg_time %></td>
+            <td class='number'><%= format '%.5f', chain.avg_difference %></td>
+            <td class='number <%= chain.warn_level ? "warn-#{chain.warn_level}" : '' %>'><%= format '%.5f', chain.max_difference %></td>
+            <td class='number'><%= format '%.2f', chain.speed %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </body>
+</html>

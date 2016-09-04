@@ -1,0 +1,3 @@
+s3_id: <%= 'hello world' %>
+s3_secret: <%= 'secret world' %>
+s3_bucket: my-bucket

@@ -1,0 +1,12 @@
+timezone: UTC
+
+gems:
+  - jekyll-last-modified-at
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: page
+    values:
+      layout: some_default

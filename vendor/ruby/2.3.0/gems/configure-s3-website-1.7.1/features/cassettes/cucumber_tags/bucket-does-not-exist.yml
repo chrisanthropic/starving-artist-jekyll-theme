@@ -1,0 +1,159 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: https://s3.amazonaws.com/name-of-a-new-bucket/?website
+    body:
+      encoding: US-ASCII
+      string: ! "\n        <WebsiteConfiguration xmlns='http://s3.amazonaws.com/doc/2006-03-01/'>\n
+        \         <IndexDocument>\n            <Suffix>index.html</Suffix>\n          </IndexDocument>\n
+        \         <ErrorDocument>\n            <Key>error.html</Key>\n          </ErrorDocument>\n
+        \       </WebsiteConfiguration>\n      "
+    headers:
+      Date:
+      - Sun, 30 Dec 2012 19:59:34 EET
+      Content-Type:
+      - ''
+      Content-Length:
+      - '298'
+      Authorization:
+      - AWS foo
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      X-Amz-Request-Id:
+      - CD16DF6FF66B5922
+      X-Amz-Id-2:
+      - Xu30q0VM0aaYY091koYh8FIUDPB2KWOQLRPqnLulIK3ScIrMWgOwF7M2XRYIi5Vs
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Sun, 30 Dec 2012 17:59:34 GMT
+      Connection:
+      - close
+      Server:
+      - AmazonS3
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist</Message><BucketName>name-of-a-new-bucket</BucketName><RequestId>CD16DF6FF66B5922</RequestId><HostId>Xu30q0VM0aaYY091koYh8FIUDPB2KWOQLRPqnLulIK3ScIrMWgOwF7M2XRYIi5Vs</HostId></Error>'
+    http_version:
+  recorded_at: Sun, 30 Dec 2012 17:59:37 GMT
+- request:
+    method: put
+    uri: https://s3.amazonaws.com/name-of-a-new-bucket
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Date:
+      - Sun, 30 Dec 2012 19:59:37 EET
+      Content-Type:
+      - ''
+      Content-Length:
+      - '0'
+      Authorization:
+      - AWS foo
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - 7HuGyurBPI/HV8DVtjtRufaMaLRJLU+vCch+BPuBAysYAlE7XS4Eavz7srhB2dTx
+      X-Amz-Request-Id:
+      - 431755651DECBBC5
+      Date:
+      - Sun, 30 Dec 2012 17:59:39 GMT
+      Location:
+      - /name-of-a-new-bucket
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version:
+  recorded_at: Sun, 30 Dec 2012 17:59:39 GMT
+- request:
+    method: put
+    uri: https://s3.amazonaws.com/name-of-a-new-bucket/?website
+    body:
+      encoding: US-ASCII
+      string: ! "\n        <WebsiteConfiguration xmlns='http://s3.amazonaws.com/doc/2006-03-01/'>\n
+        \         <IndexDocument>\n            <Suffix>index.html</Suffix>\n          </IndexDocument>\n
+        \         <ErrorDocument>\n            <Key>error.html</Key>\n          </ErrorDocument>\n
+        \       </WebsiteConfiguration>\n      "
+    headers:
+      Date:
+      - Sun, 30 Dec 2012 19:59:39 EET
+      Content-Type:
+      - ''
+      Content-Length:
+      - '298'
+      Authorization:
+      - AWS foo
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - XZE0T/tWFNuRi6/yu1O+O3A7fJ/j2oas8ZqK4p6rLbaRxevXe44K/pAOsrB381ei
+      X-Amz-Request-Id:
+      - 514396AE3C1BB2C1
+      Date:
+      - Sun, 30 Dec 2012 17:59:41 GMT
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version:
+  recorded_at: Sun, 30 Dec 2012 17:59:42 GMT
+- request:
+    method: put
+    uri: https://s3.amazonaws.com/name-of-a-new-bucket/?policy
+    body:
+      encoding: US-ASCII
+      string: ! "{\n        \"Version\":\"2008-10-17\",\n        \"Statement\":[{\n
+        \         \"Sid\":\"PublicReadForGetBucketObjects\",\n          \"Effect\":\"Allow\",\n
+        \         \"Principal\": { \"AWS\": \"*\" },\n          \"Action\":[\"s3:GetObject\"],\n
+        \         \"Resource\":[\"arn:aws:s3:::name-of-a-new-bucket/*\"]\n        }]\n
+        \     }"
+    headers:
+      Date:
+      - Sun, 30 Dec 2012 19:59:42 EET
+      Content-Type:
+      - ''
+      Content-Length:
+      - '289'
+      Authorization:
+      - AWS foo
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      X-Amz-Id-2:
+      - z/XdtqiOW0ihAGadAXwCNCAuE0OLeFisy4TN5e/3OmEI72dQxQjfftyXFSNNwOQN
+      X-Amz-Request-Id:
+      - 82E8EBABB5D150C5
+      Date:
+      - Sun, 30 Dec 2012 17:59:44 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version:
+  recorded_at: Sun, 30 Dec 2012 17:59:44 GMT
+recorded_with: VCR 2.3.0
