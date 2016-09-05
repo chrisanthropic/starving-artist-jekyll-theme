@@ -2,6 +2,7 @@
 layout: page
 title: layouts
 permalink: "/documentation/layouts/"
+sidebar: false
 ---  
 # Custom Layouts:
 You can use the following custom layouts with this theme:
@@ -25,6 +26,7 @@ This page is meant to show a logo or image of the creator along with a bio or de
 layout: about
 title: about
 permalink: "/about/"
+sidebar: false
 logo: "/path/to/author/image"
 ```
 - Set an optional logo/author image.
@@ -48,6 +50,7 @@ This contact form is meant to be used with a FREE formspree.io account.
 layout: contact
 title: contact
 permalink: "/contact/"
+sidebar: false
 ```
 - Create a free [formspree.io](https://formspree.io/) account
 - Add your formspree info to your _config.yml
@@ -79,6 +82,7 @@ We're going to create an example gallery called 'illustration'.
 layout: gallery
 title: illustration
 permalink: "/illustration/"
+sidebar: false
 ```
 
 - Create a new file called `illustration.yml` in the `_galleries` directory with the following content:

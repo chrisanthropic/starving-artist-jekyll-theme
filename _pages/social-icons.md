@@ -2,6 +2,7 @@
 layout: page
 title: social-icons
 permalink: "/documentation/social-icons/"
+sidebar: false
 ---
 # Social Icons
 

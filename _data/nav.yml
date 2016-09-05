@@ -8,6 +8,8 @@
   subcategories:
     - subtitle: "installation"
       subhref: "/documentation/installation/"
+    - subtitle: "sidebar"
+      subhref: "/documentation/sidebar/"
     - subtitle: "layouts"
       subhref: "/documentation/layouts/"
     - subtitle: "navigation"

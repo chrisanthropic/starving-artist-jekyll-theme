@@ -2,6 +2,7 @@
 layout: page
 title: navigation
 permalink: "/documentation/navigation/"
+sidebar: false
 ---   
 # Navigation
 Navigation is set using Jekyll's [Data Files](https://jekyllrb.com/docs/datafiles/) feature.     

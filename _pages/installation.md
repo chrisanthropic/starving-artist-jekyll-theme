@@ -2,6 +2,7 @@
 layout: page
 title: installation
 permalink: "/documentation/installation/"
+sidebar: false
 ---   
 # Installation
 This theme is compatible with Jekyll 2.2 Gem Themes as well as older versions of Jekyll.    

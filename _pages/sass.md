@@ -2,6 +2,7 @@
 layout: page
 title: sass
 permalink: "/documentation/sass/"
+sidebar: false
 ---
 # Sass Configuration
 `_sass/variables.scss` includes the following variables for easy customization:

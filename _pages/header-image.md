@@ -2,6 +2,7 @@
 layout: page
 title: header-image
 permalink: "/documentation/header-image/"
+sidebar: false
 header: /images/logo-flip.png
 ---   
 # Site-wide Header Image
