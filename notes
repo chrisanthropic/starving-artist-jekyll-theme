@@ -1,12 +1,15 @@
 --------------------
 Documentation
     - frontmatter (permalink, sidebar, facebook, twitter, )
-    - galleries
-    - pages
+    X galleries
+    X pages
     - thumbnails
-    - lightbox
-    - contact form
-    - "active" (names must match between gallery name, etc)
+    X contact form
+    X "active" (names must match between gallery name, etc)
+    X navigation
+    X socials
+    X header image (sitewide and per page)
+    X html-minify
 
 Attribution
     - lightbox

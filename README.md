@@ -9,7 +9,7 @@ Starving Artist is a simple portfolio theme for visual artists to easily share t
 Add this line to your Jekyll site's Gemfile:
 
 ```ruby
-gem "starving-artist"
+gem 'starving-artist-jekyll-theme', github: 'chrisanthropic/starving-artist-jekyll-theme'
 ```
 
 And add this line to your Jekyll site:
@@ -134,14 +134,3 @@ Description: Some Yaml Frontmatter to show what's what.
 Keywords: Example, Zim, this is only a test
 ---
 ```
-
-## Basic Use
-For now it's best to start fresh or install the them and then transfer over any old files (posts, images, etc) from your old site.
-
-* Git clone this repo, cd into the directory and run `bundle install --binstubs --path=vendor` to install the required dependencies.
-* Edit your config.yml file
-  * Change the title and description at a minimum.
-* Update your navigation 
-  * edit the `_data/nav.yml` file as needed
-* Update your social links
-  * edit the `_data/socials.yml` file as needed
