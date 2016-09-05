@@ -1,7 +1,7 @@
 ---
 layout: page
 title: sass
-permalink: "/documentation/sass"
+permalink: "/documentation/sass/"
 ---
 # Sass Configuration
 `_sass/variables.scss` includes the following variables for easy customization:
