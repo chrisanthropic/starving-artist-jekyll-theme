@@ -8,4 +8,4 @@ gem 'mini_magick'               #Used by a raketask to compress/optimize images 
 gem 'sass'                      
 gem 'image_optim'               #Optimizes our images
 gem 'image_optim_pack'          #Tools that image_optim uses
-gem 'starving-artist-jekyll-theme', github: 'chrisanthropic/starving-artist-jekyll-theme'
+gem 'starving-artist-jekyll-theme'

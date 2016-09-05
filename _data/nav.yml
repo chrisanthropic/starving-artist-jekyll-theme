@@ -6,6 +6,8 @@
   
 - title: "documentation"
   subcategories:
+    - subtitle: "installation"
+      subhref: "/documentation/installation/"
     - subtitle: "layouts"
       subhref: "/documentation/layouts/"
     - subtitle: "navigation"
