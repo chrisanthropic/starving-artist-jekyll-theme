@@ -14,6 +14,10 @@
       subhref: "/documentation/social-icons/"
     - subtitle: "header-image"
       subhref: "/documentation/header-image/"
+    - subtitle: "seo"
+      subhref: "/documentation/seo/"
+    - subtitle: "sass"
+      subhref: "/documentation/sass/"
 
 - title: "blog"
   href: "/blog/"

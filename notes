@@ -1,6 +1,6 @@
 --------------------
 Documentation
-    - frontmatter (permalink, sidebar, facebook, twitter, )
+    X frontmatter (permalink, sidebar, facebook, twitter, )
     X galleries
     X pages
     - thumbnails
@@ -10,6 +10,7 @@ Documentation
     X socials
     X header image (sitewide and per page)
     X html-minify
+    X SEO
 
 Attribution
     - lightbox
