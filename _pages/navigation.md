@@ -11,6 +11,8 @@ You can add the following link types to your navigation menu:
 - [Nested Internal Page](#adding-a-nested-internal-page)
 - [Nested External Page](#adding-a-nested-external-page)
 
+_A Note on :active_    
+By default the active/current page is highlighted on the menu. In order for this function to work you must make sure that anytime you enter a `title` below that it exactly matches (spelling, case, punctuation, etc) the `title` that you enter for that specific page's yaml frontmatter.
 
 ## Create Your Navigation File
 To set your navigation links:

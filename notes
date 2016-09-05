@@ -5,10 +5,10 @@ Documentation
     X pages
     - thumbnails
     X contact form
-    - "active" (names must match between gallery name, etc)
-    - navigation
-    - socials
-    - header image (sitewide and per page)
+    X "active" (names must match between gallery name, etc)
+    X navigation
+    X socials
+    X header image (sitewide and per page)
     X html-minify
 
 Attribution
