@@ -5,7 +5,7 @@ sidebar: 'false'
 <div class="contact_container wraptainer">
   <div class="small-12 columns">
   <h1 class="entry-title medium-offset-1">Contact</h1>
-    <form action="{{ site.contact_form }}" method="POST">
+    <form action="{% if page.contact_form != null %}{{ page.contact_form }}{% else %}{{ site.contact_form }}{% endif %}" method="POST">
       <div class="small-12 medium-offset-1 medium-4 columns">
         <label for="name">Name</label>
         <input type="text" name="name" placeholder="Your name" required="">

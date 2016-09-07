@@ -45,16 +45,20 @@ permalink: "/blog/"
 ---------
 ## Contact Page
 This contact form is meant to be used with a FREE formspree.io account.
+- Create a free [formspree.io](https://formspree.io/) account
+- Add your formspree info to your _config.yml
+  - `contct_form: https://formspree.io/example@email.com`
+- You can also set the contact form per page by adding the following to the Yaml frontmatter for that page:
+  - `contact_form: https://formspree.io/example@email.com`
+
 - Create a new page with the following frontmatter.
 ```
 layout: contact
 title: contact
 permalink: "/contact/"
 sidebar: false
+contact_form: https://formspree.io/example@email.com
 ```
-- Create a free [formspree.io](https://formspree.io/) account
-- Add your formspree info to your _config.yml
-  - `contct_form: https://formspree.io/example@email.com`
 
 ---------
 ## Gallery Page
