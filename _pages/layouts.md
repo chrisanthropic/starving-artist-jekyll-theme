@@ -25,7 +25,6 @@ This page is meant to show a logo or image of the creator along with a bio or de
 layout: about
 title: about
 permalink: "/about/"
-sidebar: false
 logo: "/path/to/author/image"
 ```
 - Set an optional logo/author image.
@@ -55,7 +54,6 @@ This contact form is meant to be used with a FREE formspree.io account.
 layout: contact
 title: contact
 permalink: "/contact/"
-sidebar: false
 contact_form: https://formspree.io/example@email.com
 ```
 
