@@ -85,7 +85,6 @@ We're going to create an example gallery called 'illustration'.
 layout: gallery
 title: illustration
 permalink: "/illustration/"
-sidebar: false
 ```
 
 - Create a new file called `illustration.yml` in the `_galleries` directory with the following content:
