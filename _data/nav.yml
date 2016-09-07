@@ -18,6 +18,8 @@
       subhref: "/documentation/social-icons/"
     - subtitle: "header-image"
       subhref: "/documentation/header-image/"
+    - subtitle: "lightbox"
+      subhref: "/documentation/lightbox/"
     - subtitle: "seo"
       subhref: "/documentation/seo/"
     - subtitle: "sass"
