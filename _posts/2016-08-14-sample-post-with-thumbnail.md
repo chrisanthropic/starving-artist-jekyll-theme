@@ -9,6 +9,7 @@ thumbnail: images/posts/thumbs/catmen.jpg
 
 facebook_type: 
 facebook_image: images/posts/catmen.jpg
+
 ---
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 

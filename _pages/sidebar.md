@@ -2,10 +2,21 @@
 layout: page
 title: sidebar
 permalink: "/documentation/sidebar/"
-sidebar: false
 --- 
 # Sidebar
-By default the "recent posts" aside and sidebar show up on every page. You can turn it off for any page by adding the following code that page's yaml frontmatter:
+The "recent posts" aside is included in this theme. You can add it to any page (or post) by adding the following code to its yaml frontmatter:
 ```
-sidebar: false
+sidebar: "recent_posts"
+```
+
+## Custom Asides
+You can create as many sidebars as you like and save them as `_includes/asides/YOUR-ASIDE.html`.    
+Then you can add a custom sidebar by any page simply by adding it to the yaml frontmatter.
+
+**Example**
+I'm going to copy the "recent posts" sidebar but limit it to the single most recent post and I'll save it as `_includes/asides/newest_post.html`
+
+Now I'll add it to any page by adding the following code to that page's yaml frontmatter:
+```
+sidebar: "tweets"
 ```

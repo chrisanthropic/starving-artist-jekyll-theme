@@ -2,7 +2,6 @@
 layout: page
 title: layouts
 permalink: "/documentation/layouts/"
-sidebar: false
 ---  
 # Custom Layouts:
 You can use the following custom layouts with this theme:

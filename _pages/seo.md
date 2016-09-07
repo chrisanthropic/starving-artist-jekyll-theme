@@ -2,7 +2,6 @@
 layout: page
 title: seo
 permalink: "/documentation/seo/"
-sidebar: false
 ---   
 # SEO
 This theme uses the following options SEO options:

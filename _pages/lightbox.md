@@ -2,7 +2,6 @@
 layout: page
 title: lightbox
 permalink: "/documentation/lightbox/"
-sidebar: false
 --- 
 # Lightbox
 The Javascript-free lightbox is the pop-up that displays a gallery image when it's clicked. _You must create a page that uses the [gallery layout](/documentation/layouts/#gallery-page) if you want to use our lightbox)_.  
