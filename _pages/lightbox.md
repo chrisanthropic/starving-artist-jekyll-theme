@@ -14,4 +14,4 @@ The lightbox pull information from your `_galleries/$GALLERY.yaml` file. It will
 
 Both the caption and the description will simply not show if that information is left blank for a particular image in the gallery.yml file.
 
-![Lightbox Example Screenshot](/images/posts/lightbox-screenshot.jpg)
+![Lightbox Example Screenshot]({{ site.github.url }}/images/posts/lightbox-screenshot.jpg)
