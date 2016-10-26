@@ -1,0 +1,35 @@
+- title: "illustration"
+  href: "/illustration/"
+
+- title: "covers"
+  href: "/covers/"
+  
+- title: "documentation"
+  subcategories:
+    - subtitle: "installation"
+      subhref: "/documentation/installation/"
+    - subtitle: "sidebar"
+      subhref: "/documentation/sidebar/"
+    - subtitle: "layouts"
+      subhref: "/documentation/layouts/"
+    - subtitle: "navigation"
+      subhref: "/documentation/navigation/"
+    - subtitle: "social-icons"
+      subhref: "/documentation/social-icons/"
+    - subtitle: "header-image"
+      subhref: "/documentation/header-image/"
+    - subtitle: "lightbox"
+      subhref: "/documentation/lightbox/"
+    - subtitle: "seo"
+      subhref: "/documentation/seo/"
+    - subtitle: "sass"
+      subhref: "/documentation/sass/"
+
+- title: "blog"
+  href: "/blog/"
+
+- title: "about"
+  href: "/about/"
+  
+- title: "contact"
+  href: "/contact/"

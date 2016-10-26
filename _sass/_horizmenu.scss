@@ -14,6 +14,7 @@
 .navbar {
   height: $navbar-height;
   background-color: $navbar-color;
+  flex-direction: column;
 }
 
 // Main navigation bar
@@ -41,7 +42,6 @@
 	line-height: $navbar-height;
 	display: block;
 	padding: 0 22px;
-	border-color: #aaa;
 
 	/* Typography */
 	font-family: $navbar-font-family;
@@ -79,19 +79,17 @@
 }
 
 // Dropdown menu arrow}
-
-#nav.dropdown>a::after {
+#nav .primary-nav .dropdown>a::after {
 	position: absolute;
 	display: block;
 	content: "";
 	height: 0;
 	width: 0;
 	border: 4px solid transparent;
-	border-top-color: inherit;
+	border-top-color: $complimentary-color;
 	right: 11px;
 	top: ($navbar-height / 2);
 }
-
 
 #nav > ul > li > a:hover > ul {
     left: 0px;
@@ -165,6 +163,7 @@
 // Change the link color on hover
 #nav .primary-nav ul li:hover>a {
 	color: $navbar-hover-color;
+    background: lighten($navbar-color, 10%);
 }
 
 .nav ul ul {

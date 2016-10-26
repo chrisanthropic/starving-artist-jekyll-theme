@@ -26,8 +26,10 @@ $header-active-link-color: #6f77c2;
 // Sidebar Settings
 $sidebar-color: lighten($primary-color, 55%);
 
+// Topbar Navbar Settings
+$navbar-height: 45px;
+
 // Mobile Navbar Settings
-$navbar-height: 0px;
 $navbar-color: lighten($primary-color, 25%);
 $navbar-text-color: $secondary-color;
 $navbar-hover-color: $complimentary-color;

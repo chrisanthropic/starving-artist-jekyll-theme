@@ -5,10 +5,16 @@ layout: compress
 <html>
   {% include head.html %}
   <body>
-    <main class="wrap">
-        <nav class="hide-for-large navbar">
-          {% include mobilenav.html %}
+    {% if page.topbar == true  %}
+        <nav class="navbar">
+            {% include horiznav.html %}
         </nav>
+    {% else %}
+        <nav class="hide-for-large navbar">
+            {% include horiznav.html %}
+        </nav>
+    {% endif %}
+    <main class="wrap">
       {% include header.html %}
       <div class="content_container columns">
           {{ content }}
